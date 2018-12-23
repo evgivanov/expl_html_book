@@ -1,0 +1,201 @@
+<script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="234221542424"; 
+function check_me()
+{
+    var count=0;
+    with(document.test) {
+if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked&&!Q1[4].checked)  
+{count+=1};  
+if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked&&!Q2[4].checked)  
+{count+=1};  
+if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked&&!Q3[4].checked)  
+{count+=1};  
+if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked&&!Q4[3].checked&&!Q4[4].checked)  
+{count+=1};  
+if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked&&!Q5[3].checked&&!Q5[4].checked)  
+{count+=1};  
+if (!Q6[0].checked&&!Q6[1].checked&&!Q6[2].checked&&!Q6[3].checked&&!Q6[4].checked)  
+{count+=1};  
+if (!Q7[0].checked&&!Q7[1].checked&&!Q7[2].checked&&!Q7[3].checked&&!Q7[4].checked)  
+{count+=1};  
+if (!Q8[0].checked&&!Q8[1].checked&&!Q8[2].checked&&!Q8[3].checked&&!Q8[4].checked)  
+{count+=1};  
+if (!Q9[0].checked&&!Q9[1].checked&&!Q9[2].checked&&!Q9[3].checked&&!Q9[4].checked)  
+{count+=1};  
+if (!Q10[0].checked&&!Q10[1].checked&&!Q10[2].checked&&!Q10[3].checked&&!Q10[4].checked)  
+{count+=1};  
+if (!Q11[0].checked&&!Q11[1].checked&&!Q11[2].checked&&!Q11[3].checked&&!Q11[4].checked)  
+{count+=1};  
+if (!Q12[0].checked&&!Q12[1].checked&&!Q12[2].checked&&!Q12[3].checked&&!Q12[4].checked)  
+{count+=1};  
+if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")    
+        else answer();
+    }
+} 
+ 
+function control(k, f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12) {
+if (k==1&&f1.checked) return true;
+if (k==2&&f2.checked) return true;
+if (k==3&&f3.checked) return true;
+if (k==4&&f4.checked) return true;
+if (k==5&&f5.checked) return true;
+if (k==6&&f6.checked) return true;
+if (k==7&&f7.checked) return true;
+if (k==8&&f8.checked) return true;
+if (k==9&&f9.checked) return true;
+if (k==10&&f10.checked) return true;
+if (k==11&&f11.checked) return true;
+if (k==12&&f12.checked) return true;
+return false;
+}
+
+function answer() {
+answ="";
+     with(document)    {
+    answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3],test.Q1[4])?"1":"0";
+answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3],test.Q2[4])?"1":"0";
+answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3],test.Q3[4])?"1":"0";
+answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1],test.Q4[2],test.Q4[3],test.Q4[4])?"1":"0";
+answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1],test.Q5[2],test.Q5[3],test.Q5[4])?"1":"0";
+answ+=control(res.charAt(5) ,test.Q6[0],test.Q6[1],test.Q6[2],test.Q6[3],test.Q6[4])?"1":"0";
+answ+=control(res.charAt(6) ,test.Q7[0],test.Q7[1],test.Q7[2],test.Q7[3],test.Q7[4])?"1":"0";
+answ+=control(res.charAt(7) ,test.Q8[0],test.Q8[1],test.Q8[2],test.Q8[3],test.Q8[4])?"1":"0";
+answ+=control(res.charAt(8) ,test.Q9[0],test.Q9[1],test.Q9[2],test.Q9[3],test.Q9[4])?"1":"0";
+answ+=control(res.charAt(9) ,test.Q10[0],test.Q10[1],test.Q10[2],test.Q10[3],test.Q10[4])?"1":"0";
+answ+=control(res.charAt(10) ,test.Q11[0],test.Q11[1],test.Q11[2],test.Q11[3],test.Q11[4])?"1":"0";
+answ+=control(res.charAt(11) ,test.Q12[0],test.Q12[1],test.Q12[2],test.Q12[3],test.Q12[4])?"1":"0";
+
+showResult();
+    }
+}
+ 
+function showResult()   {
+    var nok=0;
+    var i,s;
+ 
+for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+if(nok==12) s="ОТЛИЧНО";
+if(nok<12) s="ХОРОШО";
+if(nok<9) s="УДОВЛЕТВОРИТЕЛЬНО";
+if (nok<6) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
+    document.test.s1.
+    value="Количество правильных ответов "+nok+". Ваша оценка "+s+". Посмотрите на окно рядом с номером вопроса. Если ответ правильный, там (+). Если ответ ошибочен, там (-).";
+ 
+with(document.test)
+    {
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+   if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
+   if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
+   if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
+   if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+   if (answ.charAt(8)=="1") {T9.value=" + "} else {T9.value=" - "};
+   if (answ.charAt(9)=="1") {T10.value=" + "} else {T10.value=" - "};
+   if (answ.charAt(10)=="1") {T11.value=" + "} else {T11.value=" - "};
+   if (answ.charAt(11)=="1") {T12.value=" + "} else {T12.value=" - "};
+     }
+}
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+// ]]>
+</script>
+<center><b>	3.13 Технологія і організація робіт в садівництві і виноградарстві</b></center><br/><br/>
+&nbsp;&nbsp;&nbsp;<span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+Инструкция</span>
+ <br/>
+<div id="instruction" style="display: none; width: 100%;">
+<ul>
+<li>Выберите один из вариантов в каждом из 12 вопросов;</li>
+<li>Нажмите на кнопку "Показать результат";</li>
+<li>Скрипт не покажет результат, пока Вы не ответите на все вопросы;</li>
+<li>Загляните в окно рядом с номером задания. Если ответ правильный, то там (+). Если Вы ошиблись, там (-).</li>
+<li>За каждый правильный ответ начисляется 1 балл;</li>
+<li>Оценки: менее 6 баллов - НЕУДОВЛЕТВОРИТЕЛЬНО, от 6 но менее 9 - УДОВЛЕТВОРИТЕЛЬНО, 9 и менее 12 - ХОРОШО, 12 - ОТЛИЧНО;</li>
+<li>Чтобы сбросить результат тестирования, нажать кнопку "Сбросить ответы";</li>
+</ul>
+</div>
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> 1. Які машини застосовують для збирання плодів в садівництві?  1. МСК-1</b><br/>
+<input type="radio" value="0" name="Q1"/> МСК-1<br />
+<input type="radio" value="1" name="Q1"/> ВУМ-15А<br />
+<input type="radio" value="2" name="Q1"/> АВМ-0,65<br />
+<input type="radio" value="3" name="Q1"/> ПТУ-10С<br />
+<input type="radio" value="4" name="Q1"/> КСК-100<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> 2. Якими плугами проводять оранку перед садінням саджанців фруктових дерев?</b><br/>
+<input type="radio" value="0" name="Q2"/> ПЛН-3-35<br />
+<input type="radio" value="1" name="Q2"/> ПН-4-40<br />
+<input type="radio" value="2" name="Q2"/> ППН-40<br />
+<input type="radio" value="3" name="Q2"/> ПЛН-4-35<br />
+<input type="radio" value="4" name="Q2"/> ПС-4-30А<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> 3. На яку глибину проводять оранку перед садінням саджанців фруктових дерев?</b><br/>
+<input type="radio" value="0" name="Q3"/> 50 см<br />
+<input type="radio" value="1" name="Q3"/> 30 см<br />
+<input type="radio" value="2" name="Q3"/> 40 см<br />
+<input type="radio" value="3" name="Q3"/> 60 см<br />
+<input type="radio" value="4" name="Q3"/> 80 см<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> 4. Які машини використовуються для копання ям під саджанці фруктових дерев?</b><br/>
+<input type="radio" value="0" name="Q4"/> КПГ-250<br />
+<input type="radio" value="1" name="Q4"/> КЯУ-100<br />
+<input type="radio" value="2" name="Q4"/> РВК-5,4<br />
+<input type="radio" value="3" name="Q4"/> КСМ-5<br />
+<input type="radio" value="4" name="Q4"/> МПС-1<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T5"/><b> 5. Які машини використовують для садіння саджанців?</b><br/>
+<input type="radio" value="0" name="Q5"/> КСМ-5<br />
+<input type="radio" value="1" name="Q5"/> МПС-1<br />
+<input type="radio" value="2" name="Q5"/> ППУ-50А<br />
+<input type="radio" value="3" name="Q5"/> ППН-40<br />
+<input type="radio" value="4" name="Q5"/> КЯУ-100 <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T6"/><b> 6. На яку глибину проводиться зяблева оранка в міжряддях садів?</b><br/>
+<input type="radio" value="0" name="Q6"/> 18…22 см<br />
+<input type="radio" value="1" name="Q6"/> 16…18 см<br />
+<input type="radio" value="2" name="Q6"/> 22…24 см<br />
+<input type="radio" value="3" name="Q6"/> 10…12 см<br />
+<input type="radio" value="4" name="Q6"/> 24…28 см<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T7"/><b> 7. Якими плугами проводиться зяблева оранка в міжряддях садів?</b><br/>
+<input type="radio" value="0" name="Q7"/> ПЛН-3-35<br />
+<input type="radio" value="1" name="Q7"/> ПН-4-40<br />
+<input type="radio" value="2" name="Q7"/> ППН-40<br />
+<input type="radio" value="3" name="Q7"/> ППУ-50<br />
+<input type="radio" value="4" name="Q7"/> ПС-4-30А<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> 8. На яку глибину проводиться зяблева оранка під кронами дерев?</b><br/>
+<input type="radio" value="0" name="Q8"/> 18…22 см<br />
+<input type="radio" value="1" name="Q8"/> 16…18 см<br />
+<input type="radio" value="2" name="Q8"/> 22…24 см<br />
+<input type="radio" value="3" name="Q8"/> 10…12 см<br />
+<input type="radio" value="4" name="Q8"/> 14…16 см<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T9"/><b> 9. Якими машинами обробляють міжряддя саду протягом літа?</b><br/>
+<input type="radio" value="0" name="Q9"/> БДТ-7<br />
+<input type="radio" value="1" name="Q9"/> БДС-3,5<br />
+<input type="radio" value="2" name="Q9"/> КПС-4<br />
+<input type="radio" value="3" name="Q9"/> КПШ-5<br />
+<input type="radio" value="4" name="Q9"/> КПШ-8<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T10"/><b> 10. На яку глибину обробляють міжряддя саду протягом літа?</b><br/>
+<input type="radio" value="0" name="Q10"/> 8…10 см<br />
+<input type="radio" value="1" name="Q10"/> 16…18 см<br />
+<input type="radio" value="2" name="Q10"/> 12…14 см<br />
+<input type="radio" value="3" name="Q10"/> 10…12 см<br />
+<input type="radio" value="4" name="Q10"/> 14…16 см<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T11"/><b> 11. Якими машинами обробляють пристовбурні смуги?</b><br/>
+<input type="radio" value="0" name="Q11"/> БДС-3,5<br />
+<input type="radio" value="1" name="Q11"/> ФА-0,76<br />
+<input type="radio" value="2" name="Q11"/> КЯУ-100<br />
+<input type="radio" value="3" name="Q11"/> КСМ-5<br />
+<input type="radio" value="4" name="Q11"/> ВУМ-15А <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T12"/><b> 12. Якими машинами проводиться контурне обрізання крон?</b><br/>
+<input type="radio" value="0" name="Q12"/> ВУМ-15А<br />
+<input type="radio" value="1" name="Q12"/> ЗЯМ-200-8<br />
+<input type="radio" value="2" name="Q12"/> ФС-0,9<br />
+<input type="radio" value="3" name="Q12"/> МКО-3<br />
+<input type="radio" value="4" name="Q12"/> МПС-1 <br />
+<br/></li></ol>      
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type="reset" value="Сбросить ответы"/> 
+</CENTER>        
+</form> 
+<!-- Test created by service http://test.fromgomel.com -->

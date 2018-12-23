@@ -1,0 +1,954 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+
+<title>Тема 4.2</title>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <style>
+<!--
+ /* Font Definitions */
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #5B7FA6;
+  color: #E9EDF1;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Arial",sans-serif;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:18.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma",sans-serif;}
+p.Style4, li.Style4, div.Style4
+	{mso-style-name:Style4;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:3.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle58
+	{mso-style-name:"Font Style58";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.FontStyle60
+	{mso-style-name:"Font Style60";
+	font-family:"Times New Roman",serif;}
+p.Style7, li.Style7, div.Style7
+	{mso-style-name:Style7;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:27.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style8, li.Style8, div.Style8
+	{mso-style-name:Style8;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:26.65pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle57
+	{mso-style-name:"Font Style57";
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.Style10, li.Style10, div.Style10
+	{mso-style-name:Style10;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style11, li.Style11, div.Style11
+	{mso-style-name:Style11;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:27.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle63
+	{mso-style-name:"Font Style63";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.Style14, li.Style14, div.Style14
+	{mso-style-name:Style14;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:25.7pt;
+	line-height:11.75pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style12, li.Style12, div.Style12
+	{mso-style-name:Style12;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:6.0pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style16, li.Style16, div.Style16
+	{mso-style-name:Style16;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.75pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle62
+	{mso-style-name:"Font Style62";
+	font-family:"Arial Narrow",sans-serif;
+	letter-spacing:2.0pt;}
+p.Style6, li.Style6, div.Style6
+	{mso-style-name:Style6;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style15, li.Style15, div.Style15
+	{mso-style-name:Style15;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:0cm 0cm 0cm 0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=RU link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=794
+ style='width:21.0cm;border-collapse:collapse;border:none'>
+ <tr style='height:1.0cm'>
+  <td width=133 valign=top style='width:99.8pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:.2pt;line-height:normal'><b><span lang=UK
+  style='font-size:4.0pt;font-family:"Tahoma",sans-serif;color:white'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><img width=112 height=29
+  src="../../images/logo.jpg"></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:10.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>Електронний підручник</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 rowspan=2 valign=top style='width:99.8pt;border:none;
+  border-right:solid #D9E0E7 1.0pt;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+    <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../index.html">Головна</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Теоретичні відомості</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../tests/tests_zmist.html">Тести</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../addons/addons_zmist.html">Додатки</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../references/references.html">Список використаних джерел</a></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Tahoma",sans-serif;
+  color:#548DD4'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=UK style='font-size:10.0pt;font-family:"Tahoma",sans-serif;
+  color:#548DD4'>&nbsp;</span></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:none;border-left:
+  none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  background:#E9EDF1;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Тема 4.2 Організація роботи
+  машинно-тракторного підрозділу </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:214.8pt'>
+  <td width=661 colspan=3 valign=top style='width:495.55pt;border-top:none;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:214.8pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:#1201ED'><span style='text-decoration:none'>&nbsp;</span></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:#1201ED'><a href="#Т421"><span style='color:#1201ED'>1.
+  Поняття про машинно-тракторний підрозділ (тракторна бригада), його завдання </span></a>і
+  складові </span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:#1201ED'><a href="#Т422"><span style='color:#1201ED'>2.
+  Поняття про машинний двір</span></a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:#1201ED'><a href="#Т426"><span style='color:#1201ED'>3.
+  Технічна документація тракторної бригади</span></a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т421><b><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>1.  Поняття про машинно</span></b></a><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>-тракторний підрозділ (тракторна бригада), його завдання і
+  складові</span></b></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>У
+  ринкових умовах, незалежно від форм власності, основною формою внутрішньогосподарської
+  організації праці є бригади і ланки – самостійні виробничі одиниці, які
+  виконують роботи на закріпленій ділянці землі з вирощування однієї або
+  кількох сільськогосподарських культур або на неї припадає частина виробничого
+  процесу в тваринництві.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Бригади
+  комплектуються, як правило, за виробничим принципом. Крім постійного складу
+  працівників, виробнича бригада повий мати також постійну  земельну ділянку –
+  сівозміну – і засоби виробництва.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Отже,
+  постійна виробнича бригада - це колектив працівників певного професійного
+  складу, за яким на тривалий час закріплено землю або тварин і необхідні
+  засоби виробництва для своєчасного виконання всіх робіт переважно власними
+  силами одержання запланованого обсягу продукції на основі матеріальної заінтересованості
+  в кінцевих результатах виробництва на умовах госпрозрахунку, колективного
+  підряду чи оренди, колективної або приватної власності.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>За
+  складом галузей бригади класифікують на спеціалізовані галузеві, комплексні;
+  за рівнем механізації: ручної праці, механізованої та комплексної
+  механізації.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Спеціалізовані
+  бригади створюють для обслуговування окремого технологічного процесу з
+  виробництва одного або кількох однорідних видів продукції (бавовницькі,
+  виноградарські, хмелярські, тютюн, овочівницькі, кормовиробничі).</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Галузеві
+  бригади створюють для виконання робіт або обслуговування однієї якоїсь
+  галузі, вони виробляють один або кількох однорідних видів продукції. Це
+  рільничі, овочівницькі, садівничі тваринницькі, скотарські та інші бригади.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Комплексні
+  бригади об'єднують працівників різних професій, різного рівня кваліфікації і
+  обслуговують кілька різних галузей рослинництва та тваринництва.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Тимчасову
+  бригаду створюють на час виконання певного обсягу робіт з будівництва,
+  заготівлі органічних добрив, збирання врожаю на полях, перевезення великого
+  обсягу вантажів, стриження овець тощо.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Основною
+  виробничою одиницею в сільськогосподарському виробництві являється
+  механізована бригада. </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Головною
+  перевагою механізованих бригад являється те, що в більшості випадків їм
+  надані земля, техніка і робоча сила. Від ефективної роботи механізованих
+  бригад залежить кількість, якість і собівартість продукції, тобто основні
+  показники, які визначають рентабельність всього господарства, його здатність
+  здійснити принцип самоокупності.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>В
+  сільськогосподарському виробництві розрізняють такі види механізованих
+  бригад: самостійні тракторні бригади, комплексні механізовані бригади і
+  тракторо-рільничі. </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Тракторна
+  бригада виконує всі механізовані роботи на землі, що закріплена за кількома
+  підрозділами рослинництва (рільничими, овочівницькими або іншими),
+  укомплектованими працівниками ручної праці. </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Головним
+  завданням бригади являється отримання максимуму продукції при найменших
+  затратах праці і засобів на одиницю її. Для отримання максимуму продукції при
+  найменших затратах необхідно запровадження прогресивної технології
+  вирощування сільськогосподарських культур; виконання робіт в агротехнічні
+  строки і з високою якістю; застосування високоякісного районованого насіння,
+  органічних і мінеральних добрив, а також високоефективних гербіцидів у
+  відповідності до вимог агротехніки; впровадження комплексної механізації
+  вирощування сільськогосподарських культур; правильне комплектування
+  машинно-тракторних агрегатів; забезпечення безперебійної роботи машинно-тракторного
+  парку; забезпечення економічної роботи машинно-тракторних агрегатів;
+  впровадження госпрозрахунку в роботу бригад.  </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Тракторна
+  бригада, як правило, обслуговує декілька виробничих (немеханізованих) бригад.
+  За тракторною бригадою закріплюються споруди, техніка і засоби для її
+  обслуговування. Земля за тракторною бригадою не закріпляється. Всі
+  механізатори знаходяться в розпорядження бригадира тракторної бригади, який
+  відповідає за технічну готовність машин, правильне використання і якісне
+  виконання робіт в установлені строки. Оплата праці колективу механізаторів
+  залежить не тільки від обсягу виконаних механізованих робіт, але і від
+  кількості продукції, виробленої виробничими бригадами і фермами, які
+  обслуговує дана тракторна бригада.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>У
+  структурі механізованих бригад є постійні ланки і тимчасові трудові колективи
+  (загони чи ланки), які створюють для виконання окремих технологічних
+  операцій. З постійних ланок у структурі бригад найбільш поширені ланки:
+  культурно-побутового і організаційно-господарського обслуговування, що
+  забезпечує необхідні санітарно-гігієнічні та культурно-побутові умови
+  механізаторам в польових умовах, доставляє їх до робочих місць і на
+  відпочинок, забезпечує харчуванням, веде облік роботи; ТО МТП, що забезпечує
+  заправку агрегатів паливо-мастильними матеріалами, проводить щозмінне, перше
+  (ТО-1) і друге (ТО-2) технічні обслуговування, усуває несправності;
+  транспортно-технологічного обслуговування агрегатів; поливу
+  сільськогосподарських культур; по вирощуванню овочів; по вирощуванню
+  просапних і технічних культур з великим обсягом робіт в міжпіковий період
+  (між сівбою і збиранням), таких як картопля, цукрові буряки, кукурудза,
+  соняшник.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Внутрішньо
+  бригадні тимчасові трудові колективи (загони чи ланки) створюють на певний період
+  на виконання однієї або декількох операцій, взаємопов’язаних агротехнічними
+  строками. Вони можуть бути спеціалізованими за видами вирощуваних культур,
+  виконуваними операціями, використовуваними машинами, а також комплексними –
+  для виконання комплексу робіт єдиного технологічного циклу. За виконуваними
+  функціями тимчасові ланки можуть бути і загального призначення, наприклад,
+  ланки з обробітку ґрунту та внесення добрив під всі культури, їх хімічного
+  захисту тощо. Практика свідчить, що в структурі механізованих бригад найбільш
+  поширені тимчасові технологічні ланки: по заготівлі і внесенню органічних
+  добрив; внесенню мінеральних добрив; обробітку ґрунту; сівбі; заготівлі
+  кормів; догляду за рослинами; збиранню зернових та інших культур.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Виробничий
+  досвід показує, що найбільш продуктивно працюють механізовані ланки, до
+  складу яких входять 5…8 механізаторів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т422><b><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>2. Поняття про машинний </span></b></a><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>двір</span></b></p>
+  <p class=Style4 style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;
+  margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Машинний
+  двір – головний елемент ремонтно-технічної бази центральної садиби
+  господарства (рис. 4.2.1) , де організують зберігання техніки і знятих з неї
+  вузлів і деталей; ремонт нескладних сільськогосподарських машин; тут
+  проводять комплектування, регулювання і наладку машин і агрегатів;
+  дозбирання, обкатку нової, розбирання і дефектування списаної техніки. </span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:35.45pt;line-height:150%'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:35.45pt;line-height:150%'><img border=0
+  width=442 height=464 id="Рисунок 3" src="tema4-2.files/image001.jpg"></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:10.65pt;
+  margin-bottom:0cm;margin-left:14.15pt;margin-bottom:.0001pt;text-align:center;
+  text-indent:14.15pt;line-height:150%;text-autospace:none'><b><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Рис. 4.2.1.  Схема машинного двору господарства:</span></b></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  background:white'><span lang=UK style='font-size:8.0pt;line-height:115%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>1 – майстерня для ремонту
+  машин; 2 – котельня; 3 – будинок механізатора; 4 – спортивний майданчик;  5 –
+  гараж із зимовими боксами для тракторів; 6 – відділення для миття машин; 7 –
+  нафтосховище; 8 – майданчик для тимчасового зберігання машин та автомобілів;
+  9 – майданчик для регулювання робочих органів машин; 10 – майданчик для
+  тривалого зберігання машин.</span></p>
+  <p class=MsoNormal align=center style='text-align:center;text-indent:35.45pt'><span
+  lang=UK style='color:green'>&nbsp;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Машинний
+  двір включає в себе комплекс інженерно-технічних об’єктів і споруд, які
+  забезпечують збереження сільськогосподарської техніки і обладнання в
+  неробочий період в відповідності до вимог державного стандарту.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Машинний
+  двір залежить від типу ремонтно-технічної бази центральної садиби
+  господарства. Тип ремонтно-технічної бази залежить від розмірів господарства,
+  кількості техніки і умов її базування. Машинний двір може функціонувати як
+  разом з другими секторами ремонтно-технічної бази, так і самостійно.
+  Територія машинного двору повинна бути огороджена по периметру, озеленена,
+  забезпечена електроенергією і водою.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Територію
+  машинного двору вибирають з урахуванням рельєфу місцевості, напряму панівних
+  вітрів, можливості захисту машин від заносів, наявність зручних місць для
+  розміщення виробничих об’єктів і майданчиків з твердим покриттям для
+  зберігання техніки і проїздів. Територію машинного двору огороджують,
+  ізолюючи від інших об’єктів ремонтного-обслуговуючої бази, з метою
+  попередження розукомплектування машин, переїзду через його територію
+  працюючої техніки.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Майданчики
+  і будівлі машинного двору розташовують на сухих, незатоплюваних місцях з
+  водовідвідними каналами.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Місця
+  зберігання машин обладнують у відповідності з правилами протипожежної безпеки
+  і охорони праці.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>До
+  складу машинного двору входять:</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  45.4pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif'>криті приміщення (гаражі, сараї, навіси) і
+  майданчики з твердим покриттям або профілюванні – для зберігання техніки;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>пост
+  (пункт) консервації сільськогосподарської техніки;  </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>майданчики
+  для комплектування, регулювання і наладки машин і агрегатів;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>навантажувально-розвантажувальний
+  майданчик, обладнаний вантажопідйомними механізмами;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>склад
+  для зберігання складальних частин і деталей, які знімають з машин при
+  постановці їх на зберігання;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>майданчик
+  для очищення і мийки машин (поза зоною зберігання);</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>майданчик
+  для розбирання і дефектування  списаної техніки;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  59.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>протипожежне
+  обладнання і інвентар. </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Кожен
+  об’єкт або споруда машинного двору має свій типовий проект.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>По
+  своєму призначенню машинні двори підрозділяються на два типи: центральні і
+  бригадні. В невеликих господарствах двори обох типів можуть бути суміщені. В
+  господарствах, де немає типових центральних виробничих баз, машинні двори
+  організовують окремо, незалежно від виробничих баз.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
+  центральному машинному дворі зберігають всі тривало невживані у виробництві
+  автомобілі, трактори, зернові і спеціальні комбайни, а також
+  складні&nbsp;сільськогосподарські машини, стаціонарне устаткування, чекаючи
+  монтажу або що демонтується для реалізації або ліквідації.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
+  бригадних машинних дворах зберігають сільськогосподарські машини, ремонтовані
+  на пункті технічного обслуговування бригад (відділень); проводять
+  післясезонне обслуговування і ремонт машин; комплектують їх в агрегати і
+  заздалегідь настроюють; усувають несправності в процесі експлуатації машин;
+  одержують нові машини з центрального машинного двору, випробують їх і
+  заздалегідь регулюють.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Вибір&nbsp;відповідного&nbsp;типового
+  проекту залежить від розміру, напряму господарства, структури і кількісного
+  складу МТП. Вибираючи типовий проект для конкретного господарства, необхідно
+  передбачити 5…8 % резервній площі для нових машин.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
+  рисунку 4.2.2 показаний план експериментального машинного двору</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center;text-indent:35.45pt'><span
+  lang=UK style='font-size:8.0pt;line-height:115%;font-family:"Tahoma",sans-serif;
+  color:black'> </span><span style='font-size:13.5pt;line-height:115%;
+  color:black'><img border=0 width=430 height=345 id="Рисунок 5"
+  src="tema4-2.files/image002.jpg"></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:10.65pt;
+  margin-bottom:0cm;margin-left:14.15pt;margin-bottom:.0001pt;text-align:center;
+  text-indent:14.15pt;line-height:150%;text-autospace:none'><b><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Рис. 4.2.2. Центральний машинний двір:</span></b></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  background:white'><span lang=UK style='font-size:8.0pt;line-height:115%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Зони:&nbsp;І&nbsp;– підготовки
+  машин до зберігання;&nbsp;ІІ&nbsp;– збірки і короткочасної стоянки нової
+  техніки;&nbsp;ІІІ&nbsp;– тривалого зберігання машин; ІV – розбирання і
+  ліквідації техніки, що прийшла в непридатність; 1 – склад горючих і
+  змащувальних&nbsp;матеріалів;     2 – мийний майданчик; 3 – естакада; 4 –
+  майданчик для інших машин; 5 – ворота; 6 – прохідна; 7 – склад вузлів і
+  деталей; 8 – стелаж-навіс з розвантажувальним пристроєм; 9 – майданчик для
+  зберігання вузлів нових машин;               10 – пожежний
+  резервуар;&nbsp;11– резервний&nbsp;майданчик; 12 – майданчик для гусеничних
+  тракторів;  13 –&nbsp;майданчик для тракторів
+  із&nbsp;змонтованими&nbsp;машинами;&nbsp;14 –&nbsp;майданчик для тракторів
+  колісних; 15 – майданчик для жаток і комбайнів;    16 – майданчик для
+  комбайнів без жаток; 17, 18 – майданчики для жаток рядних; 19 – майданчик для
+  автомобілів;      20 – майданчик для тракторів; 21 – майданчик для засобів
+  технічного обслуговування; 22 – майданчик для причепів тракторних; 23 –
+  майданчик для грабель; 24 – майданчик для прес-підбирачів; 25 – майданчик для
+  підбирачів-складальників копи; 26 – майданчик для стогометів; 27 – майданчик
+  для косарок; 28 – майданчик для силосозбиральних комбайнів; 29 – майданчик
+  для картоплекопачів; 30 – майданчик для обприскувачів, обпилювачів;   31 –
+  майданчик для аерозольних генераторів; 32 – майданчик для дощувальних
+  установок; 33 – майданчик для підбирачів; 34 – майданчик для
+  автозавантажувачів сівалок;  35 – майданчик для збірки і регулювання нової
+  техніки;  36 – майданчик для стоянки нової техніки; 37 – майданчик для
+  списаних машин.</span></p>
+  <p class=Style4 style='margin-top:11.5pt;text-indent:35.45pt;line-height:
+  normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:black'>&nbsp;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Покриття
+  майданчиків можуть бути ґрунтові (з дернини багаторічних трав), поліпшені
+  ґрунтові (з щебнево-гравієвої суміші, або коленого каменя булижника),
+  асфальтобетонні і цементні. Кращими є останні, проте зберігання на них
+  обходиться господарствам дуже дорого. Частіше майданчики готують з дернини
+  багаторічних трав або утрамбованого і профільованого ґрунту з додаванням
+  щебеню, шлаку, гравію і ін. Гравієві смуги обладнають шириною 5
+   м, завтовшки 15…18 см і ущільнюють важкими катками. Поверхня смуг глибиною
+  до 2 см обробляють бітумом. Відстань між смугами 12
+   м.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Проїзди
+  між рядами машин покривають гравієм з або коленого каменя булижника або
+  асфальтобетоном. Для дернових покриттів краще висівати трав'яні суміші
+  кущових і кореневищних злаків, що мають невисокий травостій. Норми висіву
+  повинні бути в 3…5 разів вище за звичний кормовий посів.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
+  майданчиках для зберігання комбайнів і жаток, і місцях установки підставок
+  роблять, як правило, асфальтобетонні опори, на майданчиках регулювання нової
+  техніки укладають збірні залізобетонні плити на піщаній підставі завтовшки до
+  30 см.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Електроосвітлення
+  машинних дворів повинне бути від низьковольтної
+  повітряної&nbsp;мережі&nbsp;380/220 В.&nbsp;Охоронне&nbsp;освітлення
+  забезпечують світильники типа СПО.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Середньорічна
+  чисельність робітників машинного двору визначається за формулою:</span></p>
+  <p class=Style4 style='margin-top:0cm;margin-right:15.0pt;margin-bottom:0cm;
+  margin-left:17.05pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:150%'><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>Р=Т:В,</span></b><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>                                                                                          
+                                                                     (4.2.1)</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>де
+  <b>Т</b> – загальна річна трудомісткість робіт, люд.-год.;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif'>В</span></b><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif'> – річний фонд часу одного
+  робітника, люд.-год.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
+  машинних дворах необхідно створити постійні бригади і ланки. В господарствах
+  з обмеженими трудовими ресурсами для виконання робіт на машинних дворах організують
+  бригади або ланки з постійно-змінним складом. При організації праці важливо
+  передбачити широку взаємозамінність працівників, тобто суміщення професій.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Склад
+  робочих за професією визначають за формулою:</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif'>Р</span></b><b><sub><span lang=EN-US style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></sub></b><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>=То·К</span></b><b><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></b><b><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>:</span></b><b><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>T</span></b><b><sub><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>г</span></sub></b><b><sub><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></sub></b><b><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>,</span></b><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>                                                                                                                                         
+             </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>(4.2.2)</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>де
+  <b>Т<sub>о</sub></b> – загальна трудомісткість ремонтно-обслуговуючих робіт
+  за конкретною групою машин, люд.-год.;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif'>К<sub>п</sub></span></b><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'> – коефіцієнт
+  трудомісткості робіт визначеної професії в загальній їх трудомісткості;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif'>Т<sub>гп</sub></span></b><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'> – річний фонд
+  робочого часу за конкретною професією, год. </span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Цим
+  способом встановлюють чисельність станочників, слюсарів, ковалів,
+  зварювальників.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т426><b><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>3. Технічна </span></b></a><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>документація тракторної бригади</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:150%'><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Основна
+  облікова документація тракторної бригади: обліковий лист
+  тракториста-машиніста; дорожній лист трактора; накопичувальна відомість
+  обліку використання МТП; журнал обліку робіт і витрат; звіт про роботу
+  тракторів і комбайнів; звіт про наявність і стан сільськогосподарської
+  техніки; звіт про наявність і витрати паливо-мастильних матеріалів.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Основним
+  первинним документом для обліку роботи тракторів, комбайнів та інших
+  самохідних машин є Обліковий лист тракториста-машиніста (ф. № ПСГ-3).</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Незалежно
+  від форми організації механізованих робіт на кожний трактор призначають
+  одного, а при роботі у дві зміни – двох трактористів. Облік у тракторній
+  бригаді веде обліковець-заправник або цю функцію виконує бригадир тракторної
+  бригади, в обов'язки якого входить своєчасне і правильне складання первинних
+  документів обліку виконаних робіт, витрачання нафтопродуктів і нарахування
+  оплати праці механізаторам.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Виконання
+  тракторних та інших механізованих робіт записують щоденно до облікового листа
+  кожного тракториста. Листок розраховано приблизно на п’ятнадцять змін,
+  показники записують за кожною зміною окремо.</span></p>
+  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Кожен
+  механізатор після закінчення зміни повинен мати відомості про кількість та
+  якість виконаної ним роботи, про витрати пального і розмір заробітку за
+  зміну. Всі ці показники записують щоденно до облікового листа. У встановлені
+  в господарстві терміни (через 10…15 днів) облікові листи, підписані
+  механізатором, бригадиром, агрономом, обліковець подає до бухгалтерії, де їх
+  перевіряють, затверджують, після чого вони є підставою для узагальнення і
+  систематизації у Накопичувальній відомості обліку використання машинно-тракторного
+  парку і Журналі обліку робіт і витрат. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Питання для самоконтролю</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>1. Як класифікують бригади за складом галузей </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>2. Охарактеризуйте види механізованих бригад</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>3. Дайте характеристику тракторної бригади</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>4. Які завдання ставляться перед тракторною бригадою?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>5. Що таке машинний двір?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>6. Які споруди розміщені на машинному дворі?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:40.55pt;margin-bottom:.0001pt;line-height:150%'><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>7. Яка технічна документація повинна бути у тракторній
+  бригаді?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:10.0pt;line-height:150%'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 style='width:99.8pt;border:none;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=UK style='font-size:10.0pt'>&nbsp;</span></p>
+  </td>
+  <td width=220 style='width:165.2pt;border-top:none;border-left:none;
+  border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:18.15pt;margin-bottom:.0001pt;text-indent:-16.45pt;line-height:
+  normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'><a href="tema4-1.htm">Попередня тема</a></span></p>
+  </td>
+  <td width=220 style='width:165.15pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:16.45pt;margin-bottom:.0001pt;text-align:center;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Зміст</a></span></p>
+  </td>
+  <td width=220 style='width:165.2pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:1.55pt;
+  margin-bottom:0cm;margin-left:18.15pt;margin-bottom:.0001pt;text-align:right;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Наступна тема</span></p>
+  </td>
+ </tr>
+ <tr style='height:1.0cm'>
+  <td width=794 colspan=4 style='width:21.0cm;border:none;border-right:solid #D9E0E7 1.0pt;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>© 2017 ДУ
+  «Науково-методичний центр інформаційно-аналітичного забезпечення діяльності
+  ВНЗ «Агроосвіта»</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>03151, м.
+  Київ, вул. Смілянська, 11</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal><span lang=UK>&nbsp;</span></p>
+
+</div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
+
+</body>
+
+</html>

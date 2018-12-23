@@ -1,0 +1,201 @@
+<script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="131112431122"; 
+function check_me()
+{
+    var count=0;
+    with(document.test) {
+if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked&&!Q1[4].checked)  
+{count+=1};  
+if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked&&!Q2[4].checked)  
+{count+=1};  
+if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked&&!Q3[4].checked)  
+{count+=1};  
+if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked&&!Q4[3].checked&&!Q4[4].checked)  
+{count+=1};  
+if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked&&!Q5[3].checked&&!Q5[4].checked)  
+{count+=1};  
+if (!Q6[0].checked&&!Q6[1].checked&&!Q6[2].checked&&!Q6[3].checked&&!Q6[4].checked)  
+{count+=1};  
+if (!Q7[0].checked&&!Q7[1].checked&&!Q7[2].checked&&!Q7[3].checked&&!Q7[4].checked)  
+{count+=1};  
+if (!Q8[0].checked&&!Q8[1].checked&&!Q8[2].checked&&!Q8[3].checked&&!Q8[4].checked)  
+{count+=1};  
+if (!Q9[0].checked&&!Q9[1].checked&&!Q9[2].checked&&!Q9[3].checked&&!Q9[4].checked)  
+{count+=1};  
+if (!Q10[0].checked&&!Q10[1].checked&&!Q10[2].checked&&!Q10[3].checked&&!Q10[4].checked)  
+{count+=1};  
+if (!Q11[0].checked&&!Q11[1].checked&&!Q11[2].checked&&!Q11[3].checked&&!Q11[4].checked)  
+{count+=1};  
+if (!Q12[0].checked&&!Q12[1].checked&&!Q12[2].checked&&!Q12[3].checked&&!Q12[4].checked)  
+{count+=1};  
+if (count>0) alert("¬ы выполнили не все задани€. ѕроверьте себ€!")    
+        else answer();
+    }
+} 
+ 
+function control(k, f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12) {
+if (k==1&&f1.checked) return true;
+if (k==2&&f2.checked) return true;
+if (k==3&&f3.checked) return true;
+if (k==4&&f4.checked) return true;
+if (k==5&&f5.checked) return true;
+if (k==6&&f6.checked) return true;
+if (k==7&&f7.checked) return true;
+if (k==8&&f8.checked) return true;
+if (k==9&&f9.checked) return true;
+if (k==10&&f10.checked) return true;
+if (k==11&&f11.checked) return true;
+if (k==12&&f12.checked) return true;
+return false;
+}
+
+function answer() {
+answ="";
+     with(document)    {
+    answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3],test.Q1[4])?"1":"0";
+answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3],test.Q2[4])?"1":"0";
+answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3],test.Q3[4])?"1":"0";
+answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1],test.Q4[2],test.Q4[3],test.Q4[4])?"1":"0";
+answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1],test.Q5[2],test.Q5[3],test.Q5[4])?"1":"0";
+answ+=control(res.charAt(5) ,test.Q6[0],test.Q6[1],test.Q6[2],test.Q6[3],test.Q6[4])?"1":"0";
+answ+=control(res.charAt(6) ,test.Q7[0],test.Q7[1],test.Q7[2],test.Q7[3],test.Q7[4])?"1":"0";
+answ+=control(res.charAt(7) ,test.Q8[0],test.Q8[1],test.Q8[2],test.Q8[3],test.Q8[4])?"1":"0";
+answ+=control(res.charAt(8) ,test.Q9[0],test.Q9[1],test.Q9[2],test.Q9[3],test.Q9[4])?"1":"0";
+answ+=control(res.charAt(9) ,test.Q10[0],test.Q10[1],test.Q10[2],test.Q10[3],test.Q10[4])?"1":"0";
+answ+=control(res.charAt(10) ,test.Q11[0],test.Q11[1],test.Q11[2],test.Q11[3],test.Q11[4])?"1":"0";
+answ+=control(res.charAt(11) ,test.Q12[0],test.Q12[1],test.Q12[2],test.Q12[3],test.Q12[4])?"1":"0";
+
+showResult();
+    }
+}
+ 
+function showResult()   {
+    var nok=0;
+    var i,s;
+ 
+for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+if(nok==12) s="ќ“Ћ»„Ќќ";
+if(nok<12) s="’ќ–ќЎќ";
+if(nok<9) s="”ƒќ¬Ћ≈“¬ќ–»“≈Ћ№Ќќ";
+if (nok<6) s="Ќ≈”ƒќ¬Ћ≈“¬ќ–»“≈Ћ№Ќќ";
+    document.test.s1.
+    value=" оличество правильных ответов "+nok+". ¬аша оценка "+s+". ѕосмотрите на окно р€дом с номером вопроса. ≈сли ответ правильный, там (+). ≈сли ответ ошибочен, там (-).";
+ 
+with(document.test)
+    {
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+   if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+   if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
+   if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
+   if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
+   if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+   if (answ.charAt(8)=="1") {T9.value=" + "} else {T9.value=" - "};
+   if (answ.charAt(9)=="1") {T10.value=" + "} else {T10.value=" - "};
+   if (answ.charAt(10)=="1") {T11.value=" + "} else {T11.value=" - "};
+   if (answ.charAt(11)=="1") {T12.value=" + "} else {T12.value=" - "};
+     }
+}
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+// ]]>
+</script>
+<center><b>Test 3.10</b></center><br/><br/>
+&nbsp;&nbsp;&nbsp;<span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+»нструкци€</span>
+ <br/>
+<div id="instruction" style="display: none; width: 100%;">
+<ul>
+<li>¬ыберите один из вариантов в каждом из 12 вопросов;</li>
+<li>Ќажмите на кнопку "ѕоказать результат";</li>
+<li>—крипт не покажет результат, пока ¬ы не ответите на все вопросы;</li>
+<li>«агл€ните в окно р€дом с номером задани€. ≈сли ответ правильный, то там (+). ≈сли ¬ы ошиблись, там (-).</li>
+<li>«а каждый правильный ответ начисл€етс€ 1 балл;</li>
+<li>ќценки: менее 6 баллов - Ќ≈”ƒќ¬Ћ≈“¬ќ–»“≈Ћ№Ќќ, от 6 но менее 9 - ”ƒќ¬Ћ≈“¬ќ–»“≈Ћ№Ќќ, 9 и менее 12 - ’ќ–ќЎќ, 12 - ќ“Ћ»„Ќќ;</li>
+<li>„тобы сбросить результат тестировани€, нажать кнопку "—бросить ответы";</li>
+</ul>
+</div>
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> яка глибина загортанн€ нас≥нн€ гречки при пос≥в≥?</b><br/>
+<input type="radio" value="0" name="Q1"/> 4Е5 см<br />
+<input type="radio" value="1" name="Q1"/> 3Е4 см<br />
+<input type="radio" value="2" name="Q1"/> 7Е9 см<br />
+<input type="radio" value="3" name="Q1"/> 8Е10 см<br />
+<input type="radio" value="4" name="Q1"/> в залежност≥ в≥д типу ірунту вс≥ в≥дпов≥д≥ в≥рн≥<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Ќа €ку глибину провод€ть оранку п≥д крупТ€н≥ культури п≥сл€ цукрових бур€к≥в?</b><br/>
+<input type="radio" value="0" name="Q2"/> 20Е22 см<br />
+<input type="radio" value="1" name="Q2"/> 22Е24 см<br />
+<input type="radio" value="2" name="Q2"/> 25Е27 см<br />
+<input type="radio" value="3" name="Q2"/> 27Е30 см<br />
+<input type="radio" value="4" name="Q2"/> 30Е32 см <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> якими с≥валками с≥ють гречку?</b><br/>
+<input type="radio" value="0" name="Q3"/> —«-3,6<br />
+<input type="radio" value="1" name="Q3"/> —”ѕЌ-8<br />
+<input type="radio" value="2" name="Q3"/> —ѕ„-6<br />
+<input type="radio" value="3" name="Q3"/>  —ћ-4ј<br />
+<input type="radio" value="4" name="Q3"/> —ќ-4,2<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> Ќа €ку глибину провод€ть оранку п≥д крупТ€н≥ культури п≥сл€ стерньових попередник≥в?</b><br/>
+<input type="radio" value="0" name="Q4"/> 20Е22 см<br />
+<input type="radio" value="1" name="Q4"/> 22Е24 см<br />
+<input type="radio" value="2" name="Q4"/> 25Е27 см<br />
+<input type="radio" value="3" name="Q4"/> 27Е30 см<br />
+<input type="radio" value="4" name="Q4"/> 30Е32 см <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T5"/><b> яка норма вис≥ву гречки при звичайному р€довому пос≥ву в районах —тепу?</b><br/>
+<input type="radio" value="0" name="Q5"/> 60Е75 кг/га<br />
+<input type="radio" value="1" name="Q5"/> 20Е45 кг/га<br />
+<input type="radio" value="2" name="Q5"/> 220Е240 кг/га<br />
+<input type="radio" value="3" name="Q5"/> 120Е160 кг/га<br />
+<input type="radio" value="4" name="Q5"/> 100Е110 кг/га <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T6"/><b> якими машинами скошують гречку в валки?</b><br/>
+<input type="radio" value="0" name="Q6"/> –∆“-8<br />
+<input type="radio" value="1" name="Q6"/> ∆¬—-6<br />
+<input type="radio" value="2" name="Q6"/>  ѕ—-5√<br />
+<input type="radio" value="3" name="Q6"/>  ƒѕ-4<br />
+<input type="radio" value="4" name="Q6"/> ѕѕ“-3ј<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T7"/><b> якою повинна бути ширина кол≥њ кол≥сного трактора при м≥жр€дному крупТ€них культур?</b><br/>
+<input type="radio" value="0" name="Q7"/> 1400 мм<br />
+<input type="radio" value="1" name="Q7"/> 1300 мм<br />
+<input type="radio" value="2" name="Q7"/> 1200 мм<br />
+<input type="radio" value="3" name="Q7"/> 1800 мм<br />
+<input type="radio" value="4" name="Q7"/> 2000 мм<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> яка частота обертанн€ молотильного барабану при збиранн≥ гречки?</b><br/>
+<input type="radio" value="0" name="Q8"/> 200Е300 хв-1<br />
+<input type="radio" value="1" name="Q8"/> 300Е400 хв-1<br />
+<input type="radio" value="2" name="Q8"/> 450Е500 хв-1<br />
+<input type="radio" value="3" name="Q8"/> 600Е700 хв-1<br />
+<input type="radio" value="4" name="Q8"/> 700Е800 хв-1<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T9"/><b> якими агрегатами провод€ть м≥жр€дний оброб≥ток крупТ€них культур при широкор€дному пос≥в≥?</b><br/>
+<input type="radio" value="0" name="Q9"/> ћ“«-80 + ”—ћ -5,4<br />
+<input type="radio" value="1" name="Q9"/> ћ“«-80 +  ѕ—-4<br />
+<input type="radio" value="2" name="Q9"/> ћ“«-80 +  –Ќ-5,6<br />
+<input type="radio" value="3" name="Q9"/> “-150  +  –Ќ-8,4<br />
+<input type="radio" value="4" name="Q9"/> ћ“«-80 +  ќЌ-2,8<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T10"/><b> якими с≥валками с≥ють гречку?</b><br/>
+<input type="radio" value="0" name="Q10"/> ——“-12<br />
+<input type="radio" value="1" name="Q10"/> —”ѕЌ-8<br />
+<input type="radio" value="2" name="Q10"/> —ѕ„-6<br />
+<input type="radio" value="3" name="Q10"/>  —ћ-4ј<br />
+<input type="radio" value="4" name="Q10"/> —ќ-4,2<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T11"/><b> яка норма вис≥ву гречки при широкор€дному пос≥ву в районах —тепу?</b><br/>
+<input type="radio" value="0" name="Q11"/> 60Е75 кг/га<br />
+<input type="radio" value="1" name="Q11"/> 45Е50 кг/га<br />
+<input type="radio" value="2" name="Q11"/> 220Е240 кг/га<br />
+<input type="radio" value="3" name="Q11"/> 80Е90 кг/га<br />
+<input type="radio" value="4" name="Q11"/> 100Е110 кг/га <br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T12"/><b> яка глибина загортанн€ нас≥нн€ проса?</b><br/>
+<input type="radio" value="0" name="Q12"/> 6Е7 см<br />
+<input type="radio" value="1" name="Q12"/> 3Е4 см<br />
+<input type="radio" value="2" name="Q12"/> 7Е9 см<br />
+<input type="radio" value="3" name="Q12"/> 8Е10 см<br />
+<input type="radio" value="4" name="Q12"/> 2Е3 см<br />
+<br/></li></ol>      
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" value="ѕоказать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type="reset" value="—бросить ответы"/> 
+</CENTER>        
+</form> 
+<!-- Test created by service http://test.fromgomel.com -->

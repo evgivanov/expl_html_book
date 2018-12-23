@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <table style="width: 100%; height: 1cm; background-color: #5B7FA6;" border="0">
+          <tbody>
+            <tr>
+              <td style="width: 3.52cm; background-color: #5B7FA6;"><a href=""><img
+                    src="images/logo.jpg" alt="Agroosvita" title="logo"></a> </td>
+              <td style="width: 653.85px; background-color: #5B7FA6;">
+                <div style="text-align: center; font-size: 8pt; font-weight: bold;"><span
+                    style="color: white;">ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</span><br>
+                  <span style="color: white;">Електронний підручник</span></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </header>
+      <nav>
+        <h2>Меню</h2>
+        <ul>
+          <li><a href="link1.html">Головна</a></li>
+          <li><a href="link2.html"> Теоретичні відомості</a></li>
+          <li><a href="link3.html">Лабораторні та практичні роботи</a></li>
+          <li><a href="link4.html">Тести</a></li>
+          <li><a href="link4.html">Додатки</a></li>
+          <li><a href="link4.html">Список використаних джерел</a></li>
+        </ul>
+      </nav>
+      <div id="title"> Title </div>
+      <div id="content">
+        <h1>Контент1</h1>
+        <h2>контент2</h2>
+        <h3>контент3</h3>
+        <p>Розрахунок собівартості транспортної роботи.</p>
+        <p>На транспорті розрізняють собівартість вантажних перевезень, що
+          вимірюються в гривнях на тонно-кілометр (грн./т∙км), або на одну тону
+          вантажу та пасажирських – у гривнях на пасажиро-кілометр.</p>
+        <p>Визначаючи загальний показник, враховують сумарні експлуатаційні
+          витрати на вантажні та пасажирські перевезення.</p>
+        <p class="definition"><b class="definition">Експлуатаційні витрати</b>&nbsp;
+          – це поточні витрати транспортних підприємств на загальний обсяг
+          продукції, виконаний за якийсь відрізок часу. </p>
+      </div>
+      <div id="navigation">
+        <table style="width: 100%; height: 1cm;" border="0">
+          <tbody>
+            <tr>
+              <td style="width: 33%; background-color: #E9EDF1;">Попередня тема</td>
+              <td style="text-align: center; width: 33%; background-color: #E9EDF1;">На
+                початок</td>
+              <td style="text-align: right; width: 33%; background-color: #E9EDF1;">Наступна
+                тема</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="clear"> </div>
+      <footer> © 2017 ДУ «Науково-методичний центр інформаційно-аналітичного
+        забезпечення діяльності ВНЗ «Агроосвіта» 03151, м. Київ, вул.
+        Смілянська, 11 </footer>
+    </div>
+  </body>
+</html>

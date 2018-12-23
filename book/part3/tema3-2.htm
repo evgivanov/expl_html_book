@@ -1,0 +1,1692 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Тема 3.2</title>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <style>
+<!--
+ /* Font Definitions */
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #5B7FA6;
+  color: #E9EDF1;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Arial",sans-serif;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:18.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma",sans-serif;}
+p.item, li.item, div.item
+	{mso-style-name:item;
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpFirst, li.itemCxSpFirst, div.itemCxSpFirst
+	{mso-style-name:itemCxSpFirst;
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpMiddle, li.itemCxSpMiddle, div.itemCxSpMiddle
+	{mso-style-name:itemCxSpMiddle;
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpLast, li.itemCxSpLast, div.itemCxSpLast
+	{mso-style-name:itemCxSpLast;
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.numerical, li.numerical, div.numerical
+	{mso-style-name:numerical;
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:64.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:150%;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:0cm 0cm 0cm 0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=RU link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=794
+ style='width:21.0cm;border-collapse:collapse;border:none'>
+ <tr style='height:1.0cm'>
+  <td width=133 valign=top style='width:99.8pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:.2pt;line-height:normal'><b><span lang=UK
+  style='font-size:4.0pt;font-family:"Tahoma",sans-serif;color:white'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><img width=112 height=29
+  src="../../images/logo.jpg"></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:10.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>Електронний підручник</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 rowspan=2 valign=top style='width:99.8pt;border:none;
+  border-right:solid #D9E0E7 1.0pt;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../index.html">Головна</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Теоретичні відомості</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../tests/tests_zmist.html">Тести</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../addons/addons_zmist.html">Додатки</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../references/references.html">Список використаних джерел</a></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Tahoma",sans-serif;
+  color:#548DD4'>&nbsp;</span></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:none;border-left:
+  none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  background:#E9EDF1;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Тема </span></b><a
+  name=тема32><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>3.2 Приготування </span></b></a><b><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'>та
+  внесення мінеральних і органічних добрив</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:214.8pt'>
+  <td width=661 colspan=3 valign=top style='width:495.55pt;border-top:none;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:214.8pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т321">1 Види добрив та їх
+  класифікація</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т322">2 Способи та технологічні
+  схеми внесення добрив</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т323">3 Агротехнічні вимоги до
+  операцій внесення мінеральних та органічних добрив</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т324">4 Вибір комплексів машин для
+  внесення мінеральних та органічних добрив</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т325">5 Технологічне налагодження
+  агрегатів на заданий режим роботи</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т326">6 Підготовка поля. Вибір
+  режиму та способу руху агрегатів</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т328">7 Контроль і оцінювання
+  роботи машинно-тракторних агрегатів</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><u><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:blue'><a href="#Т3210">8 Заходи з охорони праці під
+  час виконання операцій внесення органічних і мінеральних добрив</a></span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т321><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>1 Види </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>добрив та їх класифікація</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>(відео: </span><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a
+  href="../../../../ЕЛ%20КН/відео%20до%20ЕП/епізод%209%20внесення%20орг.%20добрив.mp4">епізод
+  9 внесення орг. добрив</a></span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><u><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:blue'><a
+  href="http://www.youtube.com/watch?v=weRhlfwxF9Y">http://www.youtube.com/watch?v=weRhlfwxF9Y</a></span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>;)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:36.0pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>За <u>видом</u> добрива
+  діляться на органічні, мінеральні і бактеріальні.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Органічні добрива </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>бувають:</span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>тверді (гній, торф тощо), </span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>рідкі (гноївка) </span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>сидеральні (зелені рослини, які приорюють, наприклад, люпин).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Мінеральні добрива</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> розділяють за <u>принципом дії</u>: </span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>прямої дії – азотні, калійні, фосфорні і мікродобрива (залізо,
+  хлор, молібден) – надходять для живлення рослин;</span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> не прямої дії (гіпс, вапно) – поліпшують властивості ґрунтів,
+  хоч для живлення рослин їх не використовують.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Мінеральні добрива </span><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>вносять у твердому вигляді</span></u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> (гранульовані і пилоподібні) і </span><u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>рідкому</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> (аміачна вода,
+  безводний аміак). Крім того використовують різні розчини твердих добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Бактеріальні добрива </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>(нітрагін, азотобактерин тощо)</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>сприяють нагромадженню в ґрунті
+  азоту і переводять у засвоювані рослинами форми фосфорні добрива. Ними
+  обробляють насіння перед сівбою. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Класифікують добрива</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> за такими ознаками:</span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>за властивостями</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> – <i>за
+  гігроскопічністю</i> (здатністю вбирати вологу), <i>розсіюваністю, злежалістю</i>;
+  </span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>за способом внесення</span></u><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'> – <i>суцільного
+  внесення, рядкового внесення і внесення з поливом водою</i>; </span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>за призначенням</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> – <i>основне
+  внесення</i> (перед оранкою, лущенням, культивацією), <i>припосівне</i>
+  (одночасно з сівбою або садіння), <i>підкормка</i> в різні періоди росту і
+  розвитку рослин.</span></p>
+  <p class=MsoNormalCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:70.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-21.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т322><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>2 Способи </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>та технологічні схеми внесення добрив</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Ефективність добрив у
+  значній мірі залежить від правильного сполучення прийомів їхнього внесення в
+  ґрунт. Існують такі </span><u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>способи
+  використання добрив</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>: </span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>суцільне внесення; </span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>рядкове внесення; </span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>внесення добрив з поливом.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>За призначенням розрізняють
+  такі способи внесення доб­рив:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>основне&nbsp;(допосівне);</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>припосівне&nbsp;(рядкове);</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:67.65pt;margin-bottom:.0001pt;text-align:justify;
+  text-indent:-18.0pt;line-height:150%;background:white'><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>підживлення&nbsp;(післяпосівне).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Основне (допосівне) внесення
+  добрив</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>. Частіше його виконують так.
+  Добрива розсівають по поверхні ґрунту і негайно заробляють у грунт під час
+  основного обро­бітку. Добрива треба заробляти під глибокий обробіток ґрунту у
+  вологий шар, бо його призначення – задовольняти рослини елементами живлення
+  протягом вегетаційного періоду. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При поверхневому обробітку
+  ґрунту добрива необхідно заробляти глибше, у вологий шар ґрунту (на глибину
+  15…18 см).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Органічні добрива в усіх
+  зонах під всі культури вносять в основне удобрення і заробляють під час
+  основного обробітку ґрунту.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Припосівне внесення</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&nbsp;–&nbsp;це внесення добрив під час сівби недалеко від
+  рядків або гнізд. Основним завданням його є поліпшення живлення рослин на
+  початку вегетації, коли в них ще слабко розвинена коренева система. У цей
+  період рослини дуже чутливі до нестачі легкодоступних елементів живлення,
+  особливо фосфору. Тому в рядки частіше вносять гранульований суперфосфат або
+  гранульовані комплексні добрива, наприклад нітрофоску. Добрива в рядки
+  вносять одночасно із сівбою на відстані 3…4 см збоку від рядка і на 5…6 см
+  глибше загортання насіння. </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>                          
+  </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>(відео: </span><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a
+  href="../../../../ЕЛ%20КН/відео%20до%20ЕП/епізод%2010%20припосівне%20внесення%20добрив.mp4">епізод
+  10 припосівне внесення добрив</a></span></u><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:red'>)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Підживлення</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&nbsp;–&nbsp;це внесення добрив під час вегетації рослин для
+  посилення живлення в певні періоди розвитку.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Роз­різняють підживлення</span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>:&nbsp;кореневі&nbsp;і&nbsp;позакореневі&nbsp;(некореневі).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Кореневе підживлення</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> – розміщення добрив в безпосередній близькості від кореневої
+  системи.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Некореневе підживлення</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> –&nbsp;це нанесення добрив на листки та інші наземні органи
+  рослини (обприскування рослин розчинами слабої концентрації, як правило менше
+  1%). Його застосовують зде­більшого для посилення живлення азотом та
+  мікроелементами. Таке підживлення дуже ефективне у районах достатнього
+  зволоження і на ґрунтах з легким механічним складом.  </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Залежно від застосованих
+  технологічних засобів для підготовки і внесення добрив, типу змішувача,
+  спеціальних транспортних засобів, відстані транспортування добрив від складу
+  чи бурта до поля використовують різні </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:red'>технологічні
+  схеми внесення добрив</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>У загальному вигляді
+  технологічна схема внесення добрив включає операції зберігання, змішування
+  (при потребі), переванта­ження, розвантаження і внесення.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Технологічні схеми внесення
+  дорив:</span></u><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> прямоточна, перевантажувальна,
+  перевалочна. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>прямоточній схемі</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>добрива транспортують і розкидають одним і тим же агрегатом. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>Ця схема доцільна, коли розміри ділянок великі, а відстань від
+  складу до поля не перевищує 1,5…3 км. При цій схемі відпадає необхідність в
+  додаткових навантажувальних і транспортних засобах, також зменшуються втрати
+  добрив і простої агрегатів за організаційними причинами.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>перевантажувальній схемі </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:green'>добрива
+  доставляють від місця зберігання до поля</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>, </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:green'>а в полі перевантажують їх в
+  кузов розкидача. </span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>цій схемі</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>застосовують спеціальні
+  транспортні засоби ГАЗ-САЗ-3502, ЗСА-40, МТП-13 (шасі КамАЗ-5410), МТП-10
+  (шасі ЗИЛ-130). Дану схему внесення добрив застосовують, якщо ділянки великих
+  розмірів і відстань від складу до поля більше 5
+   км.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>перевалочній схемі</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>, якщо ділянки
+  розрізнені і невеликих розмірів, то </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:green'>до
+  трактора з начіпним розкидачем приєднують двоосний тракторний причіп, який на
+  складі завантажують добривами</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>. На полі
+  причіп від’єднують і з нього добрива по мірі потреби завантажують в розкидач.
+  В залежності від виробничих умов можливий </span><u><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>інший варіант</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>, </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>коли добрива завантажують </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'>(ДТ-75М+ПФП-1,2;
+  Т-150+ПФП-2; МТЗ-80+ПФ-0,75 тощо) </span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:green'>доставляють в
+  поле і розвантажують їх на краю ділянки на спеціально підготовлений майданчик</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>. З допомогою тракторних навантажувачів ці добрива завантажують
+  в розкидачі (Т-150К+ПРТ-10; МТЗ-80+ПРТ-7,5; МТЗ-80+МТО-6; МТЗ-80+РОУ-6 тощо),
+  які працюють тільки на внесення.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т323><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>3 Агро</span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>технічні вимоги до операцій внесення мінеральних та органічних
+  добрив</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Агротехнічні вимоги при
+  внесенні мінеральних добрив.</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>
+  Нерівномірність внесення добрив для тукових сівалок не повинна перевищувати ±
+  15 %, а для розкидачів ± 25 %. Вологість мінеральних добрив, підготовлених до
+  внесення, повинна забезпечувати нормальну роботу дозуючих апаратів. Розриви
+  між суміжними проходами машин не допускаються. Допускається перекриття
+  суміжних проходів не більше 6 % від ширини захвату агрегату. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Час між розкиданням і загортанням добрив – не більше 12 годин.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Не слід допускати
+  поверхневого внесення мінеральних добрив в осінньо-зимовий період на дуже
+  вологих і піщаних ґрунтах, на крутих схилах і на полях з нерівним рельєфом.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Агротехнічні вимоги при
+  внесенні органічних добрив</span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>. Добрива
+  повинні бути однорідними за якістю, в них не повинно бути каменів та інших
+  сторонніх предметів. Машини повинні забезпечувати своєчасне внесення певної
+  норми добрив з рівномірним розподілом їх по полю. При внесенні дорив
+  допускається відхилення від заданої норми не більше 5 % за масою.
+  Нерівномірність не повинна перевищувати ± 25 %. Втрата поживних речовин
+  повинна бути мінімальною. </span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>Інтервал між
+  внесенням і приорюванням органічних добрив не повинен перевищувати двох
+  годин.</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>  </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т324><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>4 Вибір </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>комплексів машин для внесення мінеральних та органічних добрив</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Типи машин для внесення
+  добрив вибирають залежно від виду, норми, способу і технологічної схеми
+  внесення добрив, агротехнічних, екологічні їх, енергетичних і економічний
+  вимог.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Склад агрегатів повинен забезпечувати
+  якісне виконання робіт у встановленні агростроки при найменших витратах
+  матеріалів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При обґрунтуванні складу
+  агрегатів та їх режиму роботи необхідно врахувати техніко-економічні
+  показники агрегатів та якість виконання роботи.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При прямоточній і
+  перевантажувальній схемах внесення добрив використовують навантажувальні
+  агрегати: Т-150+ПФП-2, ДТ-75М+ ПФП-1,2, ДТ-75М+ТЛ-3А, МТЗ-80+ПЭА-1А,
+  “Карпатець-1560С”, ДТ-75М+ПНД-250 тощо.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для суцільного внесення
+  твердих органічних добрив на поверхню ґрунту використовують агрегати: Т-150К
+  чи ХТЗ-17021+ </span><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>П</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>РТ-10; МТЗ-82+ПРТ-7,5</span><span style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>;</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> МТЗ-80+МТО-6</span><span style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>;</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> МТЗ-8</span><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>0</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>+Р0У-6 тощо.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для внесення рідких
+  органічних добрив використовують </span><span style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>аг</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>регати: МТЗ-80+РЖТ-4</span><span style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>;</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> Т-150К+РЖТ-8</span><span style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>;</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> К-701А+РЖТ-16.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підвезення гноївки: МТЗ-80+ЗЖВ-3,2;
+  МТЗ-80+ЗЖВ-1,8; МЖА-Ф-7 (шасі Урал-5557-041).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для основного внесення
+  мінеральних твердих добрив вико­ристовують агрегати: Т-150К+РУМ-8,
+  Т-150К+МВУ-8Б, ЮМЗ-6Л+ 1РМГ-4Б.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>Для </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>внесення</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>пиловидних добрив:  МТЗ-80+МД-4 “Галичина”, Т-150К + РУП-8, </span><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>Э</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>СВМ-7 (шасі ХТЗ-1722І)+АВП-10.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для внесення рідких
+  мінеральних добрив використовують агрегати: Т-150К+ПЖУ-9, МТЗ-80+ПЖУ-5, МТЗ-80+КРН-5,6+ПЖУ-2,5,
+  Т-70С або МТЗ-80 + ПОМ-630-1.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для внесення комплексних
+  добрив використовують агрегати: Т-150К+АПВ-5, Т-150К+АВВ-5.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для внесення безводного
+  аміаку використовують агрегати: МТЗ-80+КПР-4М +АБА-0,5,
+  МТЗ-80+КРН-5,6+АБА-0,5. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>   ( відео: </span><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="http://www.youtube.com/watch?v=2xtUXj9cMWc">http://www.youtube.com/watch?v=2xtUXj9cMWc</a></span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>;     </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>    </span><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="https://www.youtube.com/watch?v=w7jqyh-ieus">https://www.youtube.com/watch?v=w7jqyh-ieus</a></span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><u><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:blue'><a
+  href="http://www.youtube.com/watch?v=rolw3W9YAzQ">http://www.youtube.com/watch?v=rolw3W9YAzQ</a></span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>; </span><u><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:blue'><a
+  href="http://www.youtube.com/watch?v=aLl38a0Gk_Q">http://www.youtube.com/watch?v=aLl38a0Gk_Q</a></span></u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>)</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т325><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>5 Технологічне </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>налагодження агрегатів на заданий режим роботи</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Склад агрегату повинен
+  забезпечувати якісне виконання робіт у встановлені агростроки при найменших
+  витратах матеріалів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При обґрунтуванні складу
+  агрегатів та їх режиму роботи необхідно враховувати техніко-економічні показники
+  агрегатів та якість виконання роботи.   </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>   </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Комплексна оцінка
+  експлуатаційних властивостей агрегатів дозволяє вибрати доцільний варіант
+  комплектування агрегату для конкретних умов роботи. При цьому важливо
+  забезпечити взаємини відповідності параметрів енергетичної частини та робочої
+  машини.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Важливою складовою ланкою
+  підготовки агрегату до виконання заданих умов є технологічна наладка
+  агрегату, яка полягає в наступному: підготовка трактора до роботи;
+  технологічна наладка робочої машини до роботи згідно заданих параметрів;
+  комплектування агрегату; перевірка роботи агрегату в польових умовах.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підготовка енергетичної
+  частини агрегату залежить від виду і способу внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Загальні правила:</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:64.3pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:
+  150%;text-autospace:none'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>Енергетична машина і робоча
+  машина повинні бути комплектні і технічно справні.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:64.3pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:
+  150%;text-autospace:none'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При підживленні необхідно
+  встановити задану колію та замінити широкі ведучі колеса на вузькі, а для
+  гусеничних – широку гусеницю на вузьку. Якщо використовувати розкидачі
+  РУМ-5-03 і РМГ-4Б з колією 1350 мм, то їх необхідно переобладнати, тобто
+  встановити вузькі шини.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При підживленні зернових
+  культур з технологічною колією 1800
+   мм і ходовими доріжками 450 мм використовують розкидачі із звичайними
+  шинами. Колія трактора становитиме 1800
+   мм.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед виїздом в поле у
+  розкидачів регулюють натяг ланцюгів транспортерів, ланцюгів і пасів передач і
+  запобіжні муфти.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Планки транспортерів
+  повинні щільно прилягати до полу кузова. Провисання ланцюгів нижніх гілок
+  транспортерів не повинна перевищувати 20…30 мм. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Основне регулювання машин
+  для внесення добрив – встановлення норми внесення і рівномірності розподілу
+  матеріалу.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Остаточно норму внесення
+  добрив встановлюють при перших проходах шляхом визначення кількості внесених
+  добрив на одиницю площі.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т326><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> </span></a><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>6 Підготовка </span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:#2B587A'>поля. Вибір
+  режиму та способу руху агрегатів</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед початком робіт
+  вибирають ефективну схему роботи машин, визначають напрямок робочих ходів
+  агрегатів. </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:green'>Рух агрегатів повинен збігатися
+  з напрямком попередньої оранки чи рухом збиральних машин.</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> Після цього відмічають поворотні смуги (якщо немає можливості
+  проводити розвороти за межами поля) і провішують лінію першого проходу. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>Ширину поворотної смуги вибирають в залежності від складу
+  агрегату та способу руху</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Довжину гонів вибирають
+  кратною запасу робочого ходу. Запас робочого ходу агрегату залежить від норми
+  внесення добрив, робочої ширини захвату і визначаються за формулою:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'><span
+  style='position:relative;top:14.0pt'><img border=0 width=80 height=49
+  src="tema3-2.files/image001.png"></span>,</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>де <i>l</i> – запас
+  робочого ходу, м;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>    <i>Q</i> – маса добрив
+  в кузові розкидача, т;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>   <i>В </i>– робоча ширина
+  захвату, м;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>   <i>N</i> – доза внесення
+  добрив, т/га.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На практиці можуть бути
+  різні співвідношення між довжиною гонів і запасом робочого ходу. Для кожного
+  з них залежно від технологічної схеми роботи машин існують свої найбільш
+  доцільні варіанти розбивки поля.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При внесенні мінеральних
+  добрив залежно від експлуатаційних даних машин та розмірів поля застосовують <u>човниковий
+  спосіб руху чи перекриттям.</u> Найбільш доцільний спосіб руху для
+  односівалкових агрегатів, кузовних та начіпних розкидачів – човниковий.
+  Агрегат необхідно вести в стороні від сліду коліс попереднього агрегату на
+  відстані, яка дорівнює половині ширини захвату.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час роботи з
+  широкозахватними агрегатами (три-, чотирисівалковими), а також на малих полях
+  найбільш ефективно застосовувати спосіб руху перекриттям. На перших проходах
+  перевіряють фактичну дозу внесення добрив виходячи з кількості і засіяної
+  площі, а також рівномірність розподілу добрив по ширині захвату.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При підживленні зернових
+  колосових культур, що вирощують за інтенсивною технологією, доцільно
+  використовувати розкидачі мінеральних добрив НРУ-0,5, РМС-6, 1РМГ-4Б та ін.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Розкидачі НРУ-0,5, РУМ-5,
+  РМС-6 слід використовувати при ширині технологічної колії 1350
+   мм та ширині ходових доріжок 300 мм. При цьому на тракторі МТЗ-80 встановити
+  задні колеса з вузькими шинами 9,42.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Спосіб руху агрегатів при
+  розкидання органічних добрив повинен бути таким, щоб була мінімальна
+  кількість холостих переїздів, не було розриву в часі між розкиданням і приорюванням
+  добрив і було високе використання навантажувальних засобів. З урахуванням цих
+  вимог спосіб руху розкидачів повинен бути узгоджений зі способом руху орних
+  агрегатів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Робота агрегатів в загінці
+  проводиться у відповідності до розмітки поля і прийнятій технологічній схемі
+  внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Розкидаючий механізм
+  агрегату включають при виїзді на контрольну лінію, або на край поля (при
+  відсутності поворотної смуги). Швидкість руху агрегату повинна відповідати
+  тій, на якій було проведено регулювання норми внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Поворот виконується при
+  виключеному механізмі розкидача.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При перших проходах
+  розкидачів на початку роботи слід уточнити правильність встановленої норми
+  внесення і перевірити якість розкидання. При значному відхиленні фактичної
+  норми внесення від заданої проводиться додаткове регулювання.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Після закінчення обробітку
+  основного поля приступають до обробітку поворотних смуг. Схеми руху агрегатів
+  на поворотних смугах аналогічні схемам руху на основному полі.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На протязі робочої зміни тракторист-машиніст
+  повинен перевіряти якість внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'> <a name=Т328>7 Контроль </a>і оцінювання роботи
+  машинно-тракторних агрегатів</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:right;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Таблиця 3.2.1 </span></b></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Контроль і оцінка якості внесення органічних добрив</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:37.05pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <div align=center>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=567
+   style='width:15.0cm;border-collapse:collapse;border:none'>
+   <tr>
+    <td width=235 style='width:176.4pt;border:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Показники</span></b></p>
+    </td>
+    <td width=240 style='width:180.0pt;border:solid windowtext 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Способи визначення</span></b></p>
+    </td>
+    <td width=108 style='width:81.0pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Градація нормативів</span></b></p>
+    </td>
+    <td width=72 style='width:54.2pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Бали </span></b></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=235 valign=top style='width:176.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Відхилення норми внесення від заданої, %</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Нерівномірність розподілу, %</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>      по ширині захвату</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>      по довжині робочого ходу</span></p>
+    </td>
+    <td width=240 valign=top style='width:180.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Перевіряють відповідність маси добрив
+    фактичній площі її розподілу</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Заміряють відстань між слідами коліс
+    суміжних проходів</span></p>
+    </td>
+    <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 5</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше ± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 15</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 25</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше ± 25</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 15</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше ± 15</span></p>
+    </td>
+    <td width=72 valign=top style='width:54.2pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=UK style='font-size:14.0pt;font-family:
+  "Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:right;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Таблиця 3.2.2 </span></b></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Контроль і оцінка якості внесення мінеральних добрив</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:37.05pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <div align=center>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=567
+   style='width:15.0cm;border-collapse:collapse;border:none'>
+   <tr>
+    <td width=187 style='width:140.4pt;border:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Показники</span></b></p>
+    </td>
+    <td width=310 style='width:232.3pt;border:solid windowtext 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Способи визначення</span></b></p>
+    </td>
+    <td width=98 style='width:73.7pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Градація нормативів</span></b></p>
+    </td>
+    <td width=60 style='width:45.2pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><b><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Бали </span></b></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=187 valign=top style='width:140.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Відхилення від норми внесення, %</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Нерівномірність висіву добрив, %</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'> Перекриття стикових проходів, % від
+    ширини захвату  </span></p>
+    </td>
+    <td width=310 valign=top style='width:232.3pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Включають механізм подачі до заповнення
+    висівної щілини. Після цього підстилають чи підвішують брезент і протягом
+    1хв. прокручують машину. Висіяні добрива зважують. Операцію повторюють не
+    менше трьох разів.</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Жерстяні лотки розставляють на ширину
+    робочого захвату агрегату. Добрива, зібрані з кожного лотка, зважують.
+    Операцію повторюють не менше трьох разів</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>Не менше трьох разів вішкою відмічають
+    ширину першого проходу, вимірюють ширину другого проходу  </span></p>
+    </td>
+    <td width=98 valign=top style='width:73.7pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До ± 5</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До ± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше ± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До ± 10</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До ± 25</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше ± 25</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До 3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>До 5</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Більше 5</span></p>
+    </td>
+    <td width=60 valign=top style='width:45.2pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>0</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>&nbsp;</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>0</span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=UK style='font-size:14.0pt;font-family:
+  "Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якість внесення добрив
+  контролюють агроном і тракторист на початку роботи і на протязі зміни, а
+  також по закінченню роботи. Показники якості внесення добрив наведені в
+  таблицях 3.2.1 та 3.2.2. При значному відхиленні від нормативів роботу
+  бракують.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3210><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>8 Заходи з охорони </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>праці під час виконання операцій внесення органічних і
+  мінеральних добрив</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Зберігання аміачної селітри
+  разом з органічними матеріалами (торф, деревне вугілля, подрібнена солома
+  тощо) може привести до вибуху, а зберігання аміачної селітри в паперових
+  мішках під дією сонячного випромінювання спричиняє їх горіння.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>В складських приміщеннях
+  повинна бути вентиляція, так як з аміачної селітри виділяється аміак, який в
+  суміші з повітрям вибухонебезпечний.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Потрапляння на шкіру
+  водного розчину, чи безводного розчину аміаку спричиняє опіки, а при вдиханні
+  – отруєння.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При транспортуванні водного
+  розчину аміаку чи безводного треба ретельно перевіряти герметичність
+  цистерни, щільність прилягання кранів, заглушок.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Агрегат, який вносить
+  аміак, повинен бути оснащений двома вуглекислоброметиловими вогнегасниками,
+  ланцюгом для заземлення та іскрогасником.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Механізатор повинен мати
+  індивідуальні засоби захисту: спецодяг, респіратор, захисні рукавиці,
+  окуляри.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Місткості для внесення
+  рідкого аміаку заповнюються не більше 85%, а для водного аміаку не більше як
+  на 90...93% від повного об’єму.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При внесенні аміаку курити
+  суворо заборонено.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Експлуатаційні заходи
+  передбачають такі режими роботи машин і обладнання, в результаті яких
+  повністю виключається можливість виникнення, іскор і полум’я при роботі
+  агрегатів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Навантажувати мінеральні та
+  органічні добрива дозволяється тільки в зоні дії стріли.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Переїжджати навантажувачу з
+  вантажем забороняється.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Колеса навантажувача
+  розставляють на максимально широку колію. Задні колеса під час навантаження
+  загальмовують, а на передні закріплюють балансири.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Працівники, зайняті на
+  внесенні добрив, особливо аміачної води, безводного аміаку, повинні
+  обов’язково проходити медичний огляд.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Питання для самоконтролю</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>1. Які види добрив застосовують у рослинництві та їх основні
+  властивості?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>2. Які існують способи внесення добрив?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>3. Проаналізуйте технологічні схеми внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>4. Вкажіть загальні агровимоги до внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>5. Проаналізуйте склад агрегатів для внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>6 Вкажіть основні елементи регулювання і технологічної наладки
+  агрегатів для внесення добрив.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>7. Як розрахувати запас ходу агрегату за технологічною
+  місткістю машини?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>8. Охарактеризуйте складові елементи підготовки поля до роботи
+  агрегатів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>9. За якими показниками оцінюють якість роботи агрегатів?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>10. Які вимоги охорони праці при зберіганні, транспортуванні і
+  внесенні мінеральних добрив?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:10.65pt;margin-bottom:
+  0cm;margin-left:10.7pt;margin-bottom:.0001pt;text-indent:14.15pt;line-height:
+  150%'><span class=MsoHyperlink><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:#2B587A;text-decoration:
+  none'>&nbsp;</span></span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span style='font-size:10.0pt;line-height:150%'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 style='width:99.8pt;border:none;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+  </td>
+  <td width=212 style='width:159.2pt;border-top:none;border-left:none;
+  border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:18.15pt;margin-bottom:.0001pt;text-indent:-16.45pt;line-height:
+  normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'><a href="tema3-1.htm">Попередня тема</a></span></p>
+  </td>
+  <td width=211 style='width:158.55pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:16.45pt;margin-bottom:.0001pt;text-align:center;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Зміст</a></span></p>
+  </td>
+  <td width=212 style='width:158.95pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:1.55pt;
+  margin-bottom:0cm;margin-left:18.15pt;margin-bottom:.0001pt;text-align:right;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'><a href="tema3-3.htm">Наступна тема</a></span></p>
+  </td>
+ </tr>
+ <tr style='height:1.0cm'>
+  <td width=794 colspan=4 style='width:21.0cm;border:none;border-right:solid #D9E0E7 1.0pt;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>© 2017 ДУ
+  «Науково-методичний центр інформаційно-аналітичного забезпечення діяльності
+  ВНЗ «Агроосвіта»</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>03151, м.
+  Київ, вул. Смілянська, 11</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
+</body>
+
+</html>

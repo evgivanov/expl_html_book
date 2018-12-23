@@ -1,0 +1,2946 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Тема 3.6</title>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <style>
+<!--
+ /* Font Definitions */
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #5B7FA6;
+  color: #E9EDF1;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Constantia;
+	panose-1:2 3 6 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Franklin Gothic Heavy";
+	panose-1:2 11 9 3 2 1 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Заголовок 1 Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Заголовок 2 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-link:"Заголовок 3 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Заголовок 4 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Верхний колонтитул Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Нижний колонтитул Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Основной текст Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"Основной текст с отступом Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-link:"Основной текст с отступом 2 Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:200%;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{mso-style-link:"Основной текст с отступом 3 Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0cm;
+	margin-right:-52.5pt;
+	margin-bottom:0cm;
+	margin-left:-2.0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Arial",sans-serif;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Схема документа Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p
+	{mso-style-link:"Обычный \(веб\) Знак";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-link:"Абзац списка Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:18.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma",sans-serif;}
+p.item, li.item, div.item
+	{mso-style-name:item;
+	mso-style-link:"item Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpFirst, li.itemCxSpFirst, div.itemCxSpFirst
+	{mso-style-name:itemCxSpFirst;
+	mso-style-link:"item Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpMiddle, li.itemCxSpMiddle, div.itemCxSpMiddle
+	{mso-style-name:itemCxSpMiddle;
+	mso-style-link:"item Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.itemCxSpLast, li.itemCxSpLast, div.itemCxSpLast
+	{mso-style-name:itemCxSpLast;
+	mso-style-link:"item Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:70.65pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.0pt;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.numerical, li.numerical, div.numerical
+	{mso-style-name:numerical;
+	mso-style-link:"numerical Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:64.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:150%;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-link:"Заголовок 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.2
+	{mso-style-name:"Заголовок 2 Знак";
+	mso-style-link:"Заголовок 2";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.3
+	{mso-style-name:"Заголовок 3 Знак";
+	mso-style-link:"Заголовок 3";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.4
+	{mso-style-name:"Заголовок 4 Знак";
+	mso-style-link:"Заголовок 4";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.rtejustify, li.rtejustify, div.rtejustify
+	{mso-style-name:rtejustify;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+p.30, li.30, div.30
+	{mso-style-name:"Заголовок 3\.";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:35.45pt;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.10, li.10, div.10
+	{mso-style-name:"Абзац списка1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.10CxSpFirst, li.10CxSpFirst, div.10CxSpFirst
+	{mso-style-name:"Абзац списка1CxSpFirst";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.10CxSpMiddle, li.10CxSpMiddle, div.10CxSpMiddle
+	{mso-style-name:"Абзац списка1CxSpMiddle";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.10CxSpLast, li.10CxSpLast, div.10CxSpLast
+	{mso-style-name:"Абзац списка1CxSpLast";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.msolistparagraph0, li.msolistparagraph0, div.msolistparagraph0
+	{mso-style-name:msolistparagraph;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.a0
+	{mso-style-name:"Основной текст с отступом Знак";
+	mso-style-link:"Основной текст с отступом";
+	font-family:"Times New Roman",serif;}
+span.a1
+	{mso-style-name:"Основной текст Знак";
+	mso-style-link:"Основной текст";
+	font-family:"Times New Roman",serif;}
+span.a2
+	{mso-style-name:"Основной текст + Курсив\,Интервал 0 pt\,Основной текст + Consolas\,9 pt\,Полужирный1";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:.5pt;
+	font-style:italic;
+	text-decoration:none;}
+span.a3
+	{mso-style-name:"Основной текст + Малые прописные";
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.a4
+	{mso-style-name:"Основной текст + Полужирный\,Курсив\,Заголовок №1 + Constantia\,19\,5 pt\,Основной текст + 6 pt\,Интервал 1 pt\,Основной текст + Trebuchet MS\,9\,Основной текст + 8\,Полужирный\,Основной текст + Candara\,Основной текст + Tahoma\,Основной текст + Impact\,5\,Не курсив";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;}
+span.11
+	{mso-style-name:"Заголовок №1_";
+	mso-style-link:"Заголовок №1";
+	background:white;}
+span.a5
+	{mso-style-name:Оглавление_;
+	mso-style-link:Оглавление;
+	background:white;}
+span.Constantia
+	{mso-style-name:"Основной текст + Constantia\,7\,5 pt2\,Основной текст + MS Mincho\,5 pt3\,Интервал 2 pt\,Основной текст + Arial Narrow\,Основной текст + 92\,Основной текст + Tahoma2\,6\,Малые прописные1\,Интервал 1 pt2\,Основной текст + 91";
+	font-family:"Constantia",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.Constantia1
+	{mso-style-name:"Основной текст + Constantia1\,191\,5 pt1\,Курсив1\,Основной текст + Century Gothic\,10\,Интервал -1 pt\,Основной текст + Candara1\,8\,Полужирный2\,Основной текст + Tahoma3\,Малые прописные\,8 pt\,Интервал 1 pt3\,Основной текст + Tahoma1\,61\,Интервал 1 pt1";
+	font-family:"Constantia",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-style:italic;
+	text-decoration:none;}
+p.12, li.12, div.12
+	{mso-style-name:"Заголовок №1";
+	mso-style-link:"Заголовок №1_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.5pt;
+	background:white;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;}
+p.a6, li.a6, div.a6
+	{mso-style-name:Оглавление;
+	mso-style-link:Оглавление_;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	background:white;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;}
+span.9pt
+	{mso-style-name:"Основной текст + 9 pt";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.10pt
+	{mso-style-name:"Заголовок №1 + Интервал 0 pt";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:-.5pt;
+	font-weight:bold;}
+span.13
+	{mso-style-name:"Заголовок №1 + Не полужирный";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;}
+span.14
+	{mso-style-name:"Основной текст + Полужирный1";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;}
+span.7pt
+	{mso-style-name:"Основной текст + 7 pt";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.6pt1
+	{mso-style-name:"Основной текст + 6 pt1";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.watch-title
+	{mso-style-name:watch-title;}
+p.p12c, li.p12c, div.p12c
+	{mso-style-name:p12c;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.31
+	{mso-style-name:"Основной текст \(3\)_";
+	mso-style-link:"Основной текст \(3\)";
+	background:white;
+	font-style:italic;}
+span.32
+	{mso-style-name:"Основной текст \(3\) + Полужирный";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;}
+span.5
+	{mso-style-name:"Основной текст \(5\)_";
+	mso-style-link:"Основной текст \(5\)";
+	background:white;
+	font-weight:bold;
+	font-style:italic;}
+span.10pt0
+	{mso-style-name:"Основной текст + 10 pt";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.310
+	{mso-style-name:"Основной текст \(3\) + Полужирный1";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.33
+	{mso-style-name:"Основной текст \(3\) + Не курсив";
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-style:italic;}
+span.1-1pt
+	{mso-style-name:"Заголовок №1 + Интервал -1 pt";
+	font-family:"Sylfaen",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:-1.0pt;
+	font-style:italic;}
+p.34, li.34, div.34
+	{mso-style-name:"Основной текст \(3\)";
+	mso-style-link:"Основной текст \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.4pt;
+	background:white;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+p.50, li.50, div.50
+	{mso-style-name:"Основной текст \(5\)";
+	mso-style-link:"Основной текст \(5\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.4pt;
+	background:white;
+	font-size:9.5pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.20
+	{mso-style-name:"Основной текст \(2\)_";
+	mso-style-link:"Основной текст \(2\)";
+	background:white;
+	font-style:italic;}
+p.21, li.21, div.21
+	{mso-style-name:"Основной текст \(2\)";
+	mso-style-link:"Основной текст \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:28.0pt;
+	line-height:11.5pt;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+span.210pt
+	{mso-style-name:"Основной текст \(2\) + 10 pt\,Не полужирный";
+	font-family:"Times New Roman",serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;}
+span.a7
+	{mso-style-name:"Верхний колонтитул Знак";
+	mso-style-link:"Верхний колонтитул";
+	font-family:"Times New Roman",serif;}
+p.Style4, li.Style4, div.Style4
+	{mso-style-name:Style4;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:3.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle58
+	{mso-style-name:"Font Style58";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+span.FontStyle60
+	{mso-style-name:"Font Style60";
+	font-family:"Times New Roman",serif;}
+p.Style7, li.Style7, div.Style7
+	{mso-style-name:Style7;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:27.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style8, li.Style8, div.Style8
+	{mso-style-name:Style8;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:26.65pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.western, li.western, div.western
+	{mso-style-name:western;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle57
+	{mso-style-name:"Font Style57";
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.Style10, li.Style10, div.Style10
+	{mso-style-name:Style10;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style11, li.Style11, div.Style11
+	{mso-style-name:Style11;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:27.85pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle63
+	{mso-style-name:"Font Style63";
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.Style14, li.Style14, div.Style14
+	{mso-style-name:Style14;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:25.7pt;
+	line-height:11.75pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style12, li.Style12, div.Style12
+	{mso-style-name:Style12;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:6.0pt;
+	line-height:11.5pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style16, li.Style16, div.Style16
+	{mso-style-name:Style16;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.75pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.FontStyle62
+	{mso-style-name:"Font Style62";
+	font-family:"Arial Narrow",sans-serif;
+	letter-spacing:2.0pt;}
+p.Style6, li.Style6, div.Style6
+	{mso-style-name:Style6;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style15, li.Style15, div.Style15
+	{mso-style-name:Style15;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.a8
+	{mso-style-name:"Нижний колонтитул Знак";
+	mso-style-link:"Нижний колонтитул";
+	font-family:"Times New Roman",serif;}
+p.a9, li.a9, div.a9
+	{mso-style-name:обычный;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.aa, li.aa, div.aa
+	{mso-style-name:основной_текст_с_отступом;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.35
+	{mso-style-name:"Основной текст с отступом 3 Знак";
+	mso-style-link:"Основной текст с отступом 3";
+	font-family:"Times New Roman",serif;}
+p.22, li.22, div.22
+	{mso-style-name:"Заголовок 2\.";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+span.ab
+	{mso-style-name:"Схема документа Знак";
+	mso-style-link:"Схема документа";
+	font-family:"Tahoma",sans-serif;}
+span.23
+	{mso-style-name:"Основной текст с отступом 2 Знак";
+	mso-style-link:"Основной текст с отступом 2";
+	font-family:"Times New Roman",serif;}
+span.FranklinGothicHeavy
+	{mso-style-name:"Основной текст + Franklin Gothic Heavy\,6 pt";
+	font-family:"Franklin Gothic Heavy",sans-serif;
+	color:black;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-decoration:none;}
+span.ac
+	{mso-style-name:"Основной текст_";}
+p.text, li.text, div.text
+	{mso-style-name:text;
+	mso-style-link:"text Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:1.0cm;
+	line-height:150%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.chapter, li.chapter, div.chapter
+	{mso-style-name:chapter;
+	mso-style-link:"chapter Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-indent:1.0cm;
+	line-height:150%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;}
+span.ad
+	{mso-style-name:"Обычный \(веб\) Знак";
+	mso-style-link:"Обычный \(веб\)";
+	font-family:"Times New Roman",serif;}
+span.text0
+	{mso-style-name:"text Знак";
+	mso-style-link:text;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+p.section, li.section, div.section
+	{mso-style-name:section;
+	mso-style-link:"section Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+span.chapter0
+	{mso-style-name:"chapter Знак";
+	mso-style-link:chapter;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;}
+p.zmist, li.zmist, div.zmist
+	{mso-style-name:zmist;
+	mso-style-link:"zmist Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-indent:1.0cm;
+	line-height:150%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;}
+span.section0
+	{mso-style-name:"section Знак";
+	mso-style-link:section;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+p.table1, li.table1, div.table1
+	{mso-style-name:table1;
+	mso-style-link:"table1 Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:right;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+span.zmist0
+	{mso-style-name:"zmist Знак";
+	mso-style-link:zmist;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;}
+p.table2, li.table2, div.table2
+	{mso-style-name:table2;
+	mso-style-link:"table2 Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+span.table10
+	{mso-style-name:"table1 Знак";
+	mso-style-link:table1;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+p.graph1, li.graph1, div.graph1
+	{mso-style-name:graph1;
+	mso-style-link:"graph1 Знак";
+	margin-top:0cm;
+	margin-right:10.65pt;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:14.15pt;
+	line-height:150%;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+span.table20
+	{mso-style-name:"table2 Знак";
+	mso-style-link:table2;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+p.graph2, li.graph2, div.graph2
+	{mso-style-name:graph2;
+	mso-style-link:"graph2 Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;}
+span.graph10
+	{mso-style-name:"graph1 Знак";
+	mso-style-link:graph1;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	font-weight:bold;}
+p.link, li.link, div.link
+	{mso-style-name:link;
+	mso-style-link:"link Знак";
+	margin-top:0cm;
+	margin-right:14.2pt;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:1.0cm;
+	line-height:150%;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:red;}
+span.graph20
+	{mso-style-name:"graph2 Знак";
+	mso-style-link:graph2;
+	font-family:"Tahoma",sans-serif;
+	color:#2B587A;
+	background:white;}
+span.link0
+	{mso-style-name:"link Знак";
+	mso-style-link:link;
+	font-family:"Tahoma",sans-serif;
+	color:red;
+	background:white;}
+span.ae
+	{mso-style-name:"Абзац списка Знак";
+	mso-style-link:"Абзац списка";
+	font-family:"Times New Roman",serif;}
+span.item0
+	{mso-style-name:"item Знак";
+	mso-style-link:item;
+	font-family:"Tahoma",sans-serif;
+	color:black;
+	background:white;}
+span.numerical0
+	{mso-style-name:"numerical Знак";
+	mso-style-link:numerical;
+	font-family:"Tahoma",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:0cm 0cm 0cm 0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=RU link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=794
+ style='width:21.0cm;border-collapse:collapse;border:none'>
+ <tr style='height:1.0cm'>
+  <td width=133 valign=top style='width:99.8pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:.2pt;line-height:normal'><b><span lang=UK
+  style='font-size:4.0pt;font-family:"Tahoma",sans-serif;color:white'>&nbsp;</span></b></p>
+ <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><img width=112 height=29
+  src="../../images/logo.jpg"></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:10.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>ЕКСПЛУАТАЦІЯ МАШИНИ І ОБЛАДНАННЯ</span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:white'>Електронний підручник</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 rowspan=2 valign=top style='width:99.8pt;border:none;
+  border-right:solid #D9E0E7 1.0pt;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../index.html">Головна</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Теоретичні відомості</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../tests/tests_zmist.html">Тести</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../addons/addons_zmist.html">Додатки</a></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal'><span
+  lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../../references/references.html">Список використаних джерел</a></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:"Tahoma",sans-serif;
+  color:#548DD4'>&nbsp;</span></p>
+  </td>
+  <td width=661 colspan=3 style='width:495.55pt;border-top:none;border-left:
+  none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  background:#E9EDF1;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Тема </span></b><a
+  name=тема310><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>3.6 </span></b></a><b><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>Визначення технологічних
+  процесів під час вирощування круп’яних культур і їх технічне забезпечення</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:214.8pt'>
+  <td width=661 colspan=3 valign=top style='width:495.55pt;border-top:none;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:214.8pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3101">1 Характеристика існуючих технологій виробництва
+  проса, гречки</a></span></u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:#2B587A'> </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3102">2 Особливості підготовки ґрунту та машинн</a>і
+  агрегати для його виконання</span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3103">3 Агротехнічні вимоги до сівби проса, гречки</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3104">4 Машинні агрегати для сівби. Технологічне налагодження
+  посівних агрегатів</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3105">5 Підготовка поля до роботи МТА. Вибір режиму та
+  способу руху</a> агрегатів. Контроль і оцінювання якості роботи </span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3106">6 Операції догляду за посівами і машинні
+  агрегати. Підготовка поля та технологічне налагодження агрегатів. Контроль і
+  оцінювання якості роботи</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3107">7 Збирання проса, гречки і машин</a>ні агрегати</span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3108">8 Агротехнічні вимоги до збирання проса, гречки</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т3109">9 Технологічне налагодження збиральних
+  агрегатів. Підготовка поля</a></span></u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т31011">10 Контроль і оцінювання якості роботи</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:42.55pt;margin-bottom:.0001pt;line-height:150%'><u><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:blue'><a href="#Т31013">11 Заходи з охорони праці</a> під час збирання
+  круп’яних культур</span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3101><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>1 Характеристика </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>існуючих технологій виробництва проса, гречки</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Прогресивні технології
+  спрямовані на досягнення запрограмованих кінцевих результатів з ефективним
+  використанням природних та інших не поновлюваних ресурсів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При виробництві круп’яних
+  культур сучасні технології мають ознаки інтенсивних, ресурсозберігаючих,
+  енергозберігаючих і ґрунтозахисних технологій.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>В умовах ринкових відносин
+  повинна здійснюватися інтенсифікація землеробства, проте не за рахунок
+  кількісного нарощування ресурсів, а на основі їх більш раціонального
+  використання, яке досягається на основі їх більш раціонального використання,
+  яке досягається удосконаленням технології вирощування. </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>На сучасному етапі воно полягає в застосуванні інтенсивних
+  ресурсозберігаючих технологій.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Сучасні системи
+  землеробства дають можливість виключити енергоємні операції, зокрема оранку,
+  залишити на поверхні ґрунту більше рослинних решток, запобігти його ерозії й
+  зекономити паливо. </span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Останнім часом такі
+  технології (мінімальна і нульова) все ширше впроваджуються у господарствах,
+  зокрема, при вирощуванні гречки і проса.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Суть інтенсивної технології
+  полягає в оптимізації умов вирощування культури на всіх етапах її росту і
+  розвитку.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>При розробці інтенсивної
+  технології потрібно</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> передбачати розміщення
+  культури в сівозміні після кращих попередників, вирощування сортів
+  інтенсивного типу, оптимізацію живлення рослин шляхом внесення добрив з
+  урахуванням їх вмісту у ґрунті. При інтенсивній технології перевагу надаємо
+  інтегрованій системі захисту від шкідників, хвороб та бур’янів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Ресурсозбереження
+  досягається</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> за рахунок скорочення кількості
+  агротехнічних прийомів в зв’язку з використанням комбінованих агрегатів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>В основу ресурсозберігаючої
+  технології</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> покладені результати досліджень
+  зі створення моделей високопродуктивних посівів гречки та проса, що
+  забезпечують зростання врожайності на 20…30% з отриманням зерна, придатного
+  для дитячого харчування, та ощадне використання матеріальних і трудових
+  ресурсів завдяки повнішій реалізації біокліматичного потенціалу зони. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Основою енергоощадних
+  технологій на механізованих польових роботах є&nbsp;<i>мінімізація обробітку
+  ґрунту</i>,</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> яка дає змогу збільшити ширину
+  захвату ґрунтообробних машин і зменшити витрати пального. Мульчування
+  поверхні ґрунту післяжнивними рештками дає можливість значно зменшити
+  кількість технологічних операцій, що теж забезпечує економію
+  пально-мастильних матеріалів, сприяє формуванню ґрунтозахисного покриття, яке
+  протидіє вітровій і водній ерозіям, забезпечує збереження вологи у ґрунті протягом
+  усього вегетаційного періоду, запобігає активному проростанню бур’янів,
+  сприяє активізації ґрунтової мікрофлори та відтворенню родючості ґрунту.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Всі технологічні операції
+  потрібно виконувати своєчасно і якісно, дотримуючись усіх рекомендованих норм,
+  строків та способів. Для цього на основних етапах росту і розвитку проводять
+  біологічний контроль за станом рослин.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:green'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3102><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>2 Особливості </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>підготовки ґрунту та машинні агрегати для його виконання</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.4pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><i><u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:green'>Попередники.</span></u></i><span
+  lang=UK style='font-size:12.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>  </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>Максимальний урожай гречки та
+  проса одержують при розміщенні її після попередників, під які вносили
+  органічні та мінеральні добрива – зернобобові і озимі культури, кукурудза,
+  цукрові буряки, картопля.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Обробіток ґрунту під посів
+  залежить від прийнятої технології вирощування. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><i><u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>Обробіток
+  ґрунту.</span></u></i><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> При розміщенні круп’яних після
+  стерньових попередників основний обробіток ґрунту починають з лущення стерні.
+  При незначному забур’яненні однорічними бур’янами стерню дискують лущильника­ми
+  (ЛДГ-5, ЛДГ-10, ЛДГ-15) на глибину 6…8 см. Поля, сильно забур’яненні
+  коренепаростковими бур’янами, перший раз дискують на глибину 6…8 см, удруге –
+  після відростання бур'янів лемішними лущильниками (ППЛ-5-25, ППЛ-10-25) на
+  12…14 см. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Поля засмічені
+  коренепаростковими бур’янами </span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:green'>відразу після
+  збирання врожаю обробляють дисковими знаряддями на глибину 6…8 см, через
+  10…12 днів, при з’явленні розеток бур’янів, повторно обробляють лемішними
+  лущильниками на глибину 10…12 см. Третє лущення на глибину 14…16 см такими
+  самими агрегатами проводять при появі нових паростків бур’янів.  </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> Зяблеву оранку, при
+  розміщенні гречки після стерньових попередників, проводять через 15…20 днів
+  після останнього лущення на глибину 20…22 см, плугами з передплужниками
+  (ПЛН-5-35, ПЛП-6-35), а на ґрунтах з мілких орним шаром (дерно­во-підзолистих)
+  – на глибину його залягання.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якщо попередником гречки є
+  цукрові буряки або картопля, то зяблеву оранку проводять на глибину 25…27 см
+  без попереднього лущення.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Після кукурудзи проводять
+  дискування в два сліди на глибину 8…10 см важкими дисковими боро­нами
+  (БДТ-3,0, БДТ-7,0). Оранку проводять на глибину 22…27 см.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На полях, чистих від
+  бур'янів, оранку замінюють глибоким роз­пушуванням (12…14 см) важкими
+  дисковими боронами БДТ-7А, БД-10 або плоскорізами КПГ-2-150 на глибину 20…22
+  см.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На схилах, а також у
+  районах вітрової ерозії здійснюють безвідвальний обробіток: стерню розпушують
+  голчастою бороною (БИГ-3), а основний обробіток проводять
+  плоскорізами-глибокорозпушувачами (ПГ-3-5, КПГ-2-150, ОПТ-3-5) на глибину
+  20…22 см.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Взимку слід застосовувати
+  снігозатримання з використанням валкоутворювачів (СВУ-2,6). Ра­но навесні, з
+  настанням фізичної стиглості ґрунту, закривають вологу боронуванням (БЗСС-1,
+  БЗТС-1) у 2…3 сліди на глибину 3…4 см і приступають до культивації. Першу
+  культивацію культиваторами КПС-4, КПГ-4 з боронуванням (БЗТС-1) проводять на
+  глибину 10…12 см, другу (передпосівну) – до 6
+   см (на глибину загортання насіння)  культиваторами УСМК-5,4.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>У суху весну перед сівбою
+  площу прикотковують котками 3ККШ-6 або СКГ-2 з райборінками ЗБП-0,6.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Останнім часом, при
+  вирощуванні гречки, все ширше впроваджуються у господарствах
+  ресурсозберігаючі технології (мінімальна і нульова). Для їх реалізації при
+  необхідності використовують мульчувачі рослинних решток вітчизняного
+  виробництва ПП-2,0, ПН-2,0, ПН-4,0 (Білоцерківський завод
+  сільськогосподарських машин), або зарубіжного – групи компаній KUHN (Франція)
+  і RHINO (США). Операції основного мінімального обробітку ґрунту доцільно
+  виконувати за один прохід агрегату комбінованими машинами КШН-5,6, КШН-3,0,
+  АГРО-3 (ВАТ «Галещина, машзавод»), моделей АГ і УДА (Білоцерківський завод
+  сільськогосподарських машин), Smaragd або Holiodor (LEMKEN), MIXTER (група
+  компаній KUHN), Centaur (AMAZONE) тощо.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><i><u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>Добрива.</span></u></i><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>  Після попередників, під які вносили достатньо органічних та
+  мінеральних добрив, під гречку основне добриво безпосередньо під гречку можна
+  не вносити. </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:green'>Після неудобрених попередників
+  норма внесення фосфорних добрив – 45…60, азотних – 30…35 кг/га поживної
+  речовини.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:green'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Овес</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Овес вважається найменш
+  вимогливою культурою до родючості ґрунтів та попередників. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>У сівозміні овес слід висівати насамперед після зернобобових</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>, тоді він формує високобілкове зерно і дає приріст урожаю 3…4
+  ц/га і більше. </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:red'>Відмінними попередниками вівса є
+  удобрені просапні культури</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>. У роки
+  недостатнього зволоження овес не рекомендується сіяти після цукрових буряків,
+  які висушують ґрунт та мають спільних з ним шкідників. Не можна сіяти після
+  буряків на полях, заражених нематодою, яка розмножується також і на вівсі. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>В Поліссі його посіви продуктивні після картоплі, гречки та
+  льону-довгунцю.</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> Через фітосанітарні проблеми
+  овес не можна вирощувати після вівса та ярого ячменю. </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>Добрий зерновий попередник жито, а пшениця і озимий ячмінь є
+  можливими попередниками вівса</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підготовка ґрунту</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; У Лісостепу, Поліссі
+  та в передгірних і гірських районах Карпат основний обробіток складається з
+  різноглибинного розпушування ґрунту дисковими чи плоскорізними знаряддями та
+  зяблевої оранки.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Після збирання
+  культур суцільного способу сівби поле лущать, а через 2…3 тижні орють на
+  глибину орного шару. Поле з-під просапних культур орють без попереднього
+  лущення. На важких і перезволожених ґрунтах рекомендується чизелювання або
+  щілювання.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Поля, сильно
+  забур’янені вівсюгом, для провокування його сходів додатково обробляють
+  голчастими знаряддями (БИГ-3). На забур'янених коренепаростковими бур’янами
+  площах спочатку проводять мілкий, а пізніше глибокий (23…25 см) обробіток
+  ґрунту.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Весняний обробіток
+  ґрунту під овес традиційний для ярих культур і може включати боронування,
+  вирівнювання та культивацію. Він повинен гарантувати рівномірне, високоякісне
+  загортання насіння під час сівби. Для вівса важливо забезпечити добре
+  осідання ґрунту з нормально діючою капілярною системою, оскільки овес внаслідок
+  плівчастості своїх зерен (25…30%) вимагає більше вологи для проростання і
+  подальшого росту та розвитку, ніж пшениця, жито чи ячмінь.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Оскільки овес сіють
+  дуже рано, а посівні площі відносно невеликі, у більшості випадків не
+  проводять закриття вологи. Поле при настанні фізичної стиглості ґрунту
+  готують до сівби з допомогою КПС-4 чи комбінованих агрегатів.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.4pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3103><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>3 Агротехнічні вимоги до</span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'> сівби проса, гречки</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.4pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Гречка</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Велике значення мають
+  терміни висіву. При ранньому посіві сходи пошкоджуються весняними
+  заморозками, а при пізніх – пошкоджуються від спеки і недоліку вологи.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Сіють гречку, коли ґрунт на
+  глибині 8…10 см прогріється до стійкої температури 10…12 °С, переважно
+  звичайним рядковим або широкорядним способом з шириною міжрядь відповідно 15
+  та 45 см.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Рядковій сівбі надають
+  перевагу в районах достатнього зволо­ження, на бідних та чистих від бур'янів
+  ґрунтах з використанням скоростиглих сортів гречки, які мало гілкуються;
+  широкорядній, стрічковій (45х15х2) – на забур'янених ґрунтах, особливо в райо­нах
+  нестійкого і недостатнього зволоження.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При рядковій сівбі
+  висівають в районах Степу 3…3,5 млн. схожих зерен на 1
+   га (60…75 кг/га), в Лісостепу і на Поліссі 4…5 млн. зерен (80…110 кг/га); </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>при широкорядній сівбі</span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'> </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>– у Степу висівають 45…50 кг/га, у Лісостепу і на Поліссі 50…80
+  кг/га.</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> Загортають насіння на глибину
+  4…5 см, а на легких ґрунтах 6…7 см. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Велике значення, особливо
+  при широкорядному посіві, має спрямованість рядків. Практика показала, що
+  найбільш раціональним являється розміщення рядків з півночі на південь, що не
+  дає можливості рослинам затіняти один одного.&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Просо</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Очищають і сортують насіння
+  машинами ЗАВ-20, ЗАВ-40. Для сівби використовують насіння чистотою не нижче
+  98,5%, схожістю вище 90%. Насіння перед сівбою протруюють на машинах ПС-10,
+  ПСШ-5 вітаваксом або фундазолом (2…2,5 кг/т) із застосуванням
+  плівкоутворювачів ПВС (0,5 кг/т) або NaKMu (0,2 кг/т).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Просо висіяне в непрогрітий
+  грунт сильно заростає бур'янами, які сходять раніше. Тому його </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>треба сіяти тоді, коли ґрунт на глибині 8…10 см прогріється до
+  12…14°С.</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> Період можливих строків сівби
+  більш розтягнутий – з кінця квітня, до кінця травня. Сіяти просо в пізніші
+  строки треба на забур'янених полях з метою, щоб за допомогою 2…3 допосівних
+  культивацій максимально очистити грунт від бур'янів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Спосіб сівби&nbsp;проса
+  залежить від родючості ґрунту, попередника, забур'яненості поля, забезпечення
+  вологою.</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> На родючих ґрунтах, після
+  кращих попередників, при достатній зволоженості ґрунту, чистих від бур'янів
+  полях </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:red'>застосовують звичайний рядковий
+  спосіб сівби</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>. Застосовують також </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>вузькорядну сівбу</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На забур'янених полях, при
+  нестачі вологи в ґрунті перевагою користується широкорядний стрічковий посів
+  за схемою 60x15x15 та 45x15x15 см і однострічковий з міжряддям 45
+   см. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Середні
+  рекомендовані&nbsp;норми висіву&nbsp;проса при </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>звичайній рядковій сівбі</span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'>: на
+  Поліссі та в північному Лісостепу 3,7…4 млн. (26…18 кг/га), у південному
+  Лісостепу 2,5…3 млн. (20…22 кг/га), у Степу 2,3…2,5 млн. схожих насінин на 1
+   га (18-20 кг/га). </span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>При широкорядній сівбі</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> норму висіву зменшують на 0,5…0,7 млн. насінин, </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>при вузькорядній</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> – збільшують
+  на 0,5…0,6 млн. схожих насінин на 1
+   га.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На чорноземних ґрунтах
+  насіння загортають на глибину 3…5 см, на важких – на 3…4 см. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>При пересиханні ґрунту насіння загортають на 1…2
+   см глибше (6…7 см).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Овес</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Спосіб сівби –
+  вузькорядний (7,5 см), рядковий (12
+   см, 15 см), перехресний.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Глибина сівби залежить від
+  біологічних особливостей культури. Овес менше страждає від глибшої сівби,
+  порівняно з ячменем. Крім того, для проростання плівчастого насіння потрібно
+  більше води. Тому серед зернових культур глибина сівби вівса одна з найбільших.
+  </span><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:red'>При ресурсоощадних технологіях його слід сіяти
+  на 3…4 см. На легких ґрунтах глибина сівби може досягати 4…6 см, у південних
+  районах за посушливої погоди – на 6…7 см.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Овес
+  характеризується підвищеною кущистістю і добре реагує на збільшення площі
+  живлення. Але швидкість росту бокових пагонів, тобто енергія кущіння, є
+  меншою, порівняно з іншими зерновими культурами. На зріджених посівах
+  спостерігається утворення надмірного підгону, внаслідок чого затримується
+  достигання зерна, затягується збирання врожаю і погіршується його якість.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Практичним методом
+  запобігання цьому явищу є загущення посівів, що обмежує процес кущіння. Тому
+  норми висіву вівса рекомендуються високі. У лісостеповій зоні висівають
+  4,5…5,5 млн./га, у Степу&nbsp;– 4,0…4,5 млн. га,</span><span lang=UK
+  style='font-size:10.5pt;line-height:150%;font-family:"Helvetica",sans-serif;
+  color:#333333'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>у Поліссі – 5,0…5,5 млн./га, а в
+  передкарпатській і карпатській зонах збільшують до 5,5…6,0 млн./га схожих
+  насінин.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; При сівбі ранніх
+  ярих на осушених торфових ґрунтах норму висіву знижують на 25…30%. Якщо під
+  овес підсівають багаторічні трави, норму висіву вівса зменшують на 10…15 %.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Схожість насіння повинна
+  бути не нижче 92%, чистота не менше 98…99%, сила росту – 80%, маса 1000
+  насінин – 30…35 г. Перед сівбою або за 2…3 тижні до неї насіння протруюють
+  вітаваксом (3,0…3,5кг/т), фундазолом (2…3 кг/га) з використанням плівко-утворювачів
+  для інкрустації. Для протруювання використовують такі машини: ПС-10, ПСШ-5,
+  Мобітокс.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3104><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>4 </span></a><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Машинні агрегати для сівби. Технологічне налагодження посівних
+  агрегатів</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Гречка</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для сівби звичайним
+  рядковим способом використовують сівалку СЗ-3,6, вузькоряд­ним СЗУ-3,6.
+  Широкорядним способом гречку висівають буря­ковою сівалкою ССТ-12А, обладнану
+  спеціальним пристосуван­ням СТЯ-27000.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При достатньому
+  забезпеченні вологою і відсутності забур’янення перевагу необхідно надавати
+  звичайному рядковому способу сівби зерновими сівалками. За інших умов
+  (недостатня забезпеченість вологою, забур’яненість поля) перевагу має
+  широкорядна сівба просапними сівалками з міжряддям 45
+   см або зерновими сівалками типу СЗ-3,6А (міжряддя 15
+   см) із перекритими відповідними висівними вікнами сошників днища насіннєвого
+  ящика. При агрегатуванні сівалки СЗ-3,6А із трактором класу 1,4 (МТЗ-80,
+  ЮМЗ-8040 тощо) перекривають висівні апарати 1, 3, 4, 6, 7, 9, 10, 12, 13, 15,
+  16, 18, 19, 21, 22 і 24-го сошників. Вихідні вікна в задніх стінках тукового
+  ящика перекривають засувками. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Найбільш придатна для
+  широкорядної сівби гречки та інших культур удосконалена сівалка УПС-12
+  «Веста» з пневмомеханічними висівними апаратами і дисковими сошниками. Вона
+  має 11 комплектів висівних дисків для різних сільськогосподарських культур і
+  один глухий диск, в якому можна просвердлити отвори під будь-яку просапну
+  культуру. Сівалка може працювати за будь-якою технологією (після оранки,
+  мінімальною чи нульовою). </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Для широкорядної сівби</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:green'>гречки</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> в підготовлений після оранки грунт можна скористатись наявними
+  в господарствах сівалками типу ССТ-12В з механічними (барабанними) висівними
+  апаратами і килеподібними сошниками. Такі сівалки комплектуються спеціальними
+  пристроями СТЯ-27000 для сівби гречки. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для встановлення сівалки
+  ССТ-12 В на норму висіву насіння вибирають передаточне число 1 та кількість
+  чарунок висівних дисків у співвідношенні: </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  161.1pt;line-height:150%'><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Q</span><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>  = </span><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>K</span><sub><span
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>1</span></sub><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> / </span><span lang=EN-US
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&#960;</span><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> &#8729; </span><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>D</span><span style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'>,                                                                                 
+  (3.10.1)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>де <i>D</i> – діаметр
+  приводного колеса, м; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><i><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Q</span></i><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> – задана норма висіву, насінин на 1
+   м рядка.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Норму висіву гречки
+  регулюють зміною передаточного співвідношення привода висівних дисків.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Останнім часом
+  удосконалюється техніка для рядкової сівби. Так, завод «Червона Зірка»
+  пропонує нові широкозахватні сівалки СЗ-10,8 і СЗ-5,4, а також стерньові
+  сівалки для прямої сівби типу СТС-6, сівалку-культиватор Сиріус-10,
+  пневматичну сівалку Солітер-12 тощо. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Заслуговує на увагу
+  комбінована висівна зернотукова машина МВЗ-4,2 «Меланія» (ВАТ «Галещина,
+  машзавод»). Комбіновані грунтообробно-посівні агрегати дають змогу зменшити
+  витрати праці на 40…80%, палива – 30…50% і запобігти ерозії ґрунту. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Із вітчизняних посівних
+  машин найбільш повно вимогам агротехніки відповідають універсальні
+  зерно-трав’яні сівалки Клен-6 і Клен-4,5 (МСНПП «Клен», Луганськ).
+  Випускається також сівалка «Клен-6П» із прикочуючими коточками.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Одними з найбільш
+  конкурентоспроможних сівалок іноземного виробництва є посівна техніка фірми
+  Great Plains (США) різних моделей, шириною захвату 4,6; 6,1; 7,31; 9,14 і 12,2
+   м. Агрегати відзначаються якістю і надійністю роботи, але їх ціна на метр
+  захвату у 3…4 рази більша вітчизняних.</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span lang=UK style='font-size:14.0pt;
+  font-family:"Times New Roman",serif;color:red'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Просо</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Сіють просо сівалками
+  СЗТ-3,6, СЗА-3,6, СЗ-3,6. Кращий спосіб сівби – звичайний рядковий із вне­сенням
+  добрив у рядки. Застосовують також вузькорядну сівбу сіва­лками СЗУ-3,6,
+  СЗЛ-3,6.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>Якщо до сівби проса
+  гербіцидів не вносили</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>, то краще сіяти широко­рядно
+  буряковими сівалками ССТ-12А з пристосуванням СТА-2300, що дає змогу вести
+  боротьбу з бур'янами шляхом міжрядних обробітків ґрунту.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Овес</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Сіють</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&nbsp;овес сівалками СЗ-3,6, СЗП-3,6А в перші дні весняних
+  польових робіт при настанні фізичної стиглості ґрунту і закінчують сівбу за
+  2…3 дні. Завдяки більш ранньому утворенню вузлового коріння овес менше
+  терпить від запізнення з сівбою, ніж яра пшениця і ячмінь. Найбільш поширеним
+  способом сівби є звичайний рядковий. Можна також сіяти вузькорядним і
+  перехресним способом.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>В умовах, які забезпечують
+  добрий розвиток рослин&nbsp;<u>норму висіву</u>&nbsp;вівса зменшують, а при
+  гірших умовах – збільшують. Зменшують норму висіву також при нестачі вологи.
+  При сівбі вузькорядним і перехресним способом допускається збільшення норми
+  висіву на 15…20%.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3105><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>5 Підготовка </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>поля до роботи МТА. Вибір режиму та способу руху агрегатів.
+  Контроль і оцінювання якості роботи </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед посівом поле повинно
+  бути закультивоване і вирівняне. Перед роботою поле оглядають, виявлені
+  перешкоди усувають. Напрям руху вибирається по максимальній довжині гонів. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Основний спосіб руху – човниковий.</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> До початку сівби провести вішками лінію першого проходу і межі
+  поворотних смуг. Визначають місця заправки агрегату насінням і добривами, які
+  залежать від довжини гонів, норми висіву і ємності насіннєвих ящиків.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Робоча швидкість посівного
+  агрегату залежить від стану поля і може досягати 12
+   км/год. Забороняється робити повороти з опущеними сошниками, так як це може
+  привести до їх поломки. Повертати агрегат необхідно на понижених швидкостях.
+  Не можна переміщати сівалку назад з опущеними сошниками. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>Після обробки поля засівають  поворотні смуги.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Контроль і оцінка якості
+  роботи.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якість сівби контролюють
+  агроном і тракторист на початку роботи і на протязі зміни, а також при зміні
+  робочої швидкості, зміні фракцій насіння або при переїзді на іншу ділянку.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При оцінці якості роботи на
+  сівбі враховують своєчасність посіву, рівномірність глибини загортання
+  насіння, відповідність фактичного висіву насіння заданій нормі,
+  прямолінійність рядків, ширину стикових міжрядь, наявність огріхів, обсів
+  поворотних смуг, порівнюючи досягнуту якість з агротехнічними вимогами. </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:right;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Таблиця 3.10.1 </span></b></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Контроль і оцінювання якості посіву</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <div align=center>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=567
+   style='width:15.0cm;border-collapse:collapse;border:none'>
+   <tr>
+    <td width=199 style='width:149.4pt;border:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>Показники</span></p>
+    </td>
+    <td width=108 style='width:81.0pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>Градація
+    нормативів</span></p>
+    </td>
+    <td width=60 style='width:45.0pt;border:solid windowtext 1.0pt;border-left:
+    none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>Бали</span></p>
+    </td>
+    <td width=288 style='width:216.2pt;border:solid windowtext 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>Спосіб
+    оцінки якості роботи</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=199 style='width:149.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>1</span></p>
+    </td>
+    <td width=108 style='width:81.0pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>2</span></p>
+    </td>
+    <td width=60 style='width:45.0pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>3</span></p>
+    </td>
+    <td width=288 style='width:216.2pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:black'>4</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=199 valign=top style='width:149.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+    color:black'>1. </span><span lang=UK style='font-size:8.0pt;font-family:
+    "Tahoma",sans-serif'>Відхилення норми висіву насіння, %</span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+    color:black'>&nbsp;</span></p>
+    </td>
+    <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 1,5 </span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>до ± 2,0</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>більше ± 2,0</span></p>
+    </td>
+    <td width=60 valign=top style='width:45.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>4</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    </td>
+    <td width=288 valign=top style='width:216.2pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span lang=UK style='font-size:8.0pt;
+    font-family:"Tahoma",sans-serif'>У п’яти місцях по довжині гонів порахувати
+    кількість насіння на 1м довжини рядка</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=199 valign=top style='width:149.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2.
+    Відхилення від заданої глибини  загортання насіння, см </span></p>
+    </td>
+    <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>± 1,0</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>до ± 1,5</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>більше ± 1,5</span></p>
+    </td>
+    <td width=60 valign=top style='width:45.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>3</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    </td>
+    <td width=288 valign=top style='width:216.2pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Не
+    менше 10 разів за зміну розгорнути рядки по ширині захвату сівалки і
+    визначити фактичну глибину загортання насіння</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=199 valign=top style='width:149.4pt;border:solid windowtext 1.0pt;
+    border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+    color:black'>3. </span><span lang=UK style='font-size:8.0pt;font-family:
+    "Tahoma",sans-serif'>Відхилення величини стикових міжрядь,см</span></p>
+    </td>
+    <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>до ±5</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>до ±6</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>більше ±6</span></p>
+    </td>
+    <td width=60 valign=top style='width:45.0pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>2</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>1</span></p>
+    <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+    .0001pt;text-align:center;line-height:normal'><span lang=UK
+    style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>0</span></p>
+    </td>
+    <td width=288 valign=top style='width:216.2pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif'>Не
+    менше 10 раз за зміну виміряти ширину міжрядь між крайніми сошниками двох
+    суміжних проходів</span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3106><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>6 Операції </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>догляду за посівами і машинні агрегати. Підготовка поля та
+  технологічне налагодження агрегатів. Контроль і оцінювання якості роботи</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:red'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Сівба в недостатньо
+  зволожений грунт потребує коткування посівів для вирівнювання і ущільнення
+  верхнього шару ґрунту, що сприяє прискоренню сходів. Коткують кільчасто-шпоровими
+  3ККШ-6, кільчасто-зубчастими ККН-2,8 або водоналивними котками 3КВГ-1,4 з
+  одночасним боронуванням. Коткування можна здійснювати одночасно з сівбою. На
+  вологому ґрунті післяпосівне коткування не потрібне. Коли після сівби
+  випадають зливові дощі і утворюється кірка. Ґрунтову кірку до появи сходів
+  знищують легкими зубовими боронами ЗОР-0,7 або посівними ЗБП-0,6, на важких
+  ґрунтах застосовують середні борони БЗСС-1,0 або ротаційну мо­тику РБ-5,4.
+  Боронування проводять впоперек рядків або по діагоналі до рядків.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Ефективне також боронування
+  у фазі першого справжньо­го листка. Боронують обережно в пізні години дня,
+  коли тургор рослин зменшиться і вони менше пошкоджуються.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На широкорядних посівах
+  після з’явлення сходів у фазі першого-другого справжнього листка необхідно </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>розпушувати</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>грунт на глибину 4…6 см</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> культиваторами
+  з лапами-бритвами (</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>агрегат МТЗ-80+УСМК-5,4Б</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>). </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:red'>Вдруге грунт обробляють</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> у фазі бутонізації гречки </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>на глибину 10…12 см</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> культиваторами
+  обладнаними лише стрілчатими лапами або в поєднанні з лапами-долотами.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час другого міжрядного
+  обробітку проводять підживлення круп’яних культур мінеральними добривами.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>З метою кращого запилення
+  гречки на початку її цвітіння на поле вивозять бджоли з розрахунку 3…4
+  бджолосім’ї на один гектар посіву. Обов’язковим є комплекс заходів хімічного
+  захисту від бур’янів, хвороб і шкідників.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:green'>При догляді за посівами
+  проса, при наявності бур’янів,</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> для їх
+  знищення  застосовують гербіциди 2,4Д, 2М-4Х. Гер­біцидом 2,4Д обробляють
+  просо двічі: перший раз у фазі 2…3 лист­ків, витрачаючи 1,5…2,0 кг/га
+  препарату, другий – у фазі повторного кущення нормою 2,0…2,5 кг/га;
+  гербіцидом 2М-4Х – у фазі кущення нормою 1,5…2,0 кг/га.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>Для знищення бур'янів у посівах вівса</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> використовують такі гербіциди: агрітокс; базагран М; базагран
+  хіт; 2,4Д; 2М-4Х; діален; дікопур; ковбой; лонтрел, банвел, луварам.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Захист від хвороб</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Овес сильніше
+  уражується хворобами при пізніх строках сівби. Від низки хвороб на ранніх
+  стадіях росту захищає протруювання насіння. Для гарантованого одержання
+  високих урожаїв рекомендується обприскувати посіви в період вегетації.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Боротьба зі шкідниками</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp; Овес вирощується на
+  незначних посівних площах і його технологія менш інтенсифікована порівняно з
+  озимою пшеницею та ярим ячменем. Це обмежує розмноження та поширення
+  специфічно вівсяних шкідників.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>   Найнебезпечнішими
+  шкідниками цієї культури є шведська муха, стеблові блішки, хлібна п'явиця,
+  злакові попелиці, вівсяний трипс. Для боротьби з ними використовують Бі-58
+  новий, діметрин, пілармакс, політрин.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед роботою по догляду за
+  круп’яними культурами поле оглядають, виявлені перешкоди усувають. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Основний спосіб руху – човниковий. </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>Для проведення міжрядного обробітку відмічають вішкою перше
+  стикове міжряддя.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якість сівби контролюють
+  агроном і тракторист на початку роботи і на протязі зміни.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3107><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>7 Збирання </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>проса, гречки і машинні агрегати</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'> </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Технологія збирання врожаю <b><u>гречки</u></b></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> має свої особливості на відмінну від зернових культур. Достигає
+  її врожай протягом 25…35днів. Гречці властиві висока вологість надземної
+  маси, різноярусність і нерівномірність достигання, схильність до вилягання і
+  осипання. Тому скошують її у валки, коли достигне 75…80% плодів. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Збирають врожай переважно роздільним способом, лише в окремих
+  випадках при перестоюванні, коли рослини втрачають листки, вдаються до
+  прямого комбайнування.</span><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> При роздільному способі
+  пластичні речовини швидше відтікають із стебел і листків у зерно, завдяки
+  чому зелені плоди достигають, а щуплі стають більш виповненими. В посушливих
+  умовах Степу велике осипання гречки спостерігається вже при 92 % стиглих
+  зерен. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Неполеглу гречку скошують
+  жатками ЖВС-6, ЖВН-6А, ЖНС-6-12, високорослу (понад 80
+   см) – ЖРС-4,9А, ЖШН-6А, полеглу – ЖРБ-4,2, ЖСК-4А, ЖНУ-4,0, низькорослу –
+  ЖВР-10. Скошувати гречку у валки можна також  жатками ВАТ «Бердянські жатки»
+  типу ЖВП шириною захвату 9,1; 7,6; 6,4 і 4,9
+   м в агрегаті з тракторами класу 1,4, жатками ЖВН-6Б-01, ЖБВ-4,2 і ЖБВ-5 до
+  косарок-плющилок типу КПС-5Г (Е-303, Е-304).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для підбирання валків
+  використовують комбайни СК-5М, СК-6-П, «Дон-1500», АСROS,  КЗС-9 «Славутич»,
+  «Дніпро», «Обрій», «Клаас», «Кейс», «Джон Дір». Вибір зернозбиральних
+  комбайнів того чи іншого виробника за продуктивністю обумовлюється обсягом
+  збиральних робіт, ціною, надійністю і технічним сервісом. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>Перевагу слід надавати роторним комбайнам, які порівняно з
+  класичними (барабанними) забезпечують значно менше дроблення і
+  мікропошкодження зерна гречки.</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=UK style='font-size:14.0pt;font-family:
+  "Times New Roman",serif'>(<u><span style='color:blue'><a
+  href="http://www.agro-business.com.ua/agrobusiness/technology/480-mekhanizatsiia-vyroschuvannia-grechky.html">http://www.agro-business.com.ua/agrobusiness/technology/480-mekhanizatsiia-vyroschuvannia-grechky.html</a></span></u>)</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підбирають валки
+  підбирачами транспортерного типу ППТ-3А або ПГТ-4 і пристроєм ПКК-5.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Однофазний спосіб (пряме
+  комбайнуван­ня) використовують лише тоді, коли гречка дуже низькоросла і дуже
+  зріджена, а також тоді, коли за дощової погоди її не можна своєчасно скосити
+  у валки.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><b><u><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>Просо</span></u></b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'> дозріває нерівномірно</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>: першим
+  дозріває зерно у верхній частині волоті, потім – у середній та нижній. У
+  зв'язку з неодночасним достиганням зерен у різних частинах волоті, схильності
+  до осипання та через підвищену вологість всієї рослинної маси </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>збирання проводиться роздільним способом</span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>. Коли достигання досягає 80…85% зерна, косять жатками ЖВС-6,
+  ЖРБ-4,9 – які агрегатуються з тракторами МТЗ-80, МТЗ-82, ЮМЗ-6, а також начіпними
+  жатками ЖВР-10, ЖВН-6А, ЖРБ-4,2, ЖСБ-4,2 з комбайнами СК-5М «Нива» та іншими.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підбирають і обмолочують
+  валки зернозбиральними комбайнами.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Складність збирання <b><u>вівса</u></b></span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> зумовлюється нерівномірністю достигання зерна у волоті.
+  Очікування повної стиглості в усій волоті призводить до висипання зерна з
+  верхньої частини її. Передчасне збирання теж небажане, бо можна одержати
+  неповноцінне насіння. Крім того, вегетативна маса вівса висихає пізніше, ніж
+  зерно, і при підвищеній вологості ускладнюється вимолочування. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Тому овес рекомендується збирати лише роздільним способом</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>. Збирання врожаю починають тоді, коли зерно у верхній частині
+  волоті досягне повної, а в середній воскової стиглості. При роздільному
+  збиранні дещо збільшується врожай завдяки підвищенню маси зерен у нижній
+  частині волоті, які запізнюються з розвитком.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> Лише на чистих від
+  бур'янів площах, на низькорослих чи зріджених посівах, допускається збирання
+  вівса прямим комбайнуванням.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> Для скошування у валки
+  використовують начіпні жатки ЖВН-6А, ЖНС-6-12, ЖВР-10 і самохідні УСК-17
+  «Степ», а також ЖВН-6А-01 і ЖВР-10-03 – на базі енергозасобу КПС-5М. При
+  формуванні подвійних і спарених валків не слід допускати в них зустрічного
+  розташування волотей.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підбір і обмолот валків
+  здійснюють зернозбиральними комбайнами СК-5М «Нива», СК-6А «Колос»,
+  «Єнісей-1200» і «Дон», «Лан», «Славутич». Комбайни варто обладнати
+  полотняно-транспортними підбирачами типу ППТ-3А.<br>
+  <br>
+  </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3108><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>8 Агротехнічні вимоги до</span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'> збирання проса, гречки</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Щоб за­побігти обсипанню
+  найбільш цінного достиглого зерна, до </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:red'>розділь­ного
+  збирання гречки</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> приступають при побурінні 75…80
+  % плодів. Доцільно гречку скосити, коли відносна вологість повітря не менше
+  50%, а також у хмарну погоду.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Висота скошування 15…20см,
+  а при високому стеблистої (понад 80см) –до 25см. На такій стерні валок швидко
+  просушується. Валки на звичайних рядкових посівах укладають впоперек або під
+  кутом до напрямку посіву на широкорядних – тільки впоперек. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Залежно від величини та
+  вологості скошеної маси і метеорологічних факторів гречка у валках перебуває
+  3…5 днів. Обмолот починають коли вологість зерна становить 16…18 %, стебел і
+  листків – 30…35 %.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Просо скошують у валки</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>, коли в більшості волотей достигне 80…85 % зерна. Висота
+  скошування низькорослих (до 90см) – 12…15см, високорослих (понад 110см) –
+  20см, швидкість руху на звичайних рядкових посівах – 9,5…10,0 км/год., на
+  широкорядних – 7,5…8,0 км/год.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Скошування завершити за 3…4
+  дні.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підбирають і обмолочують
+  валки через 3…5 днів, коли вологість зерна зменшиться до 15…16%, і завершують
+  збирання за 3…5 днів. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>круп’яних культур</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'> подрібнення
+  насіннєвого матеріалу не повинно бути більше 3%. Чистота зерна в бункері має
+  бути не нижче 95%. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>До скошування </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>вівса</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> у валки приступають, коли
+  вологість зерна на корені знижується до 35%. При 17…18% вологості зерна
+  роздільне збирання припиняють і переходять на пряме комбайнування.&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Забирають врожай в
+  оптимальні, стислі терміни без втрат зерна та його якості як прямим
+  комбайнуванням при рівномірному дозріванні і на чистих від бур'янів полях,
+  так і роздільним способом, при якому висота рослин повинна бути не менше 60
+   см.&nbsp;</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т3109><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>9 Технологічне </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>налагодження збиральних агрегатів. Підготовка поля</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Для збирання високорослої
+  гречки</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> (понад 80
+   см) на жатку встановлюють розподільник. Частота обертання мотовила має бути
+  такою, щоб лопаті активно підводили стебла до різального апарата, але не сповзали
+  по них. По висоті мотовило встановлюють так, щоб лопаті захоплювали стебла на
+  висоту 3/4…2/3 їх довжини від лінії зрізування. При скошуванні полеглої
+  гречки з мотовила знімають лопаті, граблини встановлюють під кутом 15 або 30°
+  назад, мотовило опускають в крайнє нижнє положення і виносять вперед.
+  Різальний апарат має бути добре відрегульований.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Краще скошувати гречку в
+  ранкові години, не рекомендується збирати її в жарку погоду. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Валки підбирають і
+  обмолочують зернозбиральними комбайнами СК- 5М, СКД-6, ДОН-1200, ДОН-1500,
+  обладнаними пристроєм ПКК-5 з копнувачем (при підвищеній вологості) або з
+  подрібнювачем. Щоб запобігти втратам зерна комбайни перевіряють і ущільнюють
+  всі щілини на шляху зерна від жатки до бункера. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Частоту обертання барабану
+  зменшують до 450…500 хв<sup>-1</sup>, зазори між барабаном і підбарабанням:
+  на вході – 18 мм, на виході – 8 мм. У комбайнів СК-5 і СКД-6 шківи барабану і
+  котрприводу міняють місцями.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При підбиранні валків проса
+  </span><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:red'>оберти молотильного барабану встановлюють
+  700…800 хв<sup>-1</sup>. Зазор між барабаном і підбарабанням на вході 12…18,
+  а на виході 4…7мм.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>При підбиранні валків вівса
+  </span><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
+  "Tahoma",sans-serif;color:red'>оберти молотильного барабану встановлюють
+  900…1000 хв<sup>-1</sup>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%;background:white'><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:red'>Додатково</span><b><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>: </span></b><u><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:blue'><a
+  href="http://oplib.ru/random/view/1020039">http://oplib.ru/random/view/1020039</a></span></u></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Підготовка поля</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Поле попередньо оглядають,
+  виявлені перешкоди для збирання відмічають або огороджують. Потім поле ділять
+  на загінки і обкошують його межі, роблять прокоси на поворотній смузі і між
+  загінками, у разі потреби здійснюють кутові прокоси або транспортні
+  магістралі.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Для комбайнового збирання і
+  роботи машин для скошування поле ділять так, щоб ширина загінки була в 5…8
+  разів меншою за довжину. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Поворотні смуги передбачаються
+  тільки у тих випадках, коли виїзд агрегату за межі поля не можливий. Ширина
+  поворотних смуг для жаток ЖРС-4,9А становить – 10…12 м, для жаток ЖВН-6А –
+  14…15 м.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:red'>Спосіб руху агрегатів</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> встановлюють на основі розмірів і конфігурації поля, визначеного
+  напряму руху, характеристик машин, вимог до формування валка тощо. </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>При скошуванні застосовують переважно гоновий спосіб</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> </span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:red'>руху за ходом годинникової
+  стрілки,</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:green'>гоновий з розширенням прокосів і рухом проти годинникової
+  стрілки,</span><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:black'> </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>а при прямому комбайнуванні – вкругову і гонові.</span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Найбільша продуктивність
+  комбайнів буває при організації збирально-транспортного комплексу. Такий
+  комплекс маже мати кілька загонів. Збирально-транспортний загін для
+  потокового збирання і післязбиральної обробки зерна, наприклад, має такі
+  ланки: підготовка полів до збирання, збирально-транспортні, для очищення і
+  зерна, технічного обслуговування, контролю якості механізованих робіт. При
+  оптимізації розмірів комплексу слід урахувати три групи визначальних факторів:
+  умови роботи; організаційно-технологічні параметри; вихідні показники
+  комплексу (агротехнологічні і економічні).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>   Розмір комплексу
+  визначають за кількістю основних агрегатів, що входять до його складу. Всі
+  інші агрегати комплексу вважаються веденими або обслуговуючими. Основою до
+  розрахунку розмірів комплексів є вимоги виконання потрібного обсягу робіт і
+  встановлені агростроки:</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  167.4pt;line-height:150%'><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>n</span><sub><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>агр</span></sub><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> = </span><span lang=EN-US
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>&#937;</span><sub><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>фіз</span></sub><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> / </span><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>W</span><sub><span lang=UK
+  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>агр</span></sub><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> &#8729; </span><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>K</span><sub><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>зм</span></sub><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'> &#8729; </span><span lang=EN-US style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>D</span><sub><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>р</span></sub><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> &#8729; </span><span
+  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>K</span><sub><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>п.уб</span></sub><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:black'>,                                                        <sub>       </sub>(3.10.2)<sub>                                        
+  </sub></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=UK style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>де п<sub>агр</sub> –
+  кількість основних агрегатів; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>    &#937;<sub>фіз</sub> –
+  обсяг робіт, фізичних га; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>   W<sub>агр</sub> –
+  середня змінна продуктивність одного агрегату;  </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>    К<sub>зм</sub> –
+  коефіцієнт змінності; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>    D<sub>р</sub> –
+  кількість робочих днів; </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>    К<sub>п.у</sub> –
+  коефіцієнт погодних умов.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т31011><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>10 Контроль </span></a><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>і оцінювання якості роботи</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якість збиральних робіт
+  оцінюють за розміром допустимих втрат. При скошуванні у валки якість роботи
+  жатки оцінюють за такими показниками, як висота зрізу, стан сформованого
+  валка, втрати зерна й колосків.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Середню висоту зрізу стебел
+  визначають вимірюванням стерні не менш як у десяти місцях. За різницею між
+  найбільшою і найменшою висотою стерні роблять висновок про рівномірність
+  висоти зрізування.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Втрати зерна після жатки
+  визначають за кількістю втрачених зерен на      1
+   м<sup>2</sup>. Зважуванням втрачених зерен обчислюють втрати на 1
+   га та в процентах до врожаю.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Якість скошування круп’яних
+  культур оцінюють за 9-бальною системою: 8...9 балів – «відмінно», 6...7 –
+  «добре», 4...5 – «задовільно», 3 бали і менше – «незадовільно». </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:red'>Якщо втрати зерна перевищують норму, то незалежно від інших
+  показників роботу бракують</span><span lang=UK style='font-size:8.0pt;
+  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Припустимі втрати зерна (з
+  урахуванням зональних умов) установлює головний агроном господарства з таким
+  розрахунком, щоб загальні втрати (за збиральними машинами і від самопадіння
+  внаслідок перестою хлібів) були мінімальними. При цьому можна керуватися зональними
+  операційними технологіями і методичними вказівками.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><a name=Т31013><span lang=UK style='font-size:8.0pt;line-height:150%;
+  font-family:"Tahoma",sans-serif;color:#2B587A'>&nbsp;</span></a></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>11 Заходи з охорони </span><span lang=UK style='font-size:
+  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:#2B587A'>праці
+  під час збирання круп’яних культур</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><b><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:blue'>&nbsp;</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Розпочинати роботу можна
+  лише тоді, коли шляхом повного огляду і регулювання впевнитись в повній
+  справності всього агрегату. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед рушанням з місця
+  обов’язково попередити про це сигналом всіх оточуючих робітників, що в цей
+  час знаходяться на полі. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час роботи на протязі
+  всього часу тримати у порядку робоче місце. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Забороняється сходити і
+  сідати в трактор при його русі. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Категорично забороняється
+  вимикати на спусках зчеплення або передачу. Під час руху під ухил обов’язково
+  вмикати першу передачу. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час перемикання
+  швидкостей необхідно обов’язково загальмувати трактор. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час руху на підйом
+  перемикати швидкості забороняється. Всі операції по огляду, очищуванні,
+  ремонті і регулюванню вузлів і механізмів як трактора, так і
+  сільськогосподарської машини повинні проводитись при вимкненому двигуні. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Очищення робочих органів
+  проводиться обережно, враховуючи можливість самовільного опускання різальної
+  частини в разі аварії гідропідіймача. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед курінням, прийманням
+  їжі, води потрібно зняти спецодяг. Ретельно вимити з милом руки і обличчя,
+  прополоскати ротову порожнину водою. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час дозрівання хлібів
+  підвищується небезпека виникнення пожеж на полях. Відомо, що суха хлібна маса
+  (вологість 7…7,5 %) може загорітися від температури 150…200°С. Вогонь, що
+  виник від певного конкретного джерела, завдяки вітру, певному розміщенню в
+  зоні горіння хлібостою, інтенсивному висиханню хлібної маси, що наближена до
+  зони горіння та іншим факторам, поширюється по полю з великою швидкістю
+  (15…18 м/хв., а при сухій погоді і сильному вітрі 400…500 м/хв.).</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Джерелами загоряння
+  найчастіше бувають іскри випускних труб двигунів внутрішнього згоряння,
+  тління солом’яної маси при контакті із розжареними деталями машин, від тертя
+  при намотуванні її на різні деталі, що обертаються, необережне поводження з
+  вогнем людей, які в цей час перебувають на полі.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'> Відповідальність за
+  пожежну безпеку на жнивах покладено на керівників господарств та інших
+  власників. Вони призначають відповідальних за пожежну безпеку з числа
+  спеціалістів, керівників виробництв та окремих працівників.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Працівники, які виділяються
+  на роботу по збиранню врожаю, також повинні бути проінструктовані про основні
+  заходи пожежної безпеки. Для охорони полів у період дозрівання хлібів
+  виділяють дозорних і польових об’їждчиків. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Перед початком жнив усі
+  механізатори здають протипожежний мінімум і отримують атестат з правом
+  виконувати відповідні роботи. Одночасно органи Держпожнагляду перевіряють
+  протипожежний стан машин, обладнання, транспортних засобів.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Усі трактори і самохідні
+  машини, що працюватимуть на жнивах, обладнують іскрогасниками, огородженнями
+  випускних колекторів двигунів, вогнегасником і лопатою, а комбайни – двома
+  вогнегасниками, двома лопатами, двома міцними мітлами (швабрами), кошмою
+  (брезентом), баком з водою місткістю 40…50 л і заземлюючим пристроєм. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Кожний автомобіль, що
+  транспортує продукцію на полі, обладнують іскрогасником, пінним вогнегасником
+  і штиковою лопатою. Автомобілі-заправники і заправні агрегати, крім цього,
+  повинні мати заземлюючий пристрій і замість пінного вогнегасника –
+  вуглекислотний.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На початку дозрівання
+  хлібів поля, що прилягають до лісних масивів, торф’яників, залізниць,
+  автомобільних шляхів, обкошують і оборюють смугою завширшки не менше 4
+   м. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Хлібні масиви великих
+  розмірів розділяють на ділянки, площа яких не перевищує змінної норми для
+  комбайна, але не більш як 50га. Між ділянками роблять прокоси завширшки не
+  менше 8м, зразу ж збирають цей хліб і посередині прокосу проорюють смугу
+  шириною не менше 4 м. Безпосередньо на хлібному полі площею понад 25
+   га, з якого збирається врожай, необхідно мати напоготові трактор з плугом на
+  випадок пожежі. Вся сільськогосподарська техніка, що залучається до збирання
+  врожаю та перевезення зерна, повинна мати справні іскрогасники та засоби
+  пожежогасіння.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Тимчасові майданчики для
+  стоянки тракторів і комбайнів очищають від стерні, соломи, оборюють смугою
+  шириною 4 м. Їх розміщують на віддалі не менш як 100
+   м від будівель, токів і хлібних масивів. Тимчасові польові стани необхідно
+  розміщувати не ближче 100 м від хлібних масивів, токів, скирт. Майданчики,
+  відведені для польових станів, обкошуються смугою завширшки не менше 4
+   м.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>На польових станах,
+  зерноочисних токах і на ділянках скиртування сіна й соломи повинні бути відведені
+  обладнанні місця для куріння з написами «Місце для куріння». </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Курити, виконувати роботи
+  із застосуванням відкритого вогню в хлібних масивах і поблизу них, біля скирт
+  сіна й соломи забороняється. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Під час роботи на машинах
+  уважно стежать, щоб не протікало паливо і мастильні матеріали, справними були
+  іскрогасники і випускні труби двигунів, не виникали іскри в системах
+  електрообладнання, клеми акумуляторів були закриті ковпаками, а акумуляторні
+  батареї – кришками. Періодично іскрогасники і випускні труби очищають від
+  нагару. </span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+  1.0cm;line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:
+  150%;font-family:"Tahoma",sans-serif;color:black'>Безпосередньо біля хлібних
+  масивів необхідно передбачати трактор з плугом в робочому стані на випадок
+  пожежі.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><b><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>Питання для самоконтролю</span></b></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>1. Дати характеристику існуючим технологіями виробництва
+  круп’яних культур</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>2. Розкрити особливості підготовки ґрунту до посіву круп’яних
+  культур</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>3. Дайте характеристику комплексу машин для підготовки ґрунту
+  до посіву круп’яних культур</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>4. Які основні агронормативи при посіві круп’яних культур?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>5. Комплекс машин для сівби круп’яних культур</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>6. Як провести технологічне налагоджування посівного агрегату?</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'> 7. Охарактеризуйте операції догляду за круп’яними культурами.
+  Комплекс машин.</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>8. Розкрийте особливості збирання круп’яних культур. Вибір
+  комплексу машин для збирання</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>9. Назвіть основні агронормативи і допуски при збиранні</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
+  color:#2B587A'>10. Які особливості технологічної наладки комбайна для
+  збирання круп’яних культур?  </span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;text-indent:35.45pt;line-height:normal'><span lang=UK
+  style='font-size:14.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:
+  150%'><span style='font-size:10.0pt;line-height:150%'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:22.7pt'>
+  <td width=133 style='width:99.8pt;border:none;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>&nbsp;</span></p>
+  </td>
+  <td width=212 style='width:159.2pt;border-top:none;border-left:none;
+  border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:18.15pt;margin-bottom:.0001pt;text-indent:-16.45pt;line-height:
+  normal'><span lang=UK style='font-size:8.0pt;font-family:"Tahoma",sans-serif;
+  color:#2B587A'><a href="tema3-5.htm">Попередня тема</a></span></p>
+  </td>
+  <td width=211 style='width:158.55pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:16.45pt;margin-bottom:.0001pt;text-align:center;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'><a href="../zmist_book.html">Зміст</a></span></p>
+  </td>
+  <td width=212 style='width:158.95pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt'>
+  <p class=MsoNormal align=right style='margin-top:0cm;margin-right:1.55pt;
+  margin-bottom:0cm;margin-left:18.15pt;margin-bottom:.0001pt;text-align:right;
+  text-indent:-16.45pt;line-height:normal'><span lang=UK style='font-size:8.0pt;
+  font-family:"Tahoma",sans-serif;color:#2B587A'><a href="tema3-7.htm">Наступна тема</a></span></p>
+  </td>
+ </tr>
+ <tr style='height:1.0cm'>
+  <td width=794 colspan=4 style='width:21.0cm;border:none;border-right:solid #D9E0E7 1.0pt;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>© 2017 ДУ
+  «Науково-методичний центр інформаційно-аналітичного забезпечення діяльності
+  ВНЗ «Агроосвіта»</span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal'><span lang=UK
+  style='font-size:8.0pt;font-family:"Tahoma",sans-serif;color:white'>03151, м.
+  Київ, вул. Смілянська, 11</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
+</body>
+
+</html>
