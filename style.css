@@ -39,7 +39,8 @@ header {
             background: #E9EDF1;
             float: right;
             width: 17.48cm;
-            height: 1cm;
+            min-height: 1cm;
+            max-height: 2cm;
             font-family: Tahoma;
             font-weight: bold;
             font-size: 8pt;
@@ -189,24 +190,32 @@ p.table_name {
 
 table {
     display: table;
-    width: 15cm;
+    max-width: 15cm;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #000;
-    border-spacing: 0;
+    border-collapse: collapse;
+    
 
     
 }
 
-td {
-      border-right: 1px solid #000;
+th, td {
+      border: 1px solid #000;
       padding: 5px;
-      font-weight: normal;
       line-height: 1;
 }
 
-   
-  
+tr:hover {
+      background-color: #E9EDF1;
+}   
+
+caption {
+      caption-side: top;
+      color: #5B7FA6;
+      font-size: 8pt;
+      font-weight: bold;
+      text-align: center;      
+}  
 
 p.image {
       color: #5B7FA6;

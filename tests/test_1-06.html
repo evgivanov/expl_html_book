@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Тест 1.6</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
   </head>
   <body>
     <div id="container">
@@ -155,25 +156,25 @@ function showhide(obj){
 </ul>
 </div>
 <form name="test"><ol>
-<li><INPUT type="text" size="1" value="" name="T1"/><b> Що визначається за вказаними формулою: ??????</b><br/>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> Що визначається за вказаною формулою: \(\displaystyle  \frac{R_{агр}}{P_{гак}^н}\)</b><br/>
 <input type="radio" value="0" name="Q1"/> максимальна ширина захвату<br />
 <input type="radio" value="1" name="Q1"/> коефіцієнт використання тягового зусилля<br />
 <input type="radio" value="2" name="Q1"/> тяговий опір одного корпуса плуга<br />
 <input type="radio" value="3" name="Q1"/> кількість машин в агрегаті<br />
 <input type="radio" value="4" name="Q1"/> кількість корпусів плуга<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Що визначається за вказаними формулою: ????????</b><br/>
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Що визначається за вказаною формулою: \(\displaystyle  \frac{P_{гак}^н}{R_{к}}\)</b><br/>
 <input type="radio" value="0" name="Q2"/> максимальна ширина захвату<br />
 <input type="radio" value="1" name="Q2"/> коефіцієнт використання тягового зусилля<br />
 <input type="radio" value="2" name="Q2"/> тяговий опір одного корпуса плуга<br />
 <input type="radio" value="3" name="Q2"/> кількість машин в агрегаті<br />
 <input type="radio" value="4" name="Q2"/> кількість корпусів плуга<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> Що визначається за вказаними формулою: ?????????</b><br/>
+<br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> Що визначається за вказаною формулою: \(\displaystyle  \frac{{P_{гак}^н} - {R_{зч}}}{k}\)</b><br/>
 <input type="radio" value="0" name="Q3"/> максимальна ширина захвату<br />
 <input type="radio" value="1" name="Q3"/> коефіцієнт використання тягового зусилля<br />
 <input type="radio" value="2" name="Q3"/> тяговий опір одного корпуса плуга<br />
 <input type="radio" value="3" name="Q3"/> кількість машин в агрегаті<br />
 <input type="radio" value="4" name="Q3"/> кількість корпусів плуга<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> Що визначається за вказаними формулою: ????????</b><br/>
+<br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> Що визначається за вказаною формулою: \(\displaystyle \frac{B_{max}}{B_{к}}\)</b><br/>
 <input type="radio" value="0" name="Q4"/> максимальна ширина захвату<br />
 <input type="radio" value="1" name="Q4"/> коефіцієнт використання тягового зусилля<br />
 <input type="radio" value="2" name="Q4"/> тяговий опір одного корпуса плуга<br />
@@ -197,17 +198,17 @@ function showhide(obj){
 <input type="radio" value="2" name="Q7"/> радіус повороту<br />
 <input type="radio" value="3" name="Q7"/> секундна подача маси в машину<br />
 <input type="radio" value="4" name="Q7"/> питома потужність<br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> Назвіть показник h, наведений у формулі ???????  для визначення радіуса кочення?</b><br/>
+<br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> Назвіть показник \(h\), наведений у формулі \(r_{k}=r_{0}+h\cdot\lambda\)  для визначення радіуса кочення?</b><br/>
 <input type="radio" value="0" name="Q8"/> висота профілю шини<br />
 <input type="radio" value="1" name="Q8"/> ширина шини<br />
 <input type="radio" value="2" name="Q8"/> глибина погруження шини у грунт<br />
 <input type="radio" value="3" name="Q8"/> величина прогинання шини<br />
 <input type="radio" value="4" name="Q8"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T9"/><b> В яких одиницях вимірюється опір тягово-привідного агрегату?</b><br/>
-<input type="radio" value="0" name="Q9"/> кН/м<br />
+<input type="radio" value="0" name="Q9"/> \(кН/м\)<br />
 <input type="radio" value="1" name="Q9"/> кВт<br />
 <input type="radio" value="2" name="Q9"/> кН<br />
-<input type="radio" value="3" name="Q9"/> кН/м2<br />
+<input type="radio" value="3" name="Q9"/> \(кН/м^2\)<br />
 <input type="radio" value="4" name="Q9"/> кПа<br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T10"/><b> Вкажіть нормальні значення коефіцієнта використання тягового зусилля для лущення дисковими лущильниками</b><br/>
 <input type="radio" value="0" name="Q10"/> 0,88…0,90<br />
@@ -215,7 +216,7 @@ function showhide(obj){
 <input type="radio" value="2" name="Q10"/> 0,94…0,96<br />
 <input type="radio" value="3" name="Q10"/> 0,98…0,99<br />
 <input type="radio" value="4" name="Q10"/> <br />
-<br/></li><li><INPUT type="text" size="1" value="" name="T11"/><b> Вкажіть раціональні значення використання тягового зусилля енергетичного засобу (ηвтз????????) при проведенні суцільної культивації?</b><br/>
+<br/></li><li><INPUT type="text" size="1" value="" name="T11"/><b> Вкажіть раціональні значення використання тягового зусилля енергетичного засобу (\(\eta_{ВТЗ}\)) при проведенні суцільної культивації?</b><br/>
 <input type="radio" value="0" name="Q11"/> 0,8–0,9<br />
 <input type="radio" value="1" name="Q11"/> 0,92–0,94<br />
 <input type="radio" value="2" name="Q11"/> 0,98–0,99<br />
