@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Тест 2.2</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
   </head>
   <body>
     <div id="container">
@@ -156,11 +157,11 @@ function showhide(obj){
 </div>
 <form name="test"><ol>
 <li><INPUT type="text" size="1" value="" name="T1"/><b> За якою формулою визначається коефіцієнт використання вантажопідйомності за рейс?</b><br/>
-<input type="radio" value="0" name="Q1"/> Кг = тд.е.: т<br />
-<input type="radio" value="1" name="Q1"/> ?в = Qф : gн<br />
-<input type="radio" value="2" name="Q1"/> ? = Lв : (Lв+Lх)<br />
-<input type="radio" value="3" name="Q1"/> ?в = tв : Тзм<br />
-<input type="radio" value="4" name="Q1"/> vт = L : tрух<br />
+<input type="radio" value="0" name="Q1"/> \(K_{Г}=m_{д.е.} / m\)<br />
+<input type="radio" value="1" name="Q1"/> \(\alpha_{В}=Q_{ф} / g_{н}\)<br />
+<input type="radio" value="2" name="Q1"/> \(\varphi=L_{В} / {(L_{В}+L_{Х})}\)<br />
+<input type="radio" value="3" name="Q1"/> \(\tau_{В}=t_{В} / T_{зм}\)<br />
+<input type="radio" value="4" name="Q1"/> \(V_{T}=L / t_{рух}\)<br />
 <input type="radio" value="5" name="Q1"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Чи залежить кількість тонно-кілометрів від відстані, пройденої автомобілем?</b><br/>
 <input type="radio" value="0" name="Q2"/> Залежить, якщо відстань більше 5 км<br />
@@ -191,18 +192,18 @@ function showhide(obj){
 <input type="radio" value="4" name="Q5"/> Не залежить<br />
 <input type="radio" value="5" name="Q5"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T6"/><b> За якою формулою визначається коефіцієнт використання пробігу?</b><br/>
-<input type="radio" value="0" name="Q6"/> Кт.г. = Адс : Ад.гос<br />
-<input type="radio" value="1" name="Q6"/> ?в = Qф : gн<br />
-<input type="radio" value="2" name="Q6"/> ? = Lв : (Lв+Lх)<br />
-<input type="radio" value="3" name="Q6"/> ?в = tв : Тзм<br />
-<input type="radio" value="4" name="Q6"/> vт = L : tрух<br />
+<input type="radio" value="0" name="Q6"/> \(K_{Т.Г.}=А_{д.с.} / А_{д.гос.}\)<br />
+<input type="radio" value="1" name="Q6"/> \(\alpha_{В}=Q_{ф} / g_{н}\)<br />
+<input type="radio" value="2" name="Q6"/> \(\varphi=L_{В} / {(L_{В}+L_{Х})}\)<br />
+<input type="radio" value="3" name="Q6"/> \(\tau_{В}=t_{В} / T_{зм}\)<br />
+<input type="radio" value="4" name="Q6"/> \(V_{T}=L / t_{рух}\)<br />
 <input type="radio" value="5" name="Q6"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T7"/><b> За якою формулою визначається коефіцієнт технічної готовності парку?</b><br/>
-<input type="radio" value="0" name="Q7"/> Кт.г. = Ад.с. : Ад.гос<br />
-<input type="radio" value="1" name="Q7"/> Кв.п. = Ад.р.: Ад.гос<br />
-<input type="radio" value="2" name="Q7"/> ? = Lв : (Lв+Lх)<br />
-<input type="radio" value="3" name="Q7"/> ?в = tв : Тзм<br />
-<input type="radio" value="4" name="Q7"/> vт = L : tрух<br />
+<input type="radio" value="0" name="Q7"/> \(K_{Т.Г.}=А_{д.с.} / А_{д.гос.}\)<br />
+<input type="radio" value="1" name="Q7"/> \(K_{В.П.}=А_{д.р.} / А_{д.гос.}\)<br />
+<input type="radio" value="2" name="Q7"/> \(\varphi=L_{В} / {(L_{В}+L_{Х})}\)<br />
+<input type="radio" value="3" name="Q7"/> \(\tau_{В}=t_{В} / T_{зм}\)<br />
+<input type="radio" value="4" name="Q7"/> \(V_{T}=L / t_{рух}\)<br />
 <input type="radio" value="5" name="Q7"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> За якими показниками оцінюється робота транспорту?</b><br/>
 <input type="radio" value="0" name="Q8"/> швидкістю руху, коефіцієнтом технічної готовності<br />
@@ -212,11 +213,11 @@ function showhide(obj){
 <input type="radio" value="4" name="Q8"/> <br />
 <input type="radio" value="5" name="Q8"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T9"/><b> За якою формулою визначається коефіцієнт використання парку?</b><br/>
-<input type="radio" value="0" name="Q9"/> Кт.г. = Ад.с. : Ад.гос<br />
-<input type="radio" value="1" name="Q9"/> Кв.п. = Ад.р.: Ад.гос<br />
-<input type="radio" value="2" name="Q9"/> ? = Lв : (Lв+Lх)<br />
-<input type="radio" value="3" name="Q9"/> ?в = tв : Тзм<br />
-<input type="radio" value="4" name="Q9"/> vт = L : tрух<br />
+<input type="radio" value="0" name="Q9"/> \(K_{Т.Г.}=А_{д.с.} / А_{д.гос.}\)<br />
+<input type="radio" value="1" name="Q9"/> \(K_{В.П.}=А_{д.р.} / А_{д.гос.}\)<br />
+<input type="radio" value="2" name="Q9"/> \(\varphi=L_{В} / {(L_{В}+L_{Х})}\)<br />
+<input type="radio" value="3" name="Q9"/> \(\tau_{В}=t_{В} / T_{зм}\)<br />
+<input type="radio" value="4" name="Q9"/> \(V_{T}=L / t_{рух}\) <br />
 <input type="radio" value="5" name="Q9"/> <br />
 <br/></li><li><INPUT type="text" size="1" value="" name="T10"/><b> Що таке «експлуатаційна швидкість руху»?</b><br/>
 <input type="radio" value="0" name="Q10"/> Швидкість руху агрегату по прямолінійному шляху, рівній горизонтальній поверхні, відсутності буксування<br />
