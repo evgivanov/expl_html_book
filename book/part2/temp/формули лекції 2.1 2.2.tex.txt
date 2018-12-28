@@ -1,0 +1,26 @@
+
+Лекція 2.1
+
+2.1.1  \( \displaystyle E= \frac{Q_{с.д.}}{Q_{с.р.}}\) 
+2.1.2  \( \displaystyle t_{p}=t_{з}+ \frac{L_{в}}{V_{в}}+t_{роз}+t_{оф}+\frac{L_{х}}{V_{х}}\) 
+2.1.3  \( \displaystyle t_{ї.в.}= \frac{L_{в}}{V_{в}}\) 
+          \( \displaystyle t_{ї.х.}= \frac{L_{х}}{V_{х}}\)
+2.1.4   \( \displaystyle \tan \alpha= \frac{BC}{AB}=\frac{L}{t_{ї}}=V_{ї}\) 
+2.1.5   \(G_{б}={V_{б}}\cdot{\gamma_{з}}\cdot\psi\=6\cdot 0,75\cdot 0,95=4,3 т\)
+
+Лекція 2.2
+
+2.2.1  \(\displaystyle K_{Т.Г.}=\frac{А_{д.с.}}{А_{д.гос.}}\)
+2.2.2  \(\displaystyle K_{В.П.}=\frac{А_{д.р.}}{А_{д.с.}}\)
+2.2.3  \(displaystyle K_{е} = \frac{K_{Т.Г.}}{K_{В.П.}}=\frac{А_{д.р.}}{А_{д.гос.}}\)
+2.2.4  \(\displaystyle\tau=\frac{t_{рух}}{T_{зм}}\)
+2.2.5  \(\displaystyle\tau_{в}=\frac{t_{в}}{T_{зм}}\)
+2.2.6  \(\displaystyle \varphi_{n}=\frac{L_{В}}{(L_{заг}}\)
+    де  \(L_{заг}={L_{В}}+{L_{Х}}\)
+2.2.7  \(\displaystyle \alpha_{В}^{ст}=\frac{Q_{ф}}{{g_{н}}\cdot{n_{р}}}\)
+2.2.8  \(\displaystyle \alpha_{В}^д=\frac{\Sigma{Q_{ф}}\cdot{l_{в}}}{{g_{н}}\cdot{m}\cdot{l_{в}}}\)
+2.2.9  \(\displaystyleV_{T}=\frac{l}{t_{рух}}\)  
+2.2.10 \(\displaystyleV_{е}=\frac{l}{t_{н}}\)   
+
+4
+ 
