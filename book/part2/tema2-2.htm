@@ -45,6 +45,49 @@ function topFunction() {
 #myBtn:hover {
   background-color: #555;
 }
+
+body {
+            background: #FFFFFF;
+            color: #000000;
+            font-family: "Tahoma",sans-serif;
+            font-size: 8pt;
+            line-height: 1.5;
+}
+
+p {
+      text-indent: 3em;
+      text-align: justify;
+      line-height: 1.5;
+      font-family: "Tahoma",sans-serif;
+      font-size: 8pt;
+}
+
+table {
+    display: table;
+    max-width: 15cm;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+
+    
+}
+
+th, td {
+      border: 1px solid #000;
+      padding: 5px;
+      line-height: 1;
+}
+
+  
+
+caption {
+      caption-side: top;
+      color: #5B7FA6;
+      font-size: 8pt;
+      font-weight: bold;
+      text-align: center;      
+}  
 <!--
  /* Font Definitions */
  @font-face
@@ -347,14 +390,14 @@ ul
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>Коефіцієнт технічної готовності
   парку:</span></p>
+  <div>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>&nbsp;</span></i></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>К<sub>т.г</sub>= А<sub>д.с.</sub>/ А<sub>д.гос </sub>,</span></i></p>
+  line-height:150%; font-size:8.0pt; color:black'>$$
+    K_{Т.Г.}=\frac{А_{д.с.}}{А_{д.гос.}}
+  $$</p>
+  </div>
+  
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -363,7 +406,7 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>де </span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>А<sub>д.с.</sub></span></i><sub><span
+  style='font-size:10.0pt;line-height:150%;color:black'>\(А_{д.с.}\)</span></i><sub><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> </span></sub><span lang=UK style='font-size:8.0pt;line-height:
   150%;font-family:"Tahoma",sans-serif;color:black'>– кількість автомобіле-днів
@@ -372,17 +415,17 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>    </span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>А<sub>д.гос.</sub></span></i><span
+  style='font-size:10.0pt;line-height:150%;color:black'>\(А_{д.гос.}\)</span></i><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> –  кількість автомобіле-днів перебування в господарстві;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>Цей коефіцієнт повинен бути - </span><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>К<sub>т.г</sub></span></i><sub><span
+  font-family:"Tahoma",sans-serif;color:black'>Цей коефіцієнт повинен бути - </span><span
+  lang=UK style='font-size:8.0pt;line-height:150%;color:black'>\( K_{Т.Г.}= 0,80 \dots 0,85\)</sub></span><sub><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> </span></sub><span lang=UK style='font-size:8.0pt;line-height:
-  150%;font-family:"Tahoma",sans-serif;color:black'> = 080…0,85.</span></p>
+  150%;font-family:"Tahoma",sans-serif;color:black'>.</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -390,12 +433,16 @@ ul
   справного парку:</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><span lang=UK style='font-size:10.0pt;line-height:150%;
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>К<sub>в.п </sub>= А<sub>д.р.</sub>/ А<sub>д.с  </sub>,</span></i></p>
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
+  color:black'>
+ $$
+  K_{В.П.}=\frac{А_{д.р.}}{А_{д.с.}},
+  $$
+</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -403,10 +450,7 @@ ul
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>де А</span><i><sub><span
-  lang=UK style='font-size:8.0pt;line-height:150%;color:black'>д.р.</span></sub></i><sub><span
-  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
-  color:black'> </span></sub><span lang=UK style='font-size:8.0pt;line-height:
+  font-family:"Tahoma",sans-serif;color:black'>де \(А_{д.р.}\)</span><span lang=UK style='font-size:8.0pt;line-height:
   150%;font-family:"Tahoma",sans-serif;color:black'>– кількість автомобіле-днів
   виїзду на роботу;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
@@ -415,9 +459,12 @@ ul
   font-family:"Tahoma",sans-serif;color:black'>Коефіцієнт експлуатації парку:</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>К<sub>е </sub>= К<sub>т.г</sub> · К<sub>в.п </sub>= А<sub>д.р.</sub>/
-  А<sub>гос </sub>,</span></i></p>
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
+  color:black'>
+$$
+K_{е} = {K_{Т.Г.}}\cdot{K_{В.П.}}=\frac{А_{д.р.}}{А_{д.гос.}}.
+$$
+</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -448,13 +495,16 @@ ul
   часу окремого агрегату:</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>&#964;= t<sub>рух</sub>/Т<sub>зм </sub>,</span></i></p>
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
+  color:black'>
+  $$
+  \tau=\frac{t_{рух}}{T_{зм}},
+  $$
+</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>де <i>t</i></span><i><sub><span
-  lang=UK style='font-size:8.0pt;line-height:150%;color:black'>рух</span></sub></i><span
+  font-family:"Tahoma",sans-serif;color:black'>де \(t_{рух}\)</span><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> – час руху агрегату, год.</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
@@ -468,12 +518,16 @@ ul
   руху окремого агрегату з вантажем:</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=UK style='font-size:10.0pt;line-height:150%;
-  color:black'>&#964;<sub>в</sub>= t<sub>в</sub>/Т<sub>зм </sub>,</span></i></p>
+  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
+  color:black'>
+  $$
+  \tau_{в}=\frac{t_{в}}{T_{зм}},
+  $$
+</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>де tв – час руху з вантажем,
+  font-family:"Tahoma",sans-serif;color:black'>де \(t_{в}\) – час руху з вантажем,
   год.</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
@@ -491,23 +545,21 @@ ul
   font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><span style='position:absolute;z-index:251657728;
-  left:0px;margin-left:299px;margin-top:3px;width:2px;height:2px'><img width=2
-  height=2 src="tema2-2.files/image001.png"></span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>&#966;<sub>n</sub></span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>=</span></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> L<sub>в </sub></span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>/</span></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>L<sub>заг </sub></span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>,</span></i></p>
+  line-height:150%'>
+  <span lang=UK
+  style='font-size:8.0pt;line-height:150%;color:black'>
+    $$
+    \varphi_{n}=\frac{L_{В}}{L_{заг}},
+    $$
+  </span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>де </span><i><span lang=UK
-  style='font-size:8.0pt;line-height:150%;color:black'>L<sub>заг</sub></span></i><span
+  font-family:"Tahoma",sans-serif;color:black'>де </span><span lang=UK
+  style='font-size:8.0pt;line-height:150%;color:black'>\(L_{заг}\)</span><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> – загальний пробіг (з вантажем і вхолосту) агрегату, км. </span><i><span
-  lang=UK style='font-size:8.0pt;line-height:150%;color:black'>(L<sub>заг</sub>=L<sub>в</sub>+L<sub>х</sub>)</span></i></p>
+  lang=UK style='font-size:8.0pt;line-height:150%;color:black'>\((L_{заг}={L_{В}}+{L_{Х}})\).</span></i></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -525,14 +577,12 @@ ul
   font-family:"Tahoma",sans-serif;color:black'>&nbsp;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=EN-US style='font-size:10.0pt;line-height:
-  150%;color:black'>&#945;</span></i><i><sup><span lang=UK style='font-size:
-  10.0pt;line-height:150%;color:black'>ст</span></sup></i><i><sub><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>в</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>=</span></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> </span></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>Q<sub>ф </sub>/
-  g<sub>н</sub>·п<sub>р</sub></span></i></p>
+  line-height:150%'><i><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;color:black'>
+    $$
+\alpha_{В}^{ст}=\frac{Q_{ф}}{{g_{н}}\cdot{n_{р}}}
+    $$
+  </span></i></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=EN-US style='font-size:8.0pt;line-height:150%;
@@ -541,21 +591,21 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>де </span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>Q<sub>ф</sub></span></i><span
+  style='font-size:8.0pt;line-height:150%;color:black'>\(Q_{ф}\)</span></i><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> – кількість фактично перевезеного вантажу, т;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>     </span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>g<sub>н</sub></span></i><span
+  style='font-size:10.0pt;line-height:150%;color:black'>\(g_{н}\)</span></i><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
-  color:black'> –номінальна вантажопідйомність, т;</span></p>
+  color:black'> – номінальна вантажопідйомність, т;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>     </span><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>п<sub>р</sub></span></i><span
+  style='font-size:8.0pt;line-height:150%;color:black'>\(n_{р}\)</span></i><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> – кількість рейсів.</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
@@ -575,18 +625,12 @@ ul
   color:black'>&nbsp;</span></i></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><i><span lang=EN-US style='font-size:10.0pt;line-height:
-  150%;color:black'>&#945;</span></i><i><sup><span lang=UK style='font-size:
-  10.0pt;line-height:150%;color:black'>д</span></sup></i><i><sub><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>в</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>= &#8721;Q<sub>ф
-  </sub>·</span></i><i><span lang=EN-US style='font-size:10.0pt;line-height:
-  150%;color:black'>l</span></i><i><sub><span lang=UK style='font-size:10.0pt;
-  line-height:150%;color:black'>в</span></sub></i><i><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'> / g<sub>н</sub>·т·</span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>l</span></i><i><sub><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>в </span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>,</span></i></p>
+  line-height:150%'><span lang=EN-US style='font-size:8.0pt;line-height:
+  150%;color:black'>
+$$
+  \alpha_{В}^д=\frac{\Sigma{Q_{ф}}\cdot{l_{в}}}{{g_{н}}\cdot{m}\cdot{l_{в}}},
+$$
+ </span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -595,13 +639,13 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>де </span><i><span lang=UK
-  style='font-size:8.0pt;line-height:150%;color:black'>т</span></i><span
+  style='font-size:8.0pt;line-height:150%;color:black'>\(m\)</span></i><span
   lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
   color:black'> – інвентарна кількість автомобілів даної марки;</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><i><span lang=UK style='font-size:8.0pt;line-height:150%;
-  color:black'>     l<sub>в</sub></span></i><span lang=UK style='font-size:
+  color:black'>     \(l_{в}\)</span></i><span lang=UK style='font-size:
   8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;color:black'> –
   відстань перевезення вантажу, км.</span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
@@ -612,24 +656,17 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>Середня технічна швидкість – це
-  відношення загального пробігу l до часу руху рухомого складу tрух:</span></p>
+  відношення загального пробігу \(l\) до часу руху рухомого складу \(t_{рух}\):</span></p>
+ 
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>     </span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
-  line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>  </span><i><span lang=EN-US
-  style='font-size:10.0pt;line-height:150%;color:black'>V</span></i><i><sub><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>т</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> = </span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>l</span></i><i><span
-  style='font-size:10.0pt;line-height:150%;color:black'>/</span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>t</span></i><i><sub><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'>рух</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> ,</span></i><i><span
-  lang=UK style='font-size:8.0pt;line-height:150%;color:black'> км/год.</span></i></p>
+  font-family:"Tahoma",sans-serif;color:black'>  </span><span lang=EN-US
+  style='font-size:8.0pt;line-height:150%;color:black'>
+$$
+V_{T}=\frac{l}{t_{рух}},\: км/год.
+$$
+</span> </p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -648,7 +685,7 @@ ul
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
   font-family:"Tahoma",sans-serif;color:black'>по грейдерних дорогах –
-  відповідно 15…18 км/год. і 30…50км/год., </span></p>
+  відповідно 15…18 км/год. і 30…50 км/год., </span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;
@@ -671,16 +708,13 @@ ul
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><i><span lang=UK style='font-size:8.0pt;line-height:150%;
-  color:black'>    </span></i><i><span lang=EN-US style='font-size:10.0pt;
-  line-height:150%;color:black'>V</span></i><i><sub><span lang=UK
-  style='font-size:10.0pt;line-height:150%;color:black'>е</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> = </span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>l</span></i><i><span
-  style='font-size:10.0pt;line-height:150%;color:black'>/</span></i><i><span
-  lang=EN-US style='font-size:10.0pt;line-height:150%;color:black'>t</span></i><i><sub><span
-  style='font-size:10.0pt;line-height:150%;color:black'>н</span></sub></i><i><span
-  lang=UK style='font-size:10.0pt;line-height:150%;color:black'> ,</span></i><i><span
-  lang=UK style='font-size:8.0pt;line-height:150%;color:black'> км/год.</span></i></p>
+  color:black'></span></i><span lang=EN-US style='font-size:8.0pt;
+  line-height:150%;color:black'>
+$$
+V_{е}=\frac{l}{t_{н}},\: км/год.
+$$
+
+ </span></p>
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
   line-height:150%'><span lang=UK style='font-size:8.0pt;line-height:150%;

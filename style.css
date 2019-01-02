@@ -230,7 +230,7 @@ p.image {
 p.image_definition {
       color: #5B7FA6;
       font-size: 8pt;
-      font-weight: normal;
+      font-weight: bold;
       text-align: center;
       line-height: 1.15;
 
@@ -247,6 +247,32 @@ ol {
     list-style-position: decimal outside;
     text-indent: 1em;
 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figure { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption { 
+  display: block;
+  color: #5B7FA6;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.15;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
 }
 
 #myBtn {
