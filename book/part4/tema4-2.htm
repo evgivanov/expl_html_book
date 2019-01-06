@@ -46,6 +46,41 @@ function topFunction() {
 #myBtn:hover {
   background-color: #555;
 }
+
+p.eq {
+  margin-top:0cm;
+  margin-right:14.2pt;
+  margin-bottom:0cm;
+  margin-left:12.25pt;
+  margin-bottom:.0001pt;
+  text-align:justify;
+  text-indent:14.2pt;
+  line-height:150%;
+  font-size:8.0pt;
+  font-family: "Tahoma",sans-serif;
+  color:black;
+}  
+
+p.eqdef {
+  margin-top:0cm;
+  margin-right:14.2pt;
+  margin-bottom:0cm;
+  margin-left:24pt;
+  margin-bottom:.0001pt;
+  text-align:justify;
+  text-indent:14.2pt;
+  line-height:150%;
+  font-size:8.0pt;
+  font-family: "Tahoma",sans-serif;
+  color:black;
+}  
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 <!--
  /* Font Definitions */
  @font-face
@@ -729,22 +764,18 @@ ul
   14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
   150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Середньорічна
   чисельність робітників машинного двору визначається за формулою:</span></p>
-  <p class=Style4 style='margin-top:0cm;margin-right:15.0pt;margin-bottom:0cm;
-  margin-left:17.05pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:150%'><b><span
-  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif;
-  color:black'>Р=Т:В,</span></b><span lang=UK style='font-size:8.0pt;
-  line-height:150%;font-family:"Tahoma",sans-serif;color:black'>                                                                                          
-                                                                     (4.2.1)</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>де
-  <b>Т</b> – загальна річна трудомісткість робіт, люд.-год.;</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
-  "Tahoma",sans-serif'>В</span></b><span lang=UK style='font-size:8.0pt;
-  line-height:150%;font-family:"Tahoma",sans-serif'> – річний фонд часу одного
-  робітника, люд.-год.</span></p>
+
+<p class="eq">
+$$
+P=\frac{T}{B},
+$$
+</p>
+ <p class="eq">де \(Т\) – загальна річна трудомісткість робіт, \(люд. \cdot год \);   </p> 
+ <p class="eqdef">\(В\) – річний фонд часу одного робітника, \(люд. \cdot год \).</p>
+
+
+
+  
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
   150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>На
@@ -756,38 +787,18 @@ ul
   14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
   150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Склад
   робочих за професією визначають за формулою:</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
-  "Tahoma",sans-serif'>Р</span></b><b><sub><span lang=EN-US style='font-size:
-  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></sub></b><b><span
-  lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>=То·К</span></b><b><span
-  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></b><b><span
-  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>:</span></b><b><span
-  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>T</span></b><b><sub><span
-  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>г</span></sub></b><b><sub><span
-  lang=EN-US style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>n</span></sub></b><b><span
-  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>,</span></b><span
-  style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>                                                                                                                                         
-             </span><span lang=UK style='font-size:8.0pt;line-height:150%;
-  font-family:"Tahoma",sans-serif;color:black'>(4.2.2)</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>де
-  <b>Т<sub>о</sub></b> – загальна трудомісткість ремонтно-обслуговуючих робіт
-  за конкретною групою машин, люд.-год.;</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
-  "Tahoma",sans-serif'>К<sub>п</sub></span></b><span lang=UK style='font-size:
-  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'> – коефіцієнт
-  трудомісткості робіт визначеної професії в загальній їх трудомісткості;</span></p>
-  <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
-  150%'><b><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:
-  "Tahoma",sans-serif'>Т<sub>гп</sub></span></b><span lang=UK style='font-size:
-  8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'> – річний фонд
-  робочого часу за конкретною професією, год. </span></p>
+
+
+<p class="eq">
+  $$
+P_{n}=\frac{T_{0}\cdot K_{п}}{T_{гп}},
+  $$
+</p>
+<p class="eq">де \(T_{0}\) – загальна трудомісткість ремонтно-обслуговуючих робіт за конкретною групою машин, \(люд. \cdot год \);</p>
+<p class="eqdef">\(K_{п}\) – коефіцієнт трудомісткості робіт визначеної професії в загальній їх трудомісткості;</p>
+<p class="eqdef">\(T_{гп}\) – річний фонд робочого часу за конкретною професією, год.</p>
+
+  
   <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
   14.2pt;margin-bottom:.0001pt;text-align:justify;text-indent:1.0cm;line-height:
   150%'><span lang=UK style='font-size:8.0pt;line-height:150%;font-family:"Tahoma",sans-serif'>Цим
