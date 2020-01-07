@@ -1,138 +1,228 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  MathJax.InputJax.TeX.Definitions.number =
+    /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\,[0-9]*)*|\,[0-9]+)/
+});
+</script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
     <script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() { scrollFunction() };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-  </head>
-  <body>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+</head>
+
+<body>
     <div id="container">
-      <header>
-        <div id="header_logo">
-          <a href=""><img src="images/logo.jpg" alt="Agroosvita" title="logo"></a>
+        <header>
+            <div id="header_logo">
+                <a href=""><img src="images/logow1.png" alt="Agroosvita" title="logo" height="33px"></a>
+            </div>
+            <div id="header_title">
+                ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ<br>
+                Електронний підручник
+            </div>
+        </header>
+        <nav>
+            <h2>Меню</h2>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="book/zmist_book.html">Теоретичні відомості</a></li>
+                <li><a href="lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></li>
+                <li><a href="tests/tests_zmist.html.html">Тести</a></li>
+                <li><a href="addons/addons_zmist.html">Додатки</a></li>
+                <li><a href="references/references.html">Список використаних джерел</a></li>
+                <li><a href="authors/authors.html">Автори</a></li>
+            </ul>
+        </nav>
+        <div id="title">
+            <h1> Title </h1>
         </div>
-        <div id="header_title">
-          ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ<br>
-          Електронний підручник
-        </div>
-      </header>
-      <nav>
-        <h2>Меню</h2>
-        <ul>
-          <li><a href="index.html">Головна</a></li>
-          <li><a href="book/zmist_book.html"> Теоретичні відомості</a></li>
-          <li><a href="lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></li>
-          <li><a href="tests/tests_zmist.html.html">Тести</a></li>
-          <li><a href="addons/addons_zmist.html">Додатки</a></li>
-          <li><a href="references/references.html">Список використаних джерел</a></li>
-          <li><a href="authors/authors.html">Автори</a></li>
-        </ul>
-      </nav>
-      <div id="title">
-        <h1> Title </h1>
-      </div>
-      <div id="content">
-
-        
-
-        $$\frac{A^2}{\sqrt{Bапр}}$$
-        \(A^2_{шшш}\)
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mfrac> <mrow> <mo>&#x2212;<!-- − --></mo> <mrow class="MJX-TeXAtom-ORD"> <mo>&#x432;</mo> </mrow> <mrow class="MJX-TeXAtom-ORD"> <mo>&#x430;</mo> </mrow> <mrow class="MJX-TeXAtom-ORD"> <mo>&#x43F;</mo> </mrow> <mo>&#x00B1;<!-- ± --></mo> <msqrt> <msup> <mi>b</mi> <mn>2</mn> </msup> <mo>&#x2212;<!-- − --></mo> <mn>4</mn> <mi>a</mi> <mi>c</mi> </msqrt> </mrow> <mrow> <mn>2</mn> <mi>a</mi> </mrow> </mfrac> </math>
-        <h1>Контент1</h1>
-        <h2>контент2</h2>
-        <h3>контент3</h3>
-        <p>Розрахунок собівартості транспортної роботи.</p>
-        <p>На транспорті розрізняють собівартість вантажних перевезень, що
-          вимірюються в гривнях на тонно-кілометр \((грн./т \cdot км)\), або на одну тону
-          вантажу та пасажирських – у гривнях на пасажиро-кілометр.</p>
-        <p>Визначаючи загальний показник, враховують сумарні експлуатаційні
-          витрати на вантажні та пасажирські перевезення.</p>
-        <p class="definition"><b class="definition">Експлуатаційні витрати</b>&nbsp;
-          – це поточні витрати транспортних підприємств на загальний обсяг
-          продукції, виконаний за якийсь відрізок часу. </p>
-        <p class="table_num">Таблиця 1</p>
-        <p class="table_name">Назва таблиці</p>
-        <table >
-          <tbody>
-            <tr>
-              <td class="table_text_small">паоаоаопаор</td>
-              <td class="table_text">апаппа</td>
-              <td class="table_text">пвпп</td>
-            </tr>
-            <tr>
-              <td class="table_text">апвап</td>
-              <td class="table_text">пвап</td>
-              <td class="table_text">ппопрл</td>
-            </tr>
-            <tr>
-              <td><br>
-              </td>
-              <td><br>
-              </td>
-              <td><br>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p><br>
-        </p>
-        <ul>
-          <li>оаоаоаоаь</li>
-          <li>вавапавпа</li>
-          <li>чівіавіва</li>
-        </ul>
-        <ol>
-          <li>ропопропрпо</li>
-          <li> ммтьмьтмьт</li>
-          <li><br>
-          </li>
-        </ol>
-
-<p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
-  12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:14.2pt;
+        <div id="content">
+            <div id="toc_container">
+                <p class="toc_title">Зміст</p>
+                <ul class="toc_list">
+                    <li><a href="#p1">1. Основні </a></li>
+                    <li><a href="#p2">2. Перспективні </a></li>
+                    <li><a href="#p3">3. Основні </a></li>
+                    <li><a href="#p4">4. Комплексна </a></li>
+                    <li><a href="#p5">5. Історія </a></li>
+                    <li><a href="#qw">Питання для самоконтролю</a></li>
+                </ul>
+            </div>
+            <p> ul>li*>a[href=#p$] </p>
+            <p> Remove all tags <.*?>
+            </p>
+            $$\frac{A^2}{\sqrt{Bапр}}$$
+            \(A^2_{шшш}\)
+            \begin{equation}
+            E = mc^2 \tag{10.1} \label{10.1}
+            \end{equation}
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <mfrac>
+                    <mrow>
+                        <mo>&#x2212;
+                            <!-- − -->
+                        </mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                            <mo>&#x432;</mo>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                            <mo>&#x430;</mo>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                            <mo>&#x43F;</mo>
+                        </mrow>
+                        <mo>&#x00B1;
+                            <!-- ± -->
+                        </mo>
+                        <msqrt>
+                            <msup>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>&#x2212;
+                                <!-- − -->
+                            </mo>
+                            <mn>4</mn>
+                            <mi>a</mi>
+                            <mi>c</mi>
+                        </msqrt>
+                    </mrow>
+                    <mrow>
+                        <mn>2</mn>
+                        <mi>a</mi>
+                    </mrow>
+                </mfrac>
+            </math>
+            <h1>Контент1</h1>
+            <h2>контент2</h2>
+            <h3>контент3</h3>
+            <p>Розрахунок собівартості транспортної роботи \( \ref{10.1} \).</p>
+            <p>На транспорті розрізняють собівартість вантажних перевезень, що
+                вимірюються в гривнях на тонно-кілометр \((грн./т \cdot км)\), або на одну тону
+                вантажу та пасажирських – у гривнях на пасажиро-кілометр.</p>
+            <p>Визначаючи загальний показник, враховують сумарні експлуатаційні
+                витрати на вантажні та пасажирські перевезення.</p>
+            <p class="outline"><b>Експлуатаційні витрати</b>&nbsp;
+                – це поточні витрати транспортних підприємств на загальний обсяг
+                продукції, виконаний за якийсь відрізок часу. </p>
+            <p class="table_num">Таблиця 1</p>
+            <p class="table_name">Назва таблиці</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="table_text_small">паоаоаопаор</td>
+                        <td class="table_text">апаппа</td>
+                        <td class="table_text">пвпп</td>
+                    </tr>
+                    <tr>
+                        <td class="table_text">апвап</td>
+                        <td class="table_text">пвап</td>
+                        <td class="table_text">ппопрл</td>
+                    </tr>
+                    <tr>
+                        <td><br>
+                        </td>
+                        <td><br>
+                        </td>
+                        <td><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><br>
+            </p>
+            <ul>
+                <li>оаоаоаоаь</li>
+                <li>вавапавпа</li>
+                <li>чівіавіва</li>
+            </ul>
+            <ol>
+                <li>ропопропрпо</li>
+                <li> ммтьмьтмьт</li>
+                <li><br>
+                </li>
+            </ol>
+            <p style='margin-top:0cm;margin-right:14.2pt;margin-bottom:0cm;margin-left:
+  12.25pt;margin-bottom:.0001pt;text-align:justify;text-indent:-1.5em;
   line-height:150%;font-size:8.0pt;color:black'>
-  $$
-
-$$
-</p>  
-
-        
-      </div>
-      <div id="navigation">
-        <div id="navigation_prev">
-          <a href="index.html">Попередня тема</a>
+                де \(F\) – загальний обсяг робіт, га, (гр.5); загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);загальний обсяг робіт, га, (гр.5);<br>
+                \(Д_р\) – кількість робочих днів (гр.11); <br>
+                \(n_{зм}\) – кількість змін (графа 12).
+            </p>
+            <figure>
+                <img src="images/logo.jpg" alt="Trulli" style="width:100%">
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <table>
+                <caption>Example Caption</caption>
+                <tr>
+                    <th>Login</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>user1</td>
+                    <td>user1@sample.com</td>
+                </tr>
+                <tr>
+                    <td>user2</td>
+                    <td>user2@sample.com</td>
+                </tr>
+            </table>
+            ol>li*>a[href=#ans$]
+            <h2 id="qw">Питання для самоконтролю</h2>
+            <ol>
+                <li><a href="#ans1">Дайте</a> </li>
+                <li><a href="#ans2">Дайте</a> </li>
+                <li><a href="#ans3">Яка</a> </li>
+                <li><a href="#ans4">Яка</a> </li>
+                <li><a href="#ans5">Що</a> </li>
+                <li><a href="#ans6">Назвіть</a> </li>
+                <li><a href="#ans7">Що</a> </li>
+                <li><a href="#ans8">Дайте</a> </li>
+                <li><a href="#ans9">Назвіть</a> </li>
+            </ol>
         </div>
-        <div id="navigation_home">
-          <a href="index.html">Зміст</a>
+        <div id="navigation">
+            <div id="navigation_prev">
+                <a href="index.html">Попередня тема</a>
+            </div>
+            <div id="navigation_home">
+                <a href="index.html">Зміст</a>
+            </div>
+            <div id="navigation_next">
+                <a href="index.html">Наступна тема</a>
+            </div>
         </div>
-        <div id="navigation_next">
-          <a href="index.html">Наступна тема</a>
-        </div>        
-      </div>
-      <div id="clear"> </div>
-      <footer> © 2017 ДУ «Науково-методичний центр інформаційно-аналітичного
-        забезпечення діяльності ВНЗ «Агроосвіта» 03151, м. Київ, вул.
-        Смілянська, 11 </footer>
+        <div id="clear"> </div>
+        <footer> © 2020 ДУ «НАУКОВО-МЕТОДИЧНИЙ ЦЕНТР ВИЩОЇ ТА ФАХОВОЇ ПЕРЕДВИЩОЇ ОСВІТИ» 03151, м. Київ, вул. Смілянська, 11 </footer>
     </div>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
-  </body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
+</body>
+
 </html>
