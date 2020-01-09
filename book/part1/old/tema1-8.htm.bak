@@ -1,0 +1,2073 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <title>Тема 1.8</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
+async=""></script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #5B7FA6;
+  color: #E9EDF1;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{font-family:"Arial",sans-serif;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:18.0pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma",sans-serif;}
+p.1, li.1, div.1
+	{mso-style-name:"Абзац списка1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.1CxSpFirst, li.1CxSpFirst, div.1CxSpFirst
+	{mso-style-name:"Абзац списка1CxSpFirst";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.1CxSpMiddle, li.1CxSpMiddle, div.1CxSpMiddle
+	{mso-style-name:"Абзац списка1CxSpMiddle";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.1CxSpLast, li.1CxSpLast, div.1CxSpLast
+	{mso-style-name:"Абзац списка1CxSpLast";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.2, li.2, div.2
+	{mso-style-name:"Абзац списка2";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.2CxSpFirst, li.2CxSpFirst, div.2CxSpFirst
+	{mso-style-name:"Абзац списка2CxSpFirst";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.2CxSpMiddle, li.2CxSpMiddle, div.2CxSpMiddle
+	{mso-style-name:"Абзац списка2CxSpMiddle";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.2CxSpLast, li.2CxSpLast, div.2CxSpLast
+	{mso-style-name:"Абзац списка2CxSpLast";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:0cm 0cm 0cm 0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+  </head>
+  <body link="blue" lang="RU" vlink="purple">
+    <div class="WordSection1">
+      <div align="center">
+        <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"> </p>
+        <br>
+        <table class="MsoNormalTable" style="width:21.0cm;border-collapse:collapse;border:none"
+          cellspacing="0" cellpadding="0" border="1" width="794">
+          <tbody>
+            <tr style="height:1.0cm">
+              <td style="width:99.8pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm"
+                width="133" valign="top">
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:.2pt;line-height:normal" align="center"><b><span
+                      style="font-size:4.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:white"
+                      lang="UK">&nbsp;</span></b></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal" align="center"><img id="Рисунок 41" src="../../images/logo.jpg"
+                    height="29" width="112"></p>
+              </td>
+              <td colspan="3" style="width:495.55pt;border-top:solid #D9E0E7 1.0pt;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:none;  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm"
+                width="661">
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal" align="center"><b><span style="font-size:10.0pt;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:white" lang="UK">ЕКСПЛУАТАЦІЯ
+                      МАШИН І ОБЛАДНАННЯ</span></b></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal" align="center"><b><span style="font-size:8.0pt;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:white" lang="UK">Електронний
+                      підручник</span></b></p>
+              </td>
+            </tr>
+            <tr style="height:22.7pt">
+              <td rowspan="2" style="width:99.8pt;border:none;
+  border-right:solid #D9E0E7 1.0pt;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt" width="133"
+                valign="top">
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../../index.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Головна</span></a></p>
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../zmist_book.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Теоретичні відомості</span></a></p>
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../../lpz/zmist_lpz.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Лабораторні та практичні роботи</span></a></p>
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../../tests/tests_zmist.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Тести</span></a></p>
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../../addons/addons_zmist.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Додатки</span></a></p>
+                <p class="MsoNormal" style="margin-top:6.0pt;margin-right:1.4pt;margin-bottom:
+  0cm;margin-left:1.4pt;margin-bottom:.0001pt;line-height:normal"><a href="../../references/references.html"><span
+                      style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A"
+                      lang="UK">Список використаних джерел</span></a></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#548DD4">&nbsp;</span></p>
+              </td>
+              <td colspan="3" style="width:495.55pt;border-top:none;border-left:
+  none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;  background:#E9EDF1;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt"
+                width="661">
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal" align="center"><b><span style="font-size:8.0pt;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">Тема 1.8
+                      Кінематика машинно-тракторних агрегатів</span></b></p>
+              </td>
+            </tr>
+            <tr style="height:214.8pt">
+              <td colspan="3" style="width:495.55pt;border-top:none;
+  border-left:none;border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;  padding:0cm 1.4pt 0cm 1.4pt;height:214.8pt"
+                width="661" valign="top"><span class="MsoHyperlink"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A;text-decoration:none" lang="UK">&nbsp;</span></span><span class="MsoHyperlink"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2181">1 Поняття про кінематику
+                      машинно-тракторних агрегатів. Основні елементи <span lang="UK">кінематики</span>
+                      руху машинно-тракторних агрегатів</a>. Центр агрегату,
+                    центр і радіус повороту агрегату.&nbsp; Кінематичні
+                    параметри агрегату. Визначення мінімально допустимого
+                    радіуса повороту агрегату.</span></span>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:43.2pt;margin-bottom:.0001pt;text-indent:0cm"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2182">2 Кінематичні
+                        характеристики робочої ділянки</a></span></span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:50.3pt;margin-bottom:.0001pt;text-indent:-7.1pt"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2183">3 Види поворотів агрегату
+                        та їх </a>класифікація.&nbsp; <a href="#%D0%A2187">Визначення
+                        довжини робочих і холостих ходів агрегату. Коефіцієнт
+                        робочих ходів. Шляхи зменшення холостих ходів</a>
+                      агрегату</span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                  </span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:43.2pt;margin-bottom:.0001pt;text-indent:0cm"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2184">4 Обґрунтування
+                        оптимальних розмірів загінок та ширини поворотної смуг</a>и</span></span><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"> </span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:43.2pt;margin-bottom:.0001pt;text-indent:0cm"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2185">5 Способи руху
+                        машинно-тракторних агрегатів, їх класифікація та
+                        характеристика</a></span></span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:50.3pt;margin-bottom:.0001pt;text-indent:-7.1pt"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2186">6 Фактори, що визначають
+                        вибір способу руху агрегату</a></span></span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif"> </span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:43.2pt;margin-bottom:.0001pt;text-indent:0cm"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2188">7 Підготовка поля до
+                        роботи агрегатів</a></span></span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:43.2pt;margin-bottom:.0001pt;text-indent:0cm"><span class="MsoHyperlink"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif"><a href="#%D0%A2189">8 Використання
+                        інтернет-ресурсів </a>на прикладі точного землеробства</span></span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т181"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">1 Поняття </span></a><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">про кінематику машинно-тракторних агрегатів. Основні
+                    елементи кінематики руху машинно-тракторних агрегатів.&nbsp;
+                    Центр агрегату, центр і радіус повороту агрегату.&nbsp;
+                    Кінематичні параметри агрегату. Визначення мінімально
+                    допустимого радіуса повороту агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Особливість виконання більшості
+                    виробничих процесів у сільському господарстві – переміщення
+                    машинно-тракторних агрегатів на полях. При цьому агрегати
+                    проходять значні відстані.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Кожна машина чи агрегат та їх
+                    робочі органи рухаються за різними траєкторіями, які
+                    відрізняються між собою.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">«Кінематика» - це рух матеріальних
+                    тіл без урахування сил, що зумовлюють цей рух.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Кінематика агрегату – це траєкторія
+                    руху агрегату при виконанні технологічної операції з точки
+                    зору геометричних форм.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Для раціонального
+                    використання техніки необхідно знати її кінематику.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><img
+                    id="Рисунок 618" src="tema1-8.files/image001.jpg" border="0"
+                    height="201" width="493"></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><img
+                    id="Рисунок 621" src="tema1-8.files/image002.png" border="0"
+                    height="176" width="478"></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="1" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:0cm;
+  margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;background:white;  text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="UK">Для МТА характерний
+                    складний рух. Щоб спростити вивчення закономірностей руху
+                    агрегатів, умовно цей рух характеризують траєкторією однією
+                    точки, названої умовно кінематичним центром агрегату (Ц<sub>а</sub>).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><img id="Объект 3" src="tema1-8.files/image003.png"
+                    border="0" height="192" width="604"></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.1 Розміщення кінематичного центру агрегату</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а
+                    – </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">колісний
+                    трактор з однією ведучою віссю; б – трактор схеми 4х4 та
+                    всіма керованими колесами; в – трактор з шарнірним остовом;
+                    г – гусеничний трактор</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Умовно прийняті
+                    розміщення Ц<sub>а</sub> для основних типів тракторів,
+                    наведені на рис. 1.8.1. Так, в агрегаті із колісними
+                    тракторами з однією ведучою віссю за Ц<sub>а</sub> прийнята
+                    проекція на площину руху точки середини ведучої осі, а в
+                    тракторів схеми 4х4 та всіма керованими колесами – проекція
+                    на площину руху точки середини прямої, яка з’єднує середини
+                    ведучих осей. В агрегаті з колісними тракторами, які
+                    обладнані шарнірним остовом, за Ц<sub>а</sub> прийнята
+                    проекція на площину руху центра шарніру, а у гусеничних
+                    тракторів та самохідних машин – проекція на площину руху
+                    точки перехрещення повздовжньої осі трактора з вертикальною
+                    площиною, яка проведена через середини опорних ланок
+                    гусениці.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><img src="tema1-8.files/image004.jpg"
+                      border="0" hspace="7" height="223" width="213"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.2 Кінематичні характеристики агрегату</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">До інших кінематичних характеристик
+                    агрегату, що впливають на його рух у загінці, відносять:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">кінематичну
+                    довжину агрегату </span><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">l</span><sub><span
+                      style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – відстань по прямій між центром агрегату Ц<sub>а</sub> і
+                    останнім рядом його робочих органів у положенні
+                    прямолінійного руху;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">кінематичну
+                    ширину агрегату </span><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">d</span><sub><span
+                      style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – відстань між крайніми точками по ширині (в формулах по
+                    визначенню ширини поворотної смуги використовується значення
+                    половини кінематичної ширини агрегату 0,5 </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">d</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    тому в літературі зустрічається таке формулювання
+                    кінематичної ширини агрегату: проекція відстані між
+                    поздовжньою віссю та крайніми точками по ширині агрегату (</span><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">d</span><sub><span
+                      style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">к</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">):
+                    розрізняють </span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">d</span><sub><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">к</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    праворуч та ліворуч); </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">довжина
+                    виїзду агрегату е – відстань від контрольної лінії до центру
+                    агрегату, на яку він виводиться на поворотну смугу до
+                    початку повороту;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">повздовжня
+                    база L<sub>б</sub> – відстань між мостами ведучих і ведених
+                    коліс, або між осями котків; </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">центр
+                    повороту – умовна точка (точка О<sub>1</sub>, мал. 3) на
+                    місцевості навколо якої відбувається поворот агрегату;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">мінімально
+                    допустимий радіус повороту R<sub>о</sub>.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Радіус повороту – відстань між
+                    центром агрегату і центром його повороту. Поворот агрегату
+                    рахується правильним, якщо всі його колеса котяться без
+                    бокових здвигів. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">При холостому ході по великому
+                    радіусу збільшується холостий шлях. Тому при поворотах і
+                    розворотах на поворотній смузі треба забезпечити рух
+                    агрегату при можливо меншому радіусу повороту R<sub>от</sub>.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"><img src="tema1-8.files/image005.jpg"
+                      border="0" height="195" width="210"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><b><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис. 1.8.3
+                      Визначення найменшого радіусу повороту</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Найменший
+                    радіус повороту агрегату обумовлюється радіусом повороту
+                    трактора, конструктивними і поворотними особливостями
+                    машини, зчіпки, габаритами машини, швидкістю руху, рельєфом
+                    поля, станом агрофону та кваліфікацією механізатора.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Найменший радіус
+                    повороту (</span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">R</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">о.т.</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">)
+                  </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">агрегату
+                    визначають за формулою, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">R</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">о.т</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    = </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">б</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">·</span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">ctg&#945;</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">м</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    + </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">a</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">б</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – база трактора;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">&#945;</span><sub><span
+                      style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">м</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – кут повороту;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">a</span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – половина відстані між осями поворотних цапф, м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Мінімально
+                    допустимий радіус повороту агрегату визначають двома
+                    способами: дослідним і графічними. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Приблизні
+                    значення радіуса повороту агрегату залежно від ширини
+                    захвату (і поправок на швидкість руху) подано в додатку.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Маневрові
+                    властивості агрегатів</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Маневрові
+                    властивості машинних агрегатів характеризуються
+                    повороткістю, стійкістю та керованістю руху, прохідністю.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Повороткість
+                    – </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">це
+                    властивість агрегату переходити з прямолінійного на
+                    криволінійний рух та навпаки.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Стійкість
+                    руху </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">(поздовжня
+                    та поперечна) – це властивість зберігати сталий напрямок
+                    руху.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Керованість
+                    руху – </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">це
+                    властивість агрегату переходити з сталого напрямку руху в
+                    інший, який задається дією керування. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Прохідність
+                    агрегату – </span><span style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif">це властивість агрегату без допоміжних засобів
+                    своїм ходом долати перешкоди, які можуть зустрічатися на
+                    шляху руху.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т182"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">2
+                      Кінематичні </span></a><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">характеристики робочої ділянки</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="position:absolute;z-index:251657216;
+  left:0px;margin-left:551px;margin-top:289px;width:2px;height:38px"><img src="tema1-8.files/image006.png"
+                      height="38" width="2"></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Земельна
+                    площа, на якій використовується агрегат, називається робочою
+                    ділянкою. Розміри ділянки кінематично характеризуються її
+                    довжиною </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    та шириною А. Робоча ділянка або її частина, призначені для
+                    виконання технологічної операції, називаються загінками. Для
+                    вибраного способу руху і конкретного агрегату кожна загінка
+                    має ширину С, довжину </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">р</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    робочої частини, а також ширину поворотної смуги
+                    Е.&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif"><img src="tema1-8.files/image007.jpg"
+                      border="0" hspace="7" height="254" width="553"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><b><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис. 1.8.4
+                      Кінематичні характеристики робочої ділянки:</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">А – ширина поля; </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – довжина поля; С – ширина загінки; Е – ширина поворотної
+                    смуги; </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">р</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – довжина гонів</span></p>
+                <p class="1" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:0cm;
+  margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><a name="Т183"><span
+                      style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></a></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">3 Види </span><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">поворотів
+                    агрегатів та їх характеристика. &nbsp;<a name="Т187">Визначення
+                      </a>довжини робочих і холостих ходів агрегату. Коефіцієнт
+                    робочих ходів. Шляхи зменшення холостих ходів агрегату </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">При виконанні технологічних
+                    операцій значну частину пройденого шляху становлять заїзди
+                    та повороти. В середньому, від загального шляху, який
+                    проходить агрегат, на холості заїзди припадає 8…12 %. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">У зв’язку з цим для забезпечення
+                    найвищої ефективності використання агрегату необхідно
+                    холостий хід агрегату звести до мінімуму і цим забезпечити
+                    максимальну продуктивність агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Для цього необхідно правильно
+                    вибирати вид повороту. Головна умова вибору повороту
+                    агрегатів – поліпшення техніко-економічних показників і
+                    якості роботи агрегатів.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Повороти
+                    виконуються на 90<sup>0</sup> і 180<sup>0</sup>.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Повороти
+                    класифікують на:</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">безпетльові – по дузі кола без прямолінійного
+                    відрізку (дугоподібні);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">безпетльові з прямим виїздом;</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">петльові-грушоподібні (відкрита петля);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">петльові-вісімкоподібні (закрита петля);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">повороти з заднім ходом агрегату з відкритою та
+                    закритою петлею (для навісних агрегатів);</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:71.45pt;margin-bottom:.0001pt;text-indent:-21.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">голчасті – при реверсивному ході агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Можливі й інші
+                    різновиди поворотів:</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.35pt;margin-bottom:.0001pt;text-indent:-14.05pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">з застосуванням бокової та подвійної петлі;</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.35pt;margin-bottom:.0001pt;text-indent:-14.05pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">кутові.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Види
+                    поворотів подано на рис. 1.8.5, 1.8.6</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><img
+                    id="Рисунок 637" src="tema1-8.files/image008.jpg" border="0"
+                    height="199" width="586"></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.5 Види поворотів на 90<sup>0</sup>:</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Е
+                    – ширина поворотної смуги, м; е – кінематична довжина виїзду
+                    агрегату, м;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а
+                    – безпетльовий по колу; б – петльовий з відкритою петлею; в
+                    – петльовий з закритою петлею; г – петльовий з застосуванням
+                    заднього ходу агрегату;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">д
+                    – безпетльовий кутовий; е – петльовий кутовий; ж – петльовий
+                    кутовий з застосуванням заднього ходу агрегату</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><img id="Рисунок 638" src="tema1-8.files/image009.jpg"
+                    border="0" height="178" width="591"></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.6 Види поворотів на 180<sup>0</sup>:</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а
+                    – по колу; б – з прямолінійним виїздом; в – грушоподібний; г
+                    – вісімкоподібний; </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">д
+                    – з застосуванням заднього ходу агрегату (закрита петля); ж
+                    – з застосуванням заднього ходу агрегату (відкрита петля); з
+                    – голчастоподібний; і - здвоєнопетльовий</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Довжина холостого
+                    ходу на поворотах (</span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">L<sub>x</sub></span><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">) залежить
+                    від складу та виду агрегату та його конструктивних
+                    параметрів.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Довжина холостого
+                    ходу при виконанні петльовий поворотів:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L<sub>x</sub></span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    = </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    + 2 &#8729; е, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – довжина петлі повороту, м;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">е – довжина виїзду
+                    агрегату, м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    = &#947;<sub>п</sub> &#8729; </span><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">R</span><sub><span
+                      style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де &#947;<sub>п</sub> –
+                    коефіцієнт, який враховує співвідношення петлі та радіус
+                    повороту (додатки);</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">R</span><sub><span
+                      style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – радіус повороту.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Довжина холостого
+                    ходу при виконанні безпетльового повороту з прямолінійною
+                    ділянкою: </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">б</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    = </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">L</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">п</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    + 2 &#8729; е + </span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">l</span><sub><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">х</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">l</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">х</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – довжина прямолінійної ділянки, м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Довжину робочих ходів на загінці
+                    визначаємо за формулою:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><sub><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:red"><span style="position:relative;top:18.0pt"><img
+                          src="tema1-8.files/image010.png" border="0" height="56"
+                          width="155"></span></span></sub><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">м
+                    ,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Загальна довжина холостих ходів на
+                    загінці при петльовий поворотах:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US"><span
+                      style="position:relative;
+  top:16.0pt"><img src="tema1-8.files/image011.png" border="0" height="53" width="173"></span></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">C</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">опт</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – оптимальна ширина загінки, м;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">В<sub>р</sub> –
+                    робоча ширина захвату агрегату, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">R<sub>min</sub></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    –мінімальний радіус повороту агрегату, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">l<sub>a</sub></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – кінематична довжина агрегату, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Загальна довжина холостих ходів на
+                    загінці при безпетльовий поворотах:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US"><span
+                      style="position:relative;
+  top:16.0pt"><img src="tema1-8.files/image012.png" border="0" height="53" width="185"></span></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Коефіцієнт робочих ходів, що
+                    показує ступінь використання на корисну роботу загального
+                    шляху агрегату в загінці, є важливою характеристикою
+                    вибраного способу руху, яка впливає на продуктивність
+                    агрегату і являє собою відношення сумарного робочого шляху
+                    агрегату на загінці до всього пройденого шляху:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"><span style="position:relative;
+  top:16.0pt"><img src="tema1-8.files/image013.png" border="0" height="58" width="99"></span>,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">де </span><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">S</span><sub><span
+                      style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">р</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – загальна довжина робочого шляху агрегату на загінці, м;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">S</span><sub><span
+                      style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">х</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                    – загальна довжина холостого шляху агрегату на загінці, м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Чим більший коефіцієнт &#966;, тим
+                    менший холостий шлях агрегату і більша його продуктивність.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Значення
+                    коефіцієнта залежить від розмірів оброблювальної ділянки
+                    (довжини гону), кінематичних показників агрегату – радіуса
+                    повороту, довжини виїзду, ширини агрегату, способу і
+                    швидкості руху при поворотах і заїздах. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Зі збільшенням
+                    швидкості час, який витрачається на поворот (при швидкостях
+                    5…6 км/год.) швидко, а потім все більш повільно
+                    скорочується. При швидкостях більше 9…10 км/год. тривалість
+                    повороту зменшується незначно через збільшення шляху
+                    повороту. Тому виконувати повороти на швидкостях більше 10
+                    км/год. нераціонально. В усих випадках, коли це можливо,
+                    слід використовувати безпетльові повороти, при яких в 2…2,5
+                    рази скорочується шлях холостого ходу і ширина поворотної
+                    смуги порівняно з петльовими способами поворотів<span style="color:black">.</span></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">Застосування
+                    агрегатів з меншою довжиною виїзду дозволяє скоротити
+                    довжину холостих ходів. Тому, особливо при малій довжині
+                    гонів, слід надавати перевагу навісним агрегатам і
+                    шеренговому розташуванню машин в причіпних агрегатах.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">Виконання
+                    цих умов дозволяє підвищити продуктивність агрегатів на
+                    15…25 % за рахунок більш повного використання часу руху.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т184"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">4
+                      Обґрунтування </span></a><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">оптимальних розмірів загінок та ширини поворотної
+                    смуги </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="UK">Оптимально шириною
+                    загінки є така, при якій для даного способу руху
+                    забезпечується мінімально довжина холостих ходів або
+                    максимальний коефіцієнт робочих ходів на всій оброблюваній
+                    ділянці.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Оптимальна ширина загінки С<sub>опт</sub>
+                    для петльових способів руху (загінних) визначається за
+                    формулою:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">С<sub>опт</sub> = <span style="position:relative;top:8.0pt"><img
+                        src="tema1-8.files/image014.png" border="0" height="37"
+                        width="161"></span>, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">де К<sub>с</sub> – коефіцієнт
+                    пропорційності, який залежить від способу руху (при
+                    петльових способах руху К<sub>с</sub> = 2, для безпетльових
+                    К<sub>с</sub> = 3).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Для безпетльових способів руху :</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">С<sub>опт</sub> = <span style="position:relative;top:8.0pt"><img
+                        src="tema1-8.files/image015.png" border="0" height="34"
+                        width="101"></span>&nbsp;, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">На практиці С<sub>опт</sub>
+                    визначають виходячи з змінної продуктивності агрегату:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">С<sub>опт</sub>= (2…3)</span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">W</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">зм</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">10<sup>4</sup>/
+                  </span><span style="font-size:8.0pt;line-height:150%;font-family:
+  &quot;Tahoma&quot;,sans-serif" lang="EN-US">L</span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">, м,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">де 2…3 – кількість змін;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="EN-US">L</span><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"> – довжина гонів,
+                    м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Це дає змогу уникати переїзду
+                    агрегату під час зміни з однієї загінки на іншу.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Остаточно вибрана ширина загінки
+                    має бути кратною подвійній ширині захвату агрегату, що
+                    виключає проїзди з неповним захватом і дає можливість
+                    закінчувати обробіток загінки на тому боці, де вона
+                    розпочиналась.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Обґрунтування ширини поворотної
+                    смуги</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Поворотну смугу на полі відбивають,
+                    якщо розворот агрегату за межами загінки не можливий.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Визначення ширини поворотної
+                    смуги.&nbsp; Ширина поворотної смуги на загінці має бути
+                    обґрунтованою. ЇЇ розміри не можуть перевищувати мінімуму,
+                    що регламентується двома умовами: можливістю безперешкодного
+                    повороту агрегату і необхідністю наступної обробки
+                    поворотної смуги цим же агрегатом.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Перша умова визначається
+                    конкретними кінематичними характеристиками агрегату і його
+                    повороткістю. Щоб при холостих заїздах не було огріхів або
+                    підвищеного пошкодження рослин, при обробці міжрядь треба ще
+                    до початку повороту вивести агрегат за межі оброблювальної
+                    ділянки на величину е – довжину виїзду агрегату, тобто
+                    відстань від контрольної лінії до центру агрегату, на яку
+                    він виводиться на поворотну смугу до початку повороту.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">У загальному випадку довжина виїзду
+                    залежить від типу агрегату, форми повороту, показники
+                    поворотності і кінематичної довжини агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Для начіпних агрегатів (із заднім
+                    начіплюванням)&nbsp; е = (0,3...0,6)l<sub>а</sub>,&nbsp; для
+                    агрегатів з фронтальним (чи боковим) розміщенням робочих
+                    органів довжина виїзду має негативне значення, тобто поворот
+                    починається відразу після проходу робочими органами
+                    контрольної лінії на деякій відстані за нею;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">при цьому&nbsp; е = – (0,4...0,6) l<sub>а</sub>.
+                    Для агрегатів з причіпними машинами&nbsp; е =&nbsp;
+                    (0,6...1,0) l<sub>а</sub>.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Друга складова ширини поворотної
+                    смуги визначається мінімально допустимим радіусом повороту і
+                    показником поворотності агрегату. Враховуючи, що більшість
+                    полів захищені лісосмугами, третя складова ширини поворотної
+                    смуги береться не менше половини кінематичної ширини
+                    агрегату d<sub>а</sub> (рис. 1.8.7).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"><img src="tema1-8.files/image016.jpg"
+                      border="0" hspace="7" height="270" width="246"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><b><span style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис. 1.8.7
+                      Визначення ширини поворотної смуги</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Отже, ширину поворотної смуги
+                    визначають з урахуванням характеристик агрегату і швидкості
+                    його руху на повороті. На ширину поворотної смуги впливає і
+                    стан ґрунту. Із збільшенням швидкості і зменшення міцності
+                    ґрунтового покриву погіршуються умови повороту, зростає його
+                    радіус, що вимагає збільшення поворотної смуги.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Заокруглено при роботі на рівному
+                    полі ширину поворотної смуги Е<sub>п</sub> визначають за
+                    такими формулами:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">для петльовий поворотів:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">Е<sub>п</sub> = 2,8 · R<sub>о</sub>
+                    + 0,5 · d<sub>а</sub> + е, м,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">або</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">Е<sub>п</sub> = 3 · R<sub>о</sub>&nbsp;
+                    + </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">l</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">для безпетльових</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">Е<sub>п</sub> = 1,14 · R<sub>о</sub>
+                    + 0,5 · d<sub>а</sub> + е, м,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">або</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">Е<sub>п</sub> = 1,5 · R<sub>о</sub>&nbsp;
+                    + </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="EN-US">l</span><sub><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">а</span></sub><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">,
+                    м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Враховуючи необхідність обробки
+                    поворотних смуг цим же агрегатом (друга умова), їх ширину
+                    беруть кратною захвату агрегату:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"><span style="position:relative;
+  top:7.0pt"><img src="tema1-8.files/image017.png" border="0" height="28" width="98"></span>,</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де
+                    <span style="position:relative;top:2.0pt"><img src="tema1-8.files/image018.png"
+                        border="0" height="17" width="17"></span>&nbsp;–
+                    фактичне число проходів агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif;position:relative;top:16.0pt">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%"
+                  align="center"><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"><span style="position:relative;
+  top:16.0pt"><img src="tema1-8.files/image019.png" border="0" height="55" width="63"></span>.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">Результати округляються до цілого числа (парного чи непарного).
+                    Парність чи непарність числа проходів на поворотній смузі
+                    залежить від особливостей виконання операцій на поворотній
+                    смузі. В більшості випадків приймають парне число проходів.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т185"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">5 Способи </span></a><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">руху машинно-тракторних агрегатів, їх класифікація та
+                    характеристика</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="UK">Технологічне
+                    поєднання циклічно повторюваних робочих і холостих ходів під
+                    час виконання агрегатами операції являє собою спосіб руху.
+                    Способи руху МТА розрізняють за такими ознаками: напрямом
+                    робочих ходів (вкругову, гоновий, діагональний);
+                    організацією території (загінний, беззагінний);&nbsp;
+                    напрямів поворотів (правоповоротний, лівоповоротний,
+                    комбінований); схемою обробітку робочої ділянки
+                    (однозагінний, двозагінний, багатозагінний); способом
+                    виконання поворотів (безпетльових, петльовий, із заднім
+                    ходом, реверсний тощо).</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif" lang="UK">Найбільш поширена
+                    класифікація способів руху агрегатів за першою ознакою –
+                    напрямом робочих ходів, де виділяють три головні групи руху:</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-14.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">гонові;</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-14.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">діагональні;</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-14.15pt;  background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol" lang="UK">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">кругові (фігурні).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Гоновий спосіб
+                    характеризується тим, що агрегат при виконанні робочого ходу
+                    рухається прямолінійно вздовж загінки, а холості ходи
+                    виконує на поворотній смузі.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Різновидами
+                    гонового способу є такі способи руху агрегату:</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-11.0pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol;color:green">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">човниковий (сівба, культивація, коткування, оранка
+                    оборотними плугами);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-11.0pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol;color:green">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">безпетльовий з перекриванням (міжрядний
+                    обробіток);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-11.0pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol;color:green">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">комбінований з чергуванням загінок всклад і
+                    врозгін (оранка);</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-11.0pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:Symbol;color:green" lang="EN-US">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">перехресний (сівба зернових культур);</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-indent:-11.0pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:Symbol;color:green">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">гоновий з розширенням середини суміжних загінок
+                    (збирання зернових, цукрових буряків, картоплі, кукурудзи
+                    тощо).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><img
+                      id="Рисунок 27" src="tema1-8.files/image020.jpg" border="0"
+                      height="215" width="463"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.8 Гоновий, човниковий спосіб руху агрегату (відео: <span
+                        class="MsoHyperlink"><span style="font-family:&quot;Tahoma&quot;,sans-serif;text-decoration:
+  none"><a href="%D0%B2%D1%96%D0%B4%D0%B5%D0%BE%20%D0%B4%D0%BE%20%D0%95%D0%9F/%D0%B5%D0%BF%D1%96%D0%B7%D0%BE%D0%B4%206%20%D0%B3%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D0%B9%20%D1%87%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9%20%D1%81%D0%BF%D0%BE%D1%81%D1%96%D0%B1%20%D1%80%D1%83%D1%85%D1%83.mp4"><span
+                              style="text-decoration:none">епізод 6 спосіб руху</span></a></span></span>)</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Гонові способи руху забезпечують більш рівномірне
+                    завантаження агрегатів, зменшують шлях холостого ходу
+                    агрегатів.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><img
+                      id="Рисунок 28" src="tema1-8.files/image021.jpg" border="0"
+                      height="227" width="384"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.9 Гоновий спосіб руху з розширенням середини суміжних
+                      загінок</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">при
+                      збиранні цукрових буряків</span></b><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif"> (відео: <span class="MsoHyperlink"><span
+                        style="font-family:&quot;Tahoma&quot;,sans-serif;color:#0000CC"><a
+                          href="%D0%B2%D1%96%D0%B4%D0%B5%D0%BE%20%D0%B4%D0%BE%20%D0%95%D0%9F/%D0%B5%D0%BF%D1%96%D0%B7%D0%BE%D0%B4%207%20%D0%B3%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D0%B9%20%D1%81%D0%BF%D0%BE%D1%81%D1%96%D0%B1%20%D1%80%D1%83%D1%85%D1%83%20%D0%B7%20%D1%80%D0%BE%D0%B7%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC%20%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%20%D1%81%D1%83%D0%BC%D1%96%D0%B6%D0%BD%D0%B8%D1%85%20%D0%B7%D0%B0%D0%B3%D1%96%D0%BD%D0%BE%D0%BA.mp4"><span
+                            style="color:#0000CC">епізод 7 спосіб руху</span></a></span></span>)</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Е
+                    — </span><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">поворотна
+                    смуга, м; Е=21,6м або відповідає Е=48 рядків; С — ширина
+                    загінки, м; С=228 рядків</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Між загінками
+                    збирається 12 рядків.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><img
+                      id="Рисунок 29" src="tema1-8.files/image022.jpg" border="0"
+                      height="218" width="272"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рис.
+                      1.8.10 Схема руху комбайну ДОН-1500 при прямому
+                      комбайнуванні,</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">спосіб
+                      руху гоновий з розширенням прокосу між суміжними загінками</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Рух вкругову
+                    характеризується тим, що робочі ходи здійснюються як уздовж,
+                    так і впоперек загінки. Даний спосіб застосовуються на
+                    ділянках з довжиною гонів 400…600м (рис. 1.8.11).</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Прокіс між
+                    загінками (В<sub>1</sub>):</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">В<sub>1</sub>
+                    = В<sub>к</sub> + В<sub>р</sub>, м</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">де
+                    В<sub>к</sub> – конструктивна ширина захвату жатки, м;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">В<sub>р</sub>
+                    – робоча ширина захвату жатки, м.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><img
+                      id="Рисунок 5" src="tema1-8.files/image023.jpg" border="0"
+                      height="164" width="164"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">Рис. 1.8.11 Круговий спосіб руху</span></b><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">
+                      <span style="color:black">зернозбирального комбайна
+                        ДОН-1500</span></span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">при</span></b><b><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif"> <span style="color:black">прямому
+                        комбайнуванні</span></span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">На
+                    оранці звичайними плугами застосовують способи руху:</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:57.35pt;margin-bottom:.0001pt;text-indent:-7.05pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:Wingdings" lang="UK">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif;color:black"
+                    lang="UK">оранка з чергуванням загінок всклад і врозгін;</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:57.35pt;margin-bottom:.0001pt;text-indent:-7.05pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:Wingdings" lang="UK">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif;color:black"
+                    lang="UK">петльовий комбінований;</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:57.35pt;margin-bottom:.0001pt;text-indent:-7.05pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:Wingdings" lang="UK">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif;color:black"
+                    lang="UK">безпетльовий комбінований;</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:57.35pt;margin-bottom:.0001pt;text-indent:-7.05pt;background:  white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:
+  150%;font-family:Wingdings" lang="UK">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;
+                      </span></span><span style="font-size:8.0pt;line-height:150%;  font-family:&quot;Tahoma&quot;,sans-serif;color:black"
+                    lang="UK">двозагінковий.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">Діагональний спосіб руху характеризується переміщенням агрегатів
+                    під кутом до сторін ділянки. Цей спосіб застосовують на
+                    боронуванні, культивації, дискуванні агрегату, а також при
+                    перехресній сівбі зернових.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black"><img id="Рисунок 6" src="tema1-8.files/image024.jpg" border="0" height="168"
+                      width="241"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">Рис. 1.8.12 Діагональний спосіб руху агрегатів</span></b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black"> (відео: </span><span class="MsoHyperlink"><span style="font-size:
+  8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"><a href="%D0%B2%D1%96%D0%B4%D0%B5%D0%BE%20%D0%B4%D0%BE%20%D0%95%D0%9F/%D0%B5%D0%BF%D1%96%D0%B7%D0%BE%D0%B4%208%20%D0%B4%D1%96%D0%B0%D0%B3%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%81%D0%BF%D0%BE%D1%81%D1%96%D0%B1%20%D1%80%D1%83%D1%85%D1%83.mp4">епізод
+                        8 спосіб руху</a></span></span><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:black">)</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">Кутовий
+                    спосіб руху агрегатів застосовується на передпосівній
+                    культивації ґрунту.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#565656"><img id="Рисунок 7" src="tema1-8.files/image025.jpg" border="0"
+                      height="158" width="225"></span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm;line-height:150%;background:white;text-autospace:none"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:black">Рис. 1.8.13 Кутовий спосіб руху агрегатів</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:black">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т186"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">6 </span></a><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">Фактори, що визначають вибір способу руху агрегату </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Машинно-тракторний агрегат на полі рухається з
+                    певною послідовністю і закономірністю, які визначають спосіб
+                    його руху. </span><span style="font-size:8.0pt;line-height:
+  150%;font-family:&quot;Tahoma&quot;,sans-serif">Часто на одній і тій же
+                    операції може бути застосовано кілька різних способів руху.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Із
+                    загального шляху, який проходить агрегат, у середньому 8…12
+                    % (а на коротких ділянках до 40 %) припадає на холості
+                    заїзди на загінках, причому для конкретного поля довжина
+                    холостих заїздів залежить від правильного вибору способу
+                    руху. Будь-який зайвий кілометр, пройдений агрегатом
+                    вхолосту, – це непродуктивні затрати часу і палива.
+                    Скорочення холостого руху агрегату збільшує його робочий
+                    шлях за зміну, що сприяє зростанню продуктивності праці,
+                    зниженню витрат енергії.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Інколи
+                    вибір способу руху впливає на якість виконуваної операції.
+                    Наприклад, чергування оранки загінок, розміщених поряд,
+                    способом руху всклад-врозгін удвоє зменшує кількість
+                    гребенів і борозен, скорочує обсяг додаткової роботи на їх
+                    розрівнювання.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">У
+                    багатьох випадках невдалий вибір способу руху і пов’язаних з
+                    ним поворотів агрегату на поворотній смузі призводить до
+                    нерівномірного спрацювання збірних одиниць керування
+                    поворотом і ходової частини.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Отже,
+                    правильний вибір раціональних способів руху агрегатів має
+                    велике значення для підвищення якісних і техніко-економічних
+                    показників їх роботи.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Вибір
+                    способу руху визначається в основному трьома умовами: </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:Wingdings">§<span
+                      style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">досягненням
+                    максимальної продуктивності агрегату, яка характеризується
+                    значенням коефіцієнта робочих ходів і використання часу
+                    зміни;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:Wingdings">§<span
+                      style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">якість
+                    виконуваних робіт, яка характеризується кількістю утворених
+                    при оранці всклад, а також врозгінних борозен, ступенем
+                    пошкодження рослин, повнотою збирання врожаю, величиною
+                    огріхів;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:64.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:  -14.15pt;line-height:150%;background:white;text-autospace:none"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:Wingdings">§<span
+                      style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; </span></span><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">зручність
+                    обслуговування агрегату, що характеризується кількістю
+                    необхідних розміточних ліній, розміщенням місць
+                    технологічних завантажень і довантажень, розмірами
+                    поворотних смуг, тощо.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">Отже ми бачимо, що вибір того чи
+                    іншого способу руху визначається перш за все якістю
+                    виконання операції і залежить від виду і складу агрегату,
+                    розмірів ділянок і їх особливостей, зручності
+                    обслуговування, можливості скорочення допоміжних операцій
+                    тощо. Якщо для якої-небудь технологічно операції можна
+                    застосувати різні способи руху, то при однаковій якості
+                    роботи та інших умов найкращий береться по найбільшому
+                    коефіцієнту робочих ходів.&nbsp; </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т188"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">7
+                      Підготовка </span></a><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">поля до роботи агрегатів</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Підготовка
+                    поля до роботи включає:</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">1. Огляд поля з метою усунення
+                    перешкод, які погіршують якість виконання механізованих
+                    робіт та створюють несприятливі умови для використання
+                    агрегатів.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">2. Вибір способу руху агрегатів, з
+                    врахуванням якого визначають розміщення загінок.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">3. Розмітка поворотних смуг за
+                    допомогою вішок і нарізання контрольних борозен.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%"><span
+                    style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif">4. Розбивання ділянки на загінки,
+                    прокошування на поворотних смугах або кутах загінок,
+                    проведення лінії першого проходу агрегату.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">При підготовці
+                    полів слід також мати на увазі, що вони повинні мати добрі
+                    під’їзні шляхи.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Загінки відмічають
+                    вішками висотою близько 2 м. Їх ставлять на такій відстані,
+                    щоб кожна наступна вішка була видна від попередньої.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">Для роботи
+                    швидкісних агрегатів поле повинно бути добре вирівняне, з
+                    мінімальними борознами і гребенями.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">При підготовці
+                    поля до роботи швидкісних агрегатів поворотні смуги повинні
+                    бути збільшені, так як із збільшенням швидкості руху
+                    збільшується радіус повороту агрегату. </span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:justify;text-indent:  1.0cm;line-height:150%;background:white"><span
+                    style="font-size:8.0pt;
+  line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif">&nbsp;</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><a
+                    name="Т189"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">8 </span></a><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">Використання інтернет-ресурсів на прикладі точного
+                    землеробства</span></p>
+                <p class="1CxSpFirst" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Підготовці полів до механізованих робіт в
+                    передових господарствах приділяють багато уваги, враховуючи,
+                    що підготовка робочої ділянки – необхідна умова
+                    висопродуктивної роботи.</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">В деяких господарства наперед накопичують основні
+                    паспортні дані про поля (розміри, конфігурація, середній
+                    уклон і його напрям, питомий опір ґрунту), що спрощує
+                    призначення заходів з підготовки поля до роботи. На
+                    маршрутній карті роблять відповідні помітки, вказують строки
+                    робіт на окремих полях, а якщо необхідно, то&nbsp; і
+                    розбивку полів на загінки.</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Поля великих розмірів, але неправильної
+                    конфігурації, розбивають на менші ділянки прямокутної чи
+                    квадратної форми.</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">В цих господарствах підготовку полів до роботи
+                    агрегатів, як правило, виконують спеціально виділені
+                    працівники під керівництвом агронома бригади, бригадира або
+                    його помічника.</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Розмітку полів виконують згідно заготовлених
+                    наперед схем розмітки полів (рис. 1.8.14)</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm"
+                  align="center"><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="UK"><img src="tema1-8.files/image026.jpg"
+                      border="0" hspace="7" height="412" width="499"></span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;
+  margin-bottom:0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-align:center;  text-indent:1.0cm"
+                  align="center"><b><span style="font-size:8.0pt;line-height:150%;
+  font-family:&quot;Tahoma&quot;,sans-serif" lang="UK">Рис. 1.8.14 Схеми
+                      розмітки полів:</span></b></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">а – оранка з чергуванням загонів; б – для оранки
+                    беззагінно-круговим способом; в – для роботи агрегату на
+                    полі квадратної форми діагонально-перехресним способом; г –
+                    при діагонально-кутовому способі руху; д – для роботи
+                    агрегату діагонально-перехресним способом на полі
+                    прямокутної форми з співвідношенням сторін 3 : 1 і більше; е
+                    – для оранки полів неправильної форми. </span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">&nbsp;</span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">На рис. 1.8.14, е показаний приклад розбивки поля
+                    неправильної форми. Поле розбивають на дві ділянки таким
+                    чином, щоб перша з них мала паралельні сторони вздовж
+                    напрямку оранки, а друга була трикутної форми. Ділянки з
+                    паралельними боковими сторонами обробляють як прямокутні
+                    ділянки. З боку непаралельних сторін цієї ділянки відбивають
+                    поворотні смуги. Ділянку трикутної форми обробляють в
+                    напрямку вказаних стрілок. </span></p>
+                <p class="1CxSpMiddle" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">Можливі і інші форми полів, їх розбивка на ділянки
+                    і напрям оранки вказані стрілками на тому ж рисунку.</span></p>
+                <p class="1CxSpLast" style="margin-top:0cm;margin-right:10.15pt;margin-bottom:
+  0cm;margin-left:14.85pt;margin-bottom:.0001pt;text-indent:1.0cm"><span style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif"
+                    lang="UK">При розмітки полів неправильної форми&nbsp; ширину
+                    загінки відміряють по перпендикуляру до напряму оранки, а не
+                    по межі поворотних смуг.</span></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;  line-height:normal"
+                  align="center"><b><span style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A">&nbsp;</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;
+  margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-align:center;  line-height:normal"
+                  align="center"><b><span style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK">Питання для самоконтролю</span></b></p>
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:14.2pt;margin-bottom:
+  0cm;margin-left:14.2pt;margin-bottom:.0001pt;text-indent:1.0cm;line-height:  150%"><span
+                    style="font-size:8.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A">&nbsp;</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">1. Дайте визначення, що
+                    розуміють під кінематикою агрегатів?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">2. Які основні елементи
+                    кінематики агрегатів?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">3. Дайте характеристику
+                    допоміжним елементам кінематики агрегату.</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">4. Що розуміють під
+                    мінімально допустимим радіусом повороту, формула розрахунку?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">5. Дайте характеристику
+                    маневрових властивостей машинних агрегатів.</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">6. Дайте класифікацію
+                    поворотів?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">7. Як розрахувати
+                    ширину поворотної смуги та ширину загінки?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">8. У чому полягає
+                    призначення поворотної смуги?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">9. Від чого залежить
+                    ширина поворотної смуги?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">10. За якими ознаками
+                    класифікують способи руху агрегатів?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">11. Які способи руху
+                    застосовують на сівбі, культивації, боронуванні, дискуванні,
+                    збиральних роботах, міжрядному обробітку просапних культур?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">12. Які є способи руху
+                    орних агрегатів?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">13. Що таке коефіцієнт
+                    робочих ходів, формула розрахунку?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">14. Як розрахувати
+                    ширину загінки?</span></p>
+                <p class="MsoNormal" style="text-align:justify;text-indent:45.0pt;background:
+  white"><span style="font-size:8.0pt;line-height:115%;font-family:
+  &quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK">15. Шляхи підвищення
+                    коефіцієнта робочих ходів?</span></p>
+              </td>
+            </tr>
+            <tr style="height:22.7pt">
+              <td style="width:99.8pt;border:none;border-right:solid #D9E0E7 1.0pt;
+  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt" width="133">
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt" lang="UK">&nbsp;</span></p>
+              </td>
+              <td style="width:165.2pt;border-top:none;border-left:none;
+  border-bottom:solid #D9E0E7 1.0pt;border-right:solid #D9E0E7 1.0pt;  padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt"
+                width="220">
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:18.15pt;margin-bottom:.0001pt;text-indent:-16.45pt;line-height:  normal"><span
+                    style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;
+  color:#2B587A" lang="UK"><a href="tema1-7.htm">Попередня тема</a></span></p>
+              </td>
+              <td style="width:165.15pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt" width="220">
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:16.45pt;margin-bottom:.0001pt;text-align:center;  text-indent:-16.45pt;line-height:normal"
+                  align="center"><span style="font-size:8.0pt;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK"><a href="../zmist_book.html">Зміст</a></span></p>
+              </td>
+              <td style="width:165.2pt;border:solid #D9E0E7 1.0pt;border-left:
+  none;padding:0cm 1.4pt 0cm 1.4pt;height:22.7pt" width="220">
+                <p class="MsoNormal" style="margin-top:0cm;margin-right:1.55pt;
+  margin-bottom:0cm;margin-left:18.15pt;margin-bottom:.0001pt;text-align:right;  text-indent:-16.45pt;line-height:normal"
+                  align="right"><span style="font-size:8.0pt;
+  font-family:&quot;Tahoma&quot;,sans-serif;color:#2B587A" lang="UK"><a href="tema1-9.htm">Наступна
+                      тема</a></span></p>
+              </td>
+            </tr>
+            <tr style="height:1.0cm">
+              <td colspan="4" style="width:21.0cm;border:none;border-right:solid #D9E0E7 1.0pt;
+  background:#5B7FA6;padding:0cm 1.4pt 0cm 1.4pt;height:1.0cm" width="794">
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal" align="center"><span
+                    style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:white"
+                    lang="UK">© 2017 ДУ «Науково-методичний центр
+                    інформаційно-аналітичного забезпечення діяльності ВНЗ
+                    «Агроосвіта»</span></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;text-indent:13.45pt;line-height:normal" align="center"><span
+                    style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:white"
+                    lang="UK">03151, м. Київ, вул. Смілянська, 11</span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="MsoNormal">&nbsp;</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
+  </body>
+</html>

@@ -61,6 +61,7 @@ header {
 .toc_title {
     font-weight: 700;
     text-align: center;
+    color: #5B7FA6;
 }
 
 #toc_container li,
