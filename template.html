@@ -5,31 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-  MathJax.InputJax.TeX.Definitions.number =
-    /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\,[0-9]*)*|\,[0-9]+)/
-});
-</script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-    <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() { scrollFunction() };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-    </script>
+    
 </head>
 
 <body>
@@ -49,7 +25,7 @@
                 <li><a href="index.html">Головна</a></li>
                 <li><a href="book/zmist_book.html">Теоретичні відомості</a></li>
                 <li><a href="lpz/zmist_lpz.html">Лабораторні та практичні роботи</a></li>
-                <li><a href="tests/tests_zmist.html.html">Тести</a></li>
+                <li><a href="tests/tests_zmist.html">Тести</a></li>
                 <li><a href="addons/addons_zmist.html">Додатки</a></li>
                 <li><a href="references/references.html">Список використаних джерел</a></li>
                 <li><a href="authors/authors.html">Автори</a></li>
@@ -71,8 +47,11 @@
                 </ul>
             </div>
             <p> ul>li*>a[href=#p$] </p>
+            <p> ul.toc_list>((li*>a[href=#p$])+li>a[href=#qw]{Питання для самоконтролю}) </p>
             <p> Remove all tags <.*?>
             </p>
+            
+
             $$\frac{A^2}{\sqrt{Bапр}}$$
             \(A^2_{шшш}\)
             \begin{equation}
@@ -224,5 +203,29 @@
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">На початок</button>
 </body>
+<script type="text/x-mathjax-config">
+        MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  MathJax.InputJax.TeX.Definitions.number =
+    /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\,[0-9]*)*|\,[0-9]+)/
+});
+</script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() { scrollFunction() };
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
 </html>
