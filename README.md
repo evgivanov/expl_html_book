@@ -1,5 +1,5 @@
 # expl_html_book
-html book Agrooosvita
+[Переглянути підручник](https://evgivanov.github.io/expl_html_book/index.html)
 # ЕКСПЛУАТАЦІЯ МАШИН І ОБЛАДНАННЯ
 ## Електронний підручник 
 
